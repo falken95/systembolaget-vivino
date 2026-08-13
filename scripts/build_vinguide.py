@@ -1,4 +1,5 @@
 import csv, json, sys
+from datetime import date, timedelta
 
 csv_path = sys.argv[1]
 stores_path = sys.argv[2] if len(sys.argv) > 2 else None
@@ -22,6 +23,25 @@ def to_int(v):
 
 def to_bool(v):
     return str(v).strip().lower() in ("true", "1", "yes")
+
+NEW_WINDOW_DAYS = 30
+_today = date.today()
+_new_cutoff = _today - timedelta(days=NEW_WINDOW_DAYS)
+
+def is_new(launch_date_str):
+    # Nyhetstaggen styrs av ProductLaunchDate (finns för de flesta viner),
+    # inte Systembolagets egen IsNewInAssortment-flagga — den senare täcker
+    # bara en bråkdel (25 av 10 686 vid senaste crawl) och har en okänd,
+    # icke-kontrollerbar definition. Med lanseringsdatum kan vi garantera
+    # exakt "ny i 1 månad"-fönstret användaren bad om.
+    d = (launch_date_str or "").strip()
+    if not d:
+        return False
+    try:
+        y, m, day = map(int, d.split("-")[:3])
+        return date(y, m, day) >= _new_cutoff
+    except (ValueError, IndexError):
+        return False
 
 EXCLUDED_PACKAGING = {"Box", "Påse", "Pappförpackning", "PET-flaska"}
 
@@ -52,7 +72,7 @@ for r in rows:
         "recensioner": to_int(r.get("Vivino_antal_recensioner")),
         "url": r.get("Vivino_url") or None,
         "butiker": butiker,
-        "ny": to_bool(r.get("IsNewInAssortment")),
+        "ny": is_new(r.get("ProductLaunchDate")),
         "tillfalligt": r.get("AssortmentText") == "Tillfälligt sortiment",
     })
 

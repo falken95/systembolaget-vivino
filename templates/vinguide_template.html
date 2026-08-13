@@ -729,6 +729,13 @@
         </div>
       </details>
 
+      <div class="filter-block">
+        <span class="filter-label">Taggar</span>
+        <label class="check"><input type="checkbox" id="tag-ny"> <span class="badge good">Nyhet</span> senaste 30 dagarna</label>
+        <label class="check"><input type="checkbox" id="tag-tillfalligt"> <span class="badge warn">Tillfälligt sortiment</span></label>
+        <label class="check"><input type="checkbox" id="tag-online"> <span class="badge muted">Endast online</span></label>
+      </div>
+
       <label class="check"><input type="checkbox" id="f-matched"> Bara viner med Vivino-betyg</label>
       <label class="check"><input type="checkbox" id="f-online"> Inkludera online-sortiment (ordervaror, mestadels ej matchade ännu)</label>
     </aside>
@@ -772,6 +779,7 @@
 
   const state = {
     q: "", minRating: 0, origin: "", grape: "", matchedOnly: false, store: "", showOnline: false,
+    tags: { ny: false, tillfalligt: false, online: false },
     priceMin: PRICE_MIN, priceMax: PRICE_MAX,
     sortKey: "betyg", sortDir: "desc",
   };
@@ -982,8 +990,13 @@
     return WINES.filter(w => {
       if (state.matchedOnly && w.betyg == null) return false;
       if (state.minRating > 0 && (w.betyg == null || w.betyg < state.minRating)) return false;
-      if (!state.store && !state.showOnline && w.butiker[0] === "ONLINE") return false;
+      if (!state.store && !state.showOnline && !state.tags.online && w.butiker[0] === "ONLINE") return false;
       if (state.store && !w.butiker.includes(state.store)) return false;
+      const anyTagSelected = state.tags.ny || state.tags.tillfalligt || state.tags.online;
+      if (anyTagSelected) {
+        const matchesTag = (state.tags.ny && w.ny) || (state.tags.tillfalligt && w.tillfalligt) || (state.tags.online && w.butiker[0] === "ONLINE");
+        if (!matchesTag) return false;
+      }
       if (state.origin && w.ursprung !== state.origin) return false;
       if (state.grape && !w.druvor.includes(state.grape)) return false;
       if (w.pris != null && (w.pris < state.priceMin || w.pris > state.priceMax)) return false;
@@ -1081,6 +1094,9 @@
   document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
   document.getElementById("f-matched").addEventListener("change", e => { state.matchedOnly = e.target.checked; render(); });
   document.getElementById("f-online").addEventListener("change", e => { state.showOnline = e.target.checked; render(); });
+  document.getElementById("tag-ny").addEventListener("change", e => { state.tags.ny = e.target.checked; render(); });
+  document.getElementById("tag-tillfalligt").addEventListener("change", e => { state.tags.tillfalligt = e.target.checked; render(); });
+  document.getElementById("tag-online").addEventListener("change", e => { state.tags.online = e.target.checked; render(); });
 
   document.querySelectorAll("thead th").forEach(th => {
     const key = th.dataset.key;
