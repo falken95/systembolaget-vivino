@@ -1058,10 +1058,17 @@
         sbUrl(w.varunummer) ? `<a class="vlink sblink" href="${sbUrl(w.varunummer)}" target="_blank" rel="noopener">Systembolaget ↗</a>` : "",
       ].filter(Boolean).join("");
       const grapesLine = w.druvor.length ? `<div class="wine-grapes">${w.druvor.join(", ")}</div>` : "";
+      // OBS: "lanserad" är produktens FÖRSTA listningsdatum hos Systembolaget,
+      // inte datumet det blev "Tillfälligt sortiment" — de skiljer sig ofta
+      // (t.ex. Vega Sicilia Unico, listad sedan 2024 men inte nödvändigtvis
+      // tillfällig hela tiden). Visa därför datumet bara på Nyhet-taggen, där
+      // det verkligen stämmer. "Sedan"-datum för Tillfälligt sortiment kräver
+      // egen historik (history.csv) — tillgängligt först efter att den
+      // veckovisa körningen har snurrat ett tag.
       const lanseradDate = fmtDate(w.lanserad);
       const badges = [
         w.ny ? `<span class="badge good">Nyhet${lanseradDate ? " · " + lanseradDate : ""}</span>` : "",
-        w.tillfalligt ? `<span class="badge warn">Tillfälligt sortiment${lanseradDate ? " · sedan " + lanseradDate : ""}</span>` : "",
+        w.tillfalligt ? '<span class="badge warn">Tillfälligt sortiment</span>' : "",
         w.butiker[0] === "ONLINE" ? '<span class="badge muted">Endast online</span>' : "",
       ].filter(Boolean).join("");
       const badgesLine = badges ? `<div class="wine-badges">${badges}</div>` : "";
