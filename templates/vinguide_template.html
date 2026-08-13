@@ -1,0 +1,1107 @@
+<title>Vinguiden</title>
+<style>
+  :root {
+    --stone: #eef0e9;
+    --surface: #ffffff;
+    --ink: #201a22;
+    --ink-muted: #6d6459;
+    --accent: #7a2340;
+    --accent-soft: #f3dfe4;
+    --good: #3f6b4a;
+    --good-soft: #dfe9e0;
+    --warn: #a97230;
+    --warn-soft: #f1e2cd;
+    --line: #dcd9cc;
+    --shadow: 0 1px 2px rgba(32, 26, 34, 0.06), 0 8px 24px rgba(32, 26, 34, 0.05);
+    --radius: 10px;
+    color-scheme: light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --stone: #17140f;
+      --surface: #211c17;
+      --ink: #edeae2;
+      --ink-muted: #a89a8b;
+      --accent: #e08fa3;
+      --accent-soft: #3a222b;
+      --good: #82bf8f;
+      --good-soft: #26332a;
+      --warn: #d9a05c;
+      --warn-soft: #362c1e;
+      --line: #332c22;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 28px rgba(0, 0, 0, 0.35);
+      color-scheme: dark;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --stone: #17140f;
+    --surface: #211c17;
+    --ink: #edeae2;
+    --ink-muted: #a89a8b;
+    --accent: #e08fa3;
+    --accent-soft: #3a222b;
+    --good: #82bf8f;
+    --good-soft: #26332a;
+    --warn: #d9a05c;
+    --warn-soft: #362c1e;
+    --line: #332c22;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 28px rgba(0, 0, 0, 0.35);
+    color-scheme: dark;
+  }
+
+  :root[data-theme="light"] {
+    --stone: #eef0e9;
+    --surface: #ffffff;
+    --ink: #201a22;
+    --ink-muted: #6d6459;
+    --accent: #7a2340;
+    --accent-soft: #f3dfe4;
+    --good: #3f6b4a;
+    --good-soft: #dfe9e0;
+    --warn: #a97230;
+    --warn-soft: #f1e2cd;
+    --line: #dcd9cc;
+    --shadow: 0 1px 2px rgba(32, 26, 34, 0.06), 0 8px 24px rgba(32, 26, 34, 0.05);
+    color-scheme: light;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--stone);
+    color: var(--ink);
+    font-family: "Avenir Next", "Century Gothic", "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .display {
+    font-family: "Iowan Old Style", Charter, "Georgia", "Noto Serif", serif;
+  }
+
+  .wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  /* ---- Masthead ---- */
+
+  .masthead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .masthead h1 {
+    font-size: clamp(28px, 4vw, 40px);
+    font-weight: 500;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  .masthead .subtitle {
+    color: var(--ink-muted);
+    font-size: 14.5px;
+    max-width: 46ch;
+  }
+
+  .masthead .subtitle b { color: var(--ink); font-weight: 600; }
+
+  .stats {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .stat-chip {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 10px 16px;
+    min-width: 88px;
+    box-shadow: var(--shadow);
+  }
+
+  .stat-chip .n {
+    font-family: "Iowan Old Style", Charter, Georgia, serif;
+    font-size: 22px;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+
+  .stat-chip .l {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    margin-top: 2px;
+  }
+
+  /* ---- Layout: sidebar + content ---- */
+
+  .layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .sidebar {
+    flex: 0 0 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: sticky;
+    top: 24px;
+  }
+
+  .content {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .filter-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .filter-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    font-weight: 600;
+  }
+
+  .sidebar input[type="search"] {
+    width: 100%;
+    font: inherit;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 9px 12px;
+  }
+
+  /* ---- Custom dropdown (native <select> can't be told which way to open —
+     the browser flips it upward near the bottom of the viewport, which looked
+     broken in a scrolling sidebar with a long options list) ---- */
+
+  .dd { position: relative; }
+
+  .dd-trigger {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font: inherit;
+    text-align: left;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 9px 12px;
+    cursor: pointer;
+  }
+  .dd-trigger:hover { border-color: var(--ink-muted); }
+  .dd-trigger:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .dd-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .dd-chevron {
+    flex-shrink: 0;
+    color: var(--ink-muted);
+    opacity: 0.7;
+    transition: transform 0.15s ease;
+  }
+  .dd.open .dd-chevron { transform: rotate(180deg); }
+
+  .dd-panel {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    z-index: 20;
+    max-height: 260px;
+    overflow-y: auto;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    padding: 4px;
+  }
+  .dd-panel[hidden] { display: none; }
+
+  .dd-search {
+    width: 100%;
+    font: inherit;
+    font-size: 13.5px;
+    color: var(--ink);
+    background: var(--stone);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 7px 9px;
+    margin-bottom: 4px;
+  }
+  .dd-search:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  .dd-empty {
+    padding: 8px 10px;
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+
+  .dd-option {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    font-size: 13.5px;
+    color: var(--ink);
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  .dd-option:hover, .dd-option:focus-visible { background: var(--stone); outline: none; }
+  .dd-option.selected { color: var(--accent); font-weight: 600; }
+
+  .sidebar label.check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13.5px;
+    color: var(--ink-muted);
+    cursor: pointer;
+    user-select: none;
+  }
+
+  /* ---- Collapsible filter group (Pris) ---- */
+
+  details.filter-group {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--surface);
+    overflow: hidden;
+  }
+
+  details.filter-group summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 12px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+  }
+  details.filter-group summary::-webkit-details-marker { display: none; }
+  details.filter-group summary:hover { color: var(--ink); }
+
+  details.filter-group .chevron {
+    transition: transform 0.15s ease;
+    opacity: 0.6;
+  }
+  details.filter-group[open] .chevron { transform: rotate(180deg); }
+
+  .price-panel {
+    padding: 4px 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .price-io-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .price-dash {
+    color: var(--ink-muted);
+    flex-shrink: 0;
+  }
+
+  .price-input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1 1 auto;
+    min-width: 0;
+    background: var(--stone);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 7px 10px;
+  }
+
+  .price-input input {
+    width: 100%;
+    min-width: 0;
+    font: inherit;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .price-input input:focus-visible { outline: none; }
+  .price-input input::-webkit-outer-spin-button,
+  .price-input input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+  .price-input input[type="number"] { -moz-appearance: textfield; }
+
+  .price-input span {
+    font-size: 12px;
+    color: var(--ink-muted);
+    flex-shrink: 0;
+  }
+
+  .range-slider {
+    position: relative;
+    width: 100%;
+    height: 20px;
+  }
+
+  .range-track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 3px;
+    transform: translateY(-50%);
+    background: var(--line);
+    border-radius: 2px;
+  }
+
+  .range-fill {
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    transform: translateY(-50%);
+    background: var(--accent);
+    border-radius: 2px;
+  }
+
+  .range-slider input[type="range"] {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    height: 20px;
+    transform: translateY(-50%);
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    pointer-events: none;
+  }
+
+  .range-slider input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background: transparent;
+  }
+  .range-slider input[type="range"]::-moz-range-track {
+    background: transparent;
+  }
+
+  .range-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    pointer-events: auto;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--surface);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-top: 0;
+  }
+  .range-slider input[type="range"]::-moz-range-thumb {
+    pointer-events: auto;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--surface);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  .result-count {
+    font-size: 13px;
+    color: var(--ink-muted);
+    margin: 12px 2px 10px;
+  }
+
+  /* ---- Table ---- */
+
+  .table-wrap {
+    /* overflow-x:auto forces overflow-y to also compute to auto (per the CSS
+       overflow spec, you can't pair one scrolling axis with a truly visible
+       other axis) — so this element is unavoidably its own scroll container.
+       Rather than fight that to keep thead sticky to the page, we lean into
+       it: bound the height and let thead stick to *this* container instead. */
+    overflow: auto;
+    max-height: 70vh;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 820px;
+    /* Fasta kolumnbredder istället för auto-layout: annars tar kolumner med
+       icke-radbrytbart innehåll (badges, länkar) sitt fulla utrymme först och
+       klämmer ihop "Vin"-kolumnen till att radbryta på varje ord. */
+    table-layout: fixed;
+  }
+
+  th:nth-child(1), td:nth-child(1) { width: 30%; }
+  th:nth-child(2), td:nth-child(2) { width: 11%; }
+  th:nth-child(3), td:nth-child(3) { width: 10%; }
+  th:nth-child(4), td:nth-child(4) { width: 10%; }
+  th:nth-child(5), td:nth-child(5) { width: 13%; }
+  th:nth-child(6), td:nth-child(6) { width: 26%; }
+
+  thead th {
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-muted);
+    font-weight: 600;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  thead th:hover { color: var(--ink); }
+
+  thead th .arrow {
+    display: inline-block;
+    margin-left: 3px;
+    opacity: 0.35;
+    font-size: 10px;
+  }
+
+  thead th.active .arrow { opacity: 1; color: var(--accent); }
+
+  tbody td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: middle;
+  }
+
+  tbody tr:last-child td { border-bottom: none; }
+
+  tbody tr:hover { background: var(--stone); }
+
+  .wine-name {
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .wine-producer {
+    font-size: 12.5px;
+    color: var(--ink-muted);
+    margin-top: 1px;
+  }
+
+  .wine-grapes {
+    font-size: 12px;
+    color: var(--accent);
+    opacity: 0.75;
+    font-style: italic;
+    margin-top: 2px;
+  }
+
+  .wine-badges {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+  }
+  .wine-badges .badge { padding: 2px 7px; font-size: 10px; }
+
+  td.num {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .rating .val {
+    font-family: "Iowan Old Style", Charter, Georgia, serif;
+    font-size: 16px;
+    font-variant-numeric: tabular-nums;
+    min-width: 2.2em;
+    text-align: right;
+  }
+
+  .rating-bar {
+    width: 42px;
+    height: 5px;
+    border-radius: 3px;
+    background: var(--line);
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .rating-bar > span {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+  }
+
+  .reviews {
+    font-size: 12px;
+    color: var(--ink-muted);
+    text-align: right;
+  }
+
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  .badge.good { background: var(--good-soft); color: var(--good); }
+  .badge.warn { background: var(--warn-soft); color: var(--warn); }
+  .badge.muted { background: var(--stone); color: var(--ink-muted); border: 1px solid var(--line); }
+
+  .no-match { color: var(--ink-muted); font-size: 13px; }
+
+  a.vlink {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  a.vlink:hover { text-decoration: underline; }
+
+  .links-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+  }
+  a.vlink.sblink { color: var(--good); }
+  a.vlink:focus-visible, thead th:focus-visible, select:focus-visible, input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--ink-muted);
+  }
+
+  footer.note {
+    margin-top: 22px;
+    font-size: 12.5px;
+    color: var(--ink-muted);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 860px) {
+    .layout { flex-direction: column; }
+    .sidebar { position: static; flex: 1 1 auto; width: 100%; }
+  }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 24px 14px 60px; }
+    .masthead { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+<div class="wrap">
+
+  <div class="masthead">
+    <div>
+      <h1 class="display">Vinguiden</h1>
+      <div class="subtitle">
+        Hela Systembolagets vinsortiment, korskört mot Vivino-betyg. Välj butik i sidopanelen för att se vad som finns just där, eller "Online" för ordervaror som bara finns på systembolaget.se.
+        <b id="matched-count">–</b> av <b id="total-count">–</b> viner har hittat ett Vivino-betyg hittills.
+      </div>
+    </div>
+    <div class="stats" id="stat-chips"></div>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="filter-block">
+        <input type="search" id="q" placeholder="Sök…" aria-label="Sök vin, producent eller druva">
+      </div>
+
+      <div class="filter-block">
+        <span class="filter-label" id="f-store-label">Butik</span>
+        <div class="dd" id="dd-store">
+          <button type="button" class="dd-trigger" id="f-store" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="f-store-label">
+            <span class="dd-label">Alla butiker</span>
+            <span class="dd-chevron">⌄</span>
+          </button>
+          <div class="dd-panel" role="listbox" hidden></div>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <span class="filter-label" id="f-rating-label">Betyg</span>
+        <div class="dd" id="dd-rating">
+          <button type="button" class="dd-trigger" id="f-rating" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="f-rating-label">
+            <span class="dd-label">Alla betyg</span>
+            <span class="dd-chevron">⌄</span>
+          </button>
+          <div class="dd-panel" role="listbox" hidden></div>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <span class="filter-label" id="f-origin-label">Ursprung</span>
+        <div class="dd" id="dd-origin">
+          <button type="button" class="dd-trigger" id="f-origin" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="f-origin-label">
+            <span class="dd-label">Alla länder</span>
+            <span class="dd-chevron">⌄</span>
+          </button>
+          <div class="dd-panel" role="listbox" hidden></div>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <span class="filter-label" id="f-grape-label">Druva</span>
+        <div class="dd" id="dd-grape">
+          <button type="button" class="dd-trigger" id="f-grape" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="f-grape-label">
+            <span class="dd-label">Alla druvor</span>
+            <span class="dd-chevron">⌄</span>
+          </button>
+          <div class="dd-panel" role="listbox" hidden></div>
+        </div>
+      </div>
+
+      <details class="filter-group">
+        <summary>Pris <span class="chevron">⌄</span></summary>
+        <div class="price-panel">
+          <div class="price-io-row">
+            <div class="price-input"><input type="number" id="price-min-input" inputmode="numeric" aria-label="Lägsta pris"><span>kr</span></div>
+            <span class="price-dash">–</span>
+            <div class="price-input"><input type="number" id="price-max-input" inputmode="numeric" aria-label="Högsta pris"><span>kr</span></div>
+          </div>
+          <div class="range-slider">
+            <div class="range-track"><div class="range-fill" id="range-fill"></div></div>
+            <input type="range" id="price-min-range" aria-label="Lägsta pris (reglage)">
+            <input type="range" id="price-max-range" aria-label="Högsta pris (reglage)">
+          </div>
+        </div>
+      </details>
+
+      <label class="check"><input type="checkbox" id="f-matched"> Bara viner med Vivino-betyg</label>
+      <label class="check"><input type="checkbox" id="f-online"> Inkludera online-sortiment (ordervaror, mestadels ej matchade ännu)</label>
+    </aside>
+
+    <main class="content">
+      <div class="result-count" id="result-count"></div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-key="namn" data-type="text">Vin <span class="arrow">▲</span></th>
+              <th data-key="betyg" data-type="num">Betyg <span class="arrow">▲</span></th>
+              <th data-key="recensioner" data-type="num">Recensioner <span class="arrow">▲</span></th>
+              <th data-key="pris" data-type="num">Pris <span class="arrow">▲</span></th>
+              <th data-key="ursprung" data-type="text">Ursprung <span class="arrow">▲</span></th>
+              <th data-type="none">Länkar</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+
+      <footer class="note">
+        Betyg och recensionsantal hämtade från Vivino, priser från Systembolaget.
+        Omfattar hela det svenska sortimentet (Fast sortiment, Tillfälligt sortiment, Lokalt &amp; Småskaligt, Säsong och Webblanseringar) samt ordervaror som bara finns online.
+        Flaskor i Box, Påse, Pappförpackning eller PET, samt smaksatta viner, är exkluderade.
+      </footer>
+    </main>
+  </div>
+
+</div>
+
+<script>
+  const WINES = __WINE_DATA__;
+  const STORES = __STORE_DATA__;
+
+  const prices = WINES.map(w => w.pris).filter(p => p != null);
+  const PRICE_MIN = prices.length ? Math.floor(Math.min(...prices)) : 0;
+  const PRICE_MAX = prices.length ? Math.ceil(Math.max(...prices)) : 1000;
+
+  const state = {
+    q: "", minRating: 0, origin: "", grape: "", matchedOnly: false, store: "", showOnline: false,
+    priceMin: PRICE_MIN, priceMax: PRICE_MAX,
+    sortKey: "betyg", sortDir: "desc",
+  };
+
+  // ---- Custom dropdown (se CSS-kommentar vid .dd) ----
+  const openDropdowns = new Set();
+
+  function closeAllDropdowns() {
+    for (const dd of openDropdowns) dd.close();
+    openDropdowns.clear();
+  }
+
+  function initDropdown(rootId, options, initialValue, onChange, { searchable = false } = {}) {
+    const root = document.getElementById(rootId);
+    const trigger = root.querySelector(".dd-trigger");
+    const label = root.querySelector(".dd-label");
+    const panel = root.querySelector(".dd-panel");
+    let current = initialValue;
+    let filterText = "";
+
+    function visibleOptions() {
+      if (!filterText) return options;
+      const q = filterText.toLowerCase();
+      return options.filter(o => o.value === "" || o.label.toLowerCase().includes(q));
+    }
+
+    function renderOptions() {
+      const opts = visibleOptions();
+      const optsHtml = opts.length
+        ? opts.map(o =>
+            `<button type="button" class="dd-option${o.value === current ? " selected" : ""}" role="option" aria-selected="${o.value === current}" data-value="${o.value}">${o.label}</button>`
+          ).join("")
+        : '<div class="dd-empty">Inga träffar</div>';
+
+      if (!searchable) {
+        panel.innerHTML = optsHtml;
+        return;
+      }
+
+      // Sökrutan byggs bara en gång och återanvänds — att skriva om hela
+      // panelens innerHTML på varje tangenttryckning förstör inputen och gör
+      // att den tappar fokus mitt i skrivandet.
+      let searchInput = panel.querySelector(".dd-search");
+      let optsContainer = panel.querySelector(".dd-options");
+      if (!searchInput) {
+        panel.innerHTML = '<input type="text" class="dd-search" placeholder="Sök butik…"><div class="dd-options"></div>';
+        searchInput = panel.querySelector(".dd-search");
+        optsContainer = panel.querySelector(".dd-options");
+        searchInput.addEventListener("input", e => {
+          filterText = e.target.value;
+          renderOptions();
+        });
+        searchInput.addEventListener("click", e => e.stopPropagation());
+      }
+      if (searchInput.value !== filterText) searchInput.value = filterText;
+      optsContainer.innerHTML = optsHtml;
+    }
+
+    function select(value, { silent } = {}) {
+      current = value;
+      const opt = options.find(o => o.value === value) || options[0];
+      label.textContent = opt.label;
+      renderOptions();
+      if (!silent) onChange(value);
+    }
+
+    function open() {
+      closeAllDropdowns();
+      filterText = "";
+      panel.hidden = false;
+      root.classList.add("open");
+      trigger.setAttribute("aria-expanded", "true");
+      openDropdowns.add(controls);
+      renderOptions();
+      const searchInput = panel.querySelector(".dd-search");
+      if (searchInput) searchInput.focus();
+    }
+
+    function close() {
+      panel.hidden = true;
+      root.classList.remove("open");
+      trigger.setAttribute("aria-expanded", "false");
+      openDropdowns.delete(controls);
+    }
+
+    trigger.addEventListener("click", () => (panel.hidden ? open() : close()));
+
+    panel.addEventListener("click", e => {
+      const btn = e.target.closest(".dd-option");
+      if (!btn) return;
+      select(btn.dataset.value);
+      close();
+      trigger.focus();
+    });
+
+    root.addEventListener("keydown", e => {
+      if (e.key === "Escape") { close(); trigger.focus(); }
+      if ((e.key === "ArrowDown" || e.key === "ArrowUp") && !panel.hidden && !e.target.matches(".dd-search")) {
+        e.preventDefault();
+        const opts = [...panel.querySelectorAll(".dd-option")];
+        const i = opts.indexOf(document.activeElement);
+        const next = e.key === "ArrowDown" ? Math.min(i + 1, opts.length - 1) : Math.max(i - 1, 0);
+        (opts[next] || opts[0])?.focus();
+      }
+    });
+
+    document.addEventListener("click", e => {
+      if (!root.contains(e.target)) close();
+    });
+
+    const controls = { close };
+    renderOptions();
+    select(initialValue, { silent: true });
+  }
+
+  initDropdown("dd-rating", [
+    { value: "0", label: "Alla betyg" },
+    { value: "3.5", label: "3.5★ eller bättre" },
+    { value: "4", label: "4.0★ eller bättre" },
+    { value: "4.3", label: "4.3★ eller bättre" },
+  ], "0", v => { state.minRating = parseFloat(v); render(); });
+
+  const origins = [...new Set(WINES.map(w => w.ursprung).filter(Boolean))].sort((a, b) => a.localeCompare(b, "sv"));
+  initDropdown("dd-origin", [
+    { value: "", label: "Alla länder" },
+    ...origins.map(o => ({ value: o, label: o })),
+  ], "", v => { state.origin = v; render(); });
+
+  const grapes = [...new Set(WINES.flatMap(w => w.druvor))].sort((a, b) => a.localeCompare(b, "sv"));
+  initDropdown("dd-grape", [
+    { value: "", label: "Alla druvor" },
+    ...grapes.map(g => ({ value: g, label: g })),
+  ], "", v => { state.grape = v; render(); });
+
+  initDropdown("dd-store", [
+    { value: "", label: "Alla butiker" },
+    { value: "ONLINE", label: "Online (endast ordervaror)" },
+    ...STORES.map(s => ({ value: s.id, label: `${s.city} – ${s.name}` })),
+  ], "", v => { state.store = v; render(); }, { searchable: true });
+
+  // ---- Prisreglage (dubbelt <input type=range>, likt Systembolagets eget filter) ----
+  const priceMinInput = document.getElementById("price-min-input");
+  const priceMaxInput = document.getElementById("price-max-input");
+  const priceMinRange = document.getElementById("price-min-range");
+  const priceMaxRange = document.getElementById("price-max-range");
+  const rangeFill = document.getElementById("range-fill");
+
+  for (const el of [priceMinRange, priceMaxRange]) {
+    el.min = PRICE_MIN;
+    el.max = PRICE_MAX;
+  }
+  priceMinInput.min = priceMaxInput.min = PRICE_MIN;
+  priceMinInput.max = priceMaxInput.max = PRICE_MAX;
+  priceMinRange.value = priceMinInput.value = PRICE_MIN;
+  priceMaxRange.value = priceMaxInput.value = PRICE_MAX;
+
+  function updateRangeFill() {
+    const span = PRICE_MAX - PRICE_MIN || 1;
+    const leftPct = ((state.priceMin - PRICE_MIN) / span) * 100;
+    const rightPct = ((state.priceMax - PRICE_MIN) / span) * 100;
+    rangeFill.style.left = leftPct + "%";
+    rangeFill.style.width = (rightPct - leftPct) + "%";
+  }
+
+  function setPriceRange(min, max) {
+    min = Math.min(Math.max(min, PRICE_MIN), PRICE_MAX);
+    max = Math.min(Math.max(max, PRICE_MIN), PRICE_MAX);
+    if (min > max) [min, max] = [max, min];
+    state.priceMin = min;
+    state.priceMax = max;
+    priceMinRange.value = min;
+    priceMaxRange.value = max;
+    priceMinInput.value = min;
+    priceMaxInput.value = max;
+    updateRangeFill();
+    render();
+  }
+
+  priceMinRange.addEventListener("input", () => setPriceRange(+priceMinRange.value, state.priceMax));
+  priceMaxRange.addEventListener("input", () => setPriceRange(state.priceMin, +priceMaxRange.value));
+  priceMinInput.addEventListener("change", () => setPriceRange(+priceMinInput.value || PRICE_MIN, state.priceMax));
+  priceMaxInput.addEventListener("change", () => setPriceRange(state.priceMin, +priceMaxInput.value || PRICE_MAX));
+
+  updateRangeFill();
+
+  function fmtPrice(p) {
+    if (p == null || isNaN(p)) return "–";
+    return p.toLocaleString("sv-SE", { maximumFractionDigits: 0 }) + " kr";
+  }
+
+  // Samma hinkar som recensionsfiltret — visar ett spann istället för exakt
+  // antal, så etiketten inte blir inaktuell när nya recensioner tillkommer.
+  function reviewBucket(n) {
+    if (n == null) return "–";
+    if (n < 50) return "Under 50";
+    if (n < 200) return "50–199";
+    if (n < 1000) return "200–999";
+    return "1000+";
+  }
+
+  function sbUrl(varunummer) {
+    return varunummer ? `https://www.systembolaget.se/produkt/vin/-${varunummer}/` : null;
+  }
+
+
+  function applyFilters() {
+    const q = state.q.trim().toLowerCase();
+    return WINES.filter(w => {
+      if (state.matchedOnly && w.betyg == null) return false;
+      if (state.minRating > 0 && (w.betyg == null || w.betyg < state.minRating)) return false;
+      if (!state.store && !state.showOnline && w.butiker[0] === "ONLINE") return false;
+      if (state.store && !w.butiker.includes(state.store)) return false;
+      if (state.origin && w.ursprung !== state.origin) return false;
+      if (state.grape && !w.druvor.includes(state.grape)) return false;
+      if (w.pris != null && (w.pris < state.priceMin || w.pris > state.priceMax)) return false;
+      if (q && !(
+        w.namn.toLowerCase().includes(q) ||
+        w.producent.toLowerCase().includes(q) ||
+        w.druvor.some(g => g.toLowerCase().includes(q))
+      )) return false;
+      return true;
+    });
+  }
+
+  function sortRows(rows) {
+    const { sortKey, sortDir } = state;
+    const mul = sortDir === "asc" ? 1 : -1;
+    return rows.slice().sort((a, b) => {
+      let av = a[sortKey], bv = b[sortKey];
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      if (typeof av === "string") return av.localeCompare(bv, "sv") * mul;
+      if (sortKey === "betyg" && av === bv) {
+        // Lika betyg: fler recensioner är ett starkare signal, oavsett sorteringsriktning.
+        return (b.recensioner ?? -1) - (a.recensioner ?? -1);
+      }
+      return (av - bv) * mul;
+    });
+  }
+
+  function render() {
+    const filtered = sortRows(applyFilters());
+    renderStats(filtered);
+    const tbody = document.getElementById("tbody");
+
+    document.getElementById("result-count").textContent =
+      filtered.length + (filtered.length === 1 ? " vin visas" : " viner visas") +
+      (filtered.length !== WINES.length ? " (av " + WINES.length + ")" : "");
+
+    if (filtered.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="6"><div class="empty-state">Inga viner matchar filtren.</div></td></tr>';
+      return;
+    }
+
+    tbody.innerHTML = filtered.map(w => {
+      const ratingCell = w.betyg != null
+        ? `<div class="rating"><div class="rating-bar"><span style="width:${(w.betyg / 5 * 100).toFixed(0)}%"></span></div><span class="val">${w.betyg.toFixed(1)}</span></div>`
+        : '<span class="no-match">–</span>';
+      const reviewsCell = reviewBucket(w.recensioner);
+      const links = [
+        w.url ? `<a class="vlink" href="${w.url}" target="_blank" rel="noopener">Vivino ↗</a>` : "",
+        sbUrl(w.varunummer) ? `<a class="vlink sblink" href="${sbUrl(w.varunummer)}" target="_blank" rel="noopener">Systembolaget ↗</a>` : "",
+      ].filter(Boolean).join("");
+      const grapesLine = w.druvor.length ? `<div class="wine-grapes">${w.druvor.join(", ")}</div>` : "";
+      const badges = [
+        w.ny ? '<span class="badge good">Nyhet</span>' : "",
+        w.tillfalligt ? '<span class="badge warn">Tillfälligt sortiment</span>' : "",
+        w.butiker[0] === "ONLINE" ? '<span class="badge muted">Endast online</span>' : "",
+      ].filter(Boolean).join("");
+      const badgesLine = badges ? `<div class="wine-badges">${badges}</div>` : "";
+      return `<tr>
+        <td><div class="wine-name">${w.namn}</div><div class="wine-producer">${w.producent}</div>${grapesLine}${badgesLine}</td>
+        <td class="num">${ratingCell}</td>
+        <td class="reviews">${reviewsCell}</td>
+        <td class="num">${fmtPrice(w.pris)}</td>
+        <td>${w.ursprung || "–"}</td>
+        <td class="links"><div class="links-inner">${links}</div></td>
+      </tr>`;
+    }).join("");
+  }
+
+  function renderStats(wines) {
+    const total = wines.length;
+    const matched = wines.filter(w => w.betyg != null).length;
+    const avgRating = (() => {
+      const rated = wines.filter(w => w.betyg != null);
+      if (!rated.length) return null;
+      return rated.reduce((s, w) => s + w.betyg, 0) / rated.length;
+    })();
+    const topRated = wines.filter(w => w.betyg != null).sort((a, b) => b.betyg - a.betyg)[0];
+
+    document.getElementById("matched-count").textContent = matched;
+    document.getElementById("total-count").textContent = total;
+
+    const chips = [
+      { n: total, l: "Viner i urvalet" },
+      { n: total ? matched + " (" + Math.round(matched / total * 100) + "%)" : "0", l: "Med Vivino-betyg" },
+      { n: avgRating ? avgRating.toFixed(2) : "–", l: "Snittbetyg" },
+      { n: topRated ? topRated.betyg.toFixed(1) : "–", l: "Högst betyg" },
+    ];
+    document.getElementById("stat-chips").innerHTML = chips.map(c =>
+      `<div class="stat-chip"><div class="n">${c.n}</div><div class="l">${c.l}</div></div>`
+    ).join("");
+  }
+
+  document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; render(); });
+  document.getElementById("f-matched").addEventListener("change", e => { state.matchedOnly = e.target.checked; render(); });
+  document.getElementById("f-online").addEventListener("change", e => { state.showOnline = e.target.checked; render(); });
+
+  document.querySelectorAll("thead th").forEach(th => {
+    const key = th.dataset.key;
+    if (!key) return;
+    th.addEventListener("click", () => {
+      if (state.sortKey === key) {
+        state.sortDir = state.sortDir === "asc" ? "desc" : "asc";
+      } else {
+        state.sortKey = key;
+        state.sortDir = "desc";
+      }
+      document.querySelectorAll("thead th").forEach(t => {
+        t.classList.remove("active");
+        const arrow = t.querySelector(".arrow");
+        if (arrow) arrow.textContent = "▲";
+      });
+      th.classList.add("active");
+      th.querySelector(".arrow").textContent = state.sortDir === "asc" ? "▲" : "▼";
+      render();
+    });
+  });
+
+  render();
+</script>

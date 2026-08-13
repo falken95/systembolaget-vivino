@@ -1,0 +1,881 @@
+﻿Varunummer,Namn,Producent,Pris,Volym,Forpackning,Kategori3,Ursprung,Druvor,Vivino_betyg,Vivino_antal_recensioner,Matchningssäkerhet,Matchningskälla,Vivino_url
+742801,Dom Pérignon Blanc,Moët & Chandon,2609.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot noir",4.6,182046,,vertex-ai-search,https://www.vivino.com/sv/dom-perignon-brut-champagne/w/86684
+749401,Krug Grande Cuvée Edition 173,Krug,2649.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",4.6,39345,,vertex-ai-search,https://www.vivino.com/sv/krug-grande-cuvee/w/7122486
+3215201,Tignanello,Marchesi Antinori,1399.0,750 ml,Glasflaska,Stramt & Nyanserat,Italien,"Sangiovese, Cabernet sauvignon, Cabernet franc",4.6,10323,1.0,vivino-sök,https://www.vivino.com/w/1652
+204301,Lat 42 Reserva,La Rioja Alta,129.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.8,4372,,vivino-sök,https://www.vivino.com/sv/la-rioja-alta-lat-42-rioja-reserva/w/2040257
+280001,Crozes-Hermitage Les Launes,Delas,229.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,Syrah,3.8,18514,,websearch,https://www.vivino.com/sv/delas-freres-les-launes-crozes-hermitage/w/14612
+755301,Palmer & Co Blanc de Blancs,Palmer & Co,469.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,4.5,45,0.86,vivino-sök,https://www.vivino.com/w/1197043
+244301,Borgogno Barolo Riserva,Giacomo Borgogno & Figli,729.0,750 ml,Glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,4.5,739,0.88,vivino-sök,https://www.vivino.com/w/1203557
+1290502,St Stephan's Crown Tokaji Aszu 5 Puttonyos,Kövágó Estate,199.0,500 ml,Glasflaska,Sött,Ungern,,4.0,1832,,websearch,https://www.vivino.com/sv/st-stephens-crown-tokaji-aszu-5-puttonyos-o5f70/w/1211958
+9515101,Brunello di Montalcino Casanova di Neri,Az. Agr. Casanova di Neri,599.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,4.5,114,0.91,vivino-sök,https://www.vivino.com/w/11235813
+9382601,Comtes de Champagne Blanc de Blancs,Taittinger,2195.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,4.5,499,1.0,vivino-sök,https://www.vivino.com/w/1136950
+7531601,Heitz Cabernet Sauvignon,Heitz Wine Cellars,1199.0,750 ml,Glasflaska,Fruktigt & Smakrikt,USA,Cabernet sauvignon,4.2,28385,,websearch,https://www.vivino.com/sv/heitz-cabernet-sauvignon/w/83225
+2298101,Monterosso Rosso,Nordic Sea Winery,79.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Sangiovese,3.2,2222,,websearch,https://www.vivino.com/sv/monterosso-terre-degli-osci-rosso-osco/w/1143699
+153301,Quinta do Paral,Quinta do Paral,129.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Portugal,"Verdelho, Vermentino, Viognier, Antão vaz",3.9,1306,,vertex-ai-search,https://www.vivino.com/sv/quinta-do-paral-branco/w/5429904
+9533001,Filo di Seta Castello Romitorio,Castello Romitorio,1099.0,750 ml,Glasflaska,,Italien,,4.4,190,0.83,vivino-sök,https://www.vivino.com/w/4177110
+667101,Viña Maipo Chardonnay,Viña Maipo SpA,69.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Chile,Chardonnay,3.2,2480,,websearch,https://www.vivino.com/sv/vina-maipo-chardonnay/w/68154
+667102,Viña Maipo Chardonnay,Viña Maipo SpA,49.0,375 ml,Glasflaska,,Chile,Chardonnay,3.2,2480,,websearch,https://www.vivino.com/sv/vina-maipo-chardonnay/w/68154
+7307701,Guldkula Premier Cru,Maison Burtin,389.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay",3.8,5120,,websearch,https://www.vivino.com/sv/guldkula-brut-champagne-premier-cru/w/5650610
+7714101,Pierre Olivier Blanc de Blancs Prestige Brut,Pierre Olivier,79.0,750 ml,Lättare glasflaska,Torrt vitt,Frankrike,,3.5,5388,,websearch,https://www.vivino.com/sv/pierre-olivier-prestige-blanc-de-blancs/w/4169056
+741801,Bollinger Special Cuvée Brut,Bollinger,649.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay, Pinot meunier",4.3,75235,0.82,vivino-sök,https://www.vivino.com/w/18929
+742401,Veuve Clicquot Brut Gula Änkan,Veuve Clicquot,589.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",,,,,
+281106,Château Mont-Redon Châteauneuf-du-Pape,Château Mont-Redon,759.0,1500 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Cinsault, Counoise, Grenache, Mourvèdre, Muscardin",4.3,413,0.82,vivino-sök,https://www.vivino.com/w/7729958
+281101,Château Mont-Redon Châteauneuf-du-Pape,Château Mont-Redon,369.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Cinsault, Counoise, Grenache, Mourvèdre, Muscardin",4.3,413,0.82,vivino-sök,https://www.vivino.com/w/7729958
+257301,Marqués de Riscal Reserva,Marqués de Riscal,199.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,"Tempranillo, Graciano, Mazuelo",4.1,261478,,websearch,https://www.vivino.com/sv/marques-de-riscal-reserva/w/1163903
+2018302,Castello di Ama San Lorenzo Gran Selezione,Castello di Ama,169.0,375 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Merlot, Malvasia nera",4.3,317,0.88,vivino-sök,https://www.vivino.com/w/2411943
+741802,Bollinger Special Cuvée Brut,Bollinger,399.0,375 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay, Pinot meunier",4.3,75235,0.82,vivino-sök,https://www.vivino.com/w/18929
+741806,Bollinger Special Cuvée Brut,Bollinger,1499.0,1500 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay, Pinot meunier",4.3,75235,0.82,vivino-sök,https://www.vivino.com/w/18929
+9542501,Allegrini Amarone della Valpolicella Classico,Allegrini,799.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Corvina, Corvinone, Oseleta, Rondinella",4.3,206,0.94,vivino-sök,https://www.vivino.com/w/8195
+2018901,Gorgeous Brut Rosé,Old Road Wine Co,149.0,750 ml,Glasflaska,Rosé,Sydafrika,"Chardonnay, Pinot noir",,,,,
+778702,Nivole,Michele Chiarlo,99.0,375 ml,Glasflaska,Sött,Italien,,4.2,12081,,vertex-ai-search,https://www.vivino.com/sv/michele-chiarlo-moscato-d-asti-nivole/w/86559
+754901,Pol Roger Brut Réserve,Pol Roger,589.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",4.2,49297,0.84,vivino-sök,https://www.vivino.com/w/1884610
+259001,M de Minuty Rosé,Château Minuty,179.0,750 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Grenache, Syrah, Cinsault, Tibouren",4.2,137,0.82,vivino-sök,https://www.vivino.com/w/1193781
+7656001,Barolo Giacosa Fratelli,Giacosa Fratelli,219.0,750 ml,Lättare glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,3.9,11132,,websearch,https://www.vivino.com/sv/giacosa-fratelli-barolo/w/92448
+221101,Domaine du Vieux Lazaret Châteauneuf-du-Pape,Domaine du Vieux Lazaret,289.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Cinsault, Counoise, Grenache, Mourvèdre, Syrah",4.2,672,0.8,vivino-sök,https://www.vivino.com/w/14526
+290102,Château Dereszla Tokaji Aszù 5 Puttonyos,Château Dereszla,229.0,500 ml,Glasflaska,Sött,Ungern,,4.2,5683,,websearch,https://www.vivino.com/sv/hu-chateau-dereszla-aszu-5-puttonyos/w/1163076
+754906,Pol Roger Brut Réserve,Pol Roger,1229.0,1500 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",4.2,49297,0.84,vivino-sök,https://www.vivino.com/w/1884610
+533801,Sancerre Domaine de la Villaudière,J M Reverdy,249.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,4.0,16283,,websearch,https://www.vivino.com/sv/domaine-de-la-villaudiere-sancerre/w/1165051
+2012012,Chardonnayburk,Quarisa Wines,69.0,500 ml,Burk,Friskt & Fruktigt,Australien,Chardonnay,,,,,
+259002,M de Minuty Rosé,Château Minuty,99.0,375 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Cinsault, Grenache, Syrah",4.2,137,0.82,vivino-sök,https://www.vivino.com/w/1193781
+754902,Pol Roger Brut Réserve,Pol Roger,329.0,375 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",4.2,49297,0.84,vivino-sök,https://www.vivino.com/w/1884610
+626701,Xavier Vignon Châteauneuf-du-Pape,Xavier Vignon,289.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Mourvèdre, Syrah",4.1,9285,,vertex-ai-search,https://www.vivino.com/sv/xavier-vignon-chateauneuf-du-pape-chateauneuf-du-pape/w/5811659
+2235001,Tommasi Amarone della Valpolicella Classico,Tommasi Viticoltori,349.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Corvina veronese, Rondinella, Corvinone, Oseleta",4.2,480,0.95,vivino-sök,https://www.vivino.com/w/7103
+281201,Casas Patronales Gran Reserva Carmenère,Casas Patronales,129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Chile,Carmenère,4.2,4512,,vertex-ai-search,https://www.vivino.com/sv/casas-patronales-gran-reserva-carmenere-maule-valley/w/7570761
+234701,CARM,CARM - Casa Agricola Roboredo Madeira SA,112.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,"Touriga naçional, Tinta roriz, Touriga franca",4.2,94,,vertex-ai-search,https://www.vivino.com/sv/carm-lbv-port-k17f33/w/6347366
+7771001,Henriot Millésimé Brut,Champagne Henriot,499.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay",4.2,879,0.85,vivino-sök,https://www.vivino.com/w/1151129
+229101,Le Hurlevent Châteauneuf-du-Pape,Famille Roumieux,269.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,,4.1,8362,,websearch,https://www.vivino.com/sv/vignobles-mayard-le-hurlevent-chateauneuf-du-pape/w/1524212
+1232401,Zenato Ripassa Superiore,Zenato,249.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Corvina, Rondinella, Oseleta",4.2,1561,0.82,vivino-sök,https://www.vivino.com/w/1380075
+273901,Vve Fourny & Fils Blanc de Blancs Brut Premier Cru,Vve Fourny & Fils,409.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,4.2,603,0.85,vivino-sök,https://www.vivino.com/w/9423570
+7752201,Charles Heidsieck Brut Réserve,Charles Heidsieck,589.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",4.2,36886,,vertex-ai-search,https://www.vivino.com/sv/charles-heidsieck-brut-reserve-champagne/w/86290
+419601,Moulin Touchais,Touchais,399.0,750 ml,Glasflaska,Sött,Frankrike,,4.2,7597,,vertex-ai-search,https://www.vivino.com/sv/fr-moulin-touchais-coteaux-du-layon/w/1190921
+760201,Louis Roederer Collection 246,Louis Roederer,589.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot noir, Pinot meunier",4.2,1128,,vertex-ai-search,https://www.vivino.com/sv/louis-roederer-collection-246-champagne/w/13132837
+9300901,Masseria Li Veli Askos Verdeca,Masseria Li Veli,199.0,750 ml,Glasflaska,Friskt & Fruktigt,Italien,Verdeca,4.2,1462,0.82,vivino-sök,https://www.vivino.com/w/1237550
+9449701,Branco de Sta. Cruz Telmo Rodriguez,Telmo Rodriguez,349.0,750 ml,Glasflaska,Fylligt & Smakrikt,Spanien,"Dona branca, Palomino, Treixadura, Godello",4.2,137,0.83,vivino-sök,https://www.vivino.com/w/2509745
+9280401,Champagne Deutz Blanc de Blancs,Champagne Deutz,999.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,4.2,210,0.91,vivino-sök,https://www.vivino.com/w/1142211
+9532201,Barolo Gavarini Chiniera Elio Grasso,Azienda Agricola Elio Grasso,1149.0,750 ml,Glasflaska,,Italien,,4.2,302,0.9,vivino-sök,https://www.vivino.com/w/22526
+252301,Black Knight Cabernet Sauvignon,Limestone Coast Wines,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Australien,Cabernet sauvignon,,,,,
+759801,Moët & Chandon Rosé Impérial,Moët & Chandon,629.0,750 ml,Glasflaska,Rosé,Frankrike,,4.1,32676,0.84,vivino-sök,https://www.vivino.com/w/1122092
+742501,Charles de Fère Blanc de Blancs Brut,Charles de Fère,95.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Colombard, Ugni blanc",3.6,2778,,websearch,https://www.vivino.com/sv/charles-de-fere-brut-reserve-blanc-de-blancs-methode-traditionnelle/w/1152133
+465301,Lynx Barrel fermented Chardonnay,House of Big Wines,119.0,750 ml,Glasflaska,Fylligt & Smakrikt,USA,Chardonnay,3.5,4625,,websearch,https://www.vivino.com/sv/lynx-california-chardonnay-barrel-fermented/w/6236567
+352801,Three Finger Jack Cabernet Sauvignon,3 Finger Jack Cellars,159.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,"Cabernet sauvignon, Malbec, Merlot, Petite sirah",4.1,28422,,websearch,https://www.vivino.com/sv/delicato-family-vineyards-three-finger-jack-cabernet-sauvignon/w/6818813
+7475601,Amicale,Cantine di Ora,99.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Corvina, Molinara, Rondinella",4.1,46,1.0,vivino-sök,https://www.vivino.com/w/1500493
+207701,Copertino Riserva,Cantina Sociale Copertino,105.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Negroamaro,3.5,11697,,websearch,https://www.vivino.com/sv/cupertinum-copertino-riserva/w/1137422
+742504,Charles de Fère Blanc de Blancs Brut,Charles de Fère,47.0,200 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Colombard, Ugni blanc",3.6,2778,,websearch,https://www.vivino.com/sv/charles-de-fere-brut-reserve-blanc-de-blancs-methode-traditionnelle/w/1152133
+751802,Moët & Chandon Brut Impérial,Moët & Chandon,309.0,375 ml,Glasflaska,Torrt vitt,Frankrike,,4.1,32676,0.86,vivino-sök,https://www.vivino.com/w/1122092
+751801,Moët & Chandon Brut Impérial,Moët & Chandon,559.0,750 ml,Glasflaska,Torrt vitt,Frankrike,,4.1,32676,0.86,vivino-sök,https://www.vivino.com/w/1122092
+5234001,Mucho Mas,Felix Solis,99.0,750 ml,,,Spanien,"Grenache, Syrah, Tempranillo",4.1,6976,0.8,vivino-sök,https://www.vivino.com/w/12200870
+276801,Baron de Ley Gran Reserva,Baron de Ley,225.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,"Graciano, Tempranillo",4.1,2863,0.8,vivino-sök,https://www.vivino.com/w/21585
+7244201,ChateauBriand Grand Réserve,Carovin AB,149.0,750 ml,Glasflaska,Stramt & Nyanserat,Frankrike,,,,,,
+230402,Domìni Veneti Recioto della Valpolicella Classico,Cantina Valpolicella Negrar,179.0,375 ml,Glasflaska,Sött,Italien,,4.1,475,,vertex-ai-search,https://www.vivino.com/sv/domini-veneti-recioto-della-valpolicella-classico-vigneti-di-moron/w/2083972
+279501,Buttery Barrel Chardonnay,Scheid Family Wines,129.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,USA,Chardonnay,3.5,1874,,websearch,https://www.vivino.com/sv/buttery-barrel-chardonnay/w/10165098
+1235701,Brunello di Montalcino Col d'Orcia,Col d'Orcia,299.0,750 ml,Glasflaska,,Italien,Brunello,4.1,55281,0.89,vivino-sök,https://www.vivino.com/w/73468
+620701,Black Stallion Napa Valley Cabernet Sauvignon,Black Stallion Estate Winery,389.0,750 ml,Glasflaska,Fruktigt & Smakrikt,USA,Cabernet sauvignon,4.2,15847,,websearch,https://www.vivino.com/sv/black-stallion-premiere-napa-valley-cabernet-sauvignon/w/4375278
+9290401,Eguren Ugarte Crianza Blanco,Eguren Ugarte,149.0,750 ml,Glasflaska,Fylligt & Smakrikt,Spanien,"Sauvignon blanc, Tempranillo blanco",4.1,154,,vertex-ai-search,https://www.vivino.com/sv/eguren-ugarte-crianza-blanco/w/10536263
+7420101,Borgogno Barbera d'Alba Superiore,Giacomo Borgogno & Figli,199.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,3.9,11931,,websearch,https://www.vivino.com/sv/borgogno-barbera-d-alba-superiore/w/8575
+5253701,Champagne Comtesse de Neples Brut,Chassenay d'Arce,259.0,750 ml,Glasflaska,Torrt vitt,Frankrike,,3.8,2181,,websearch,https://www.vivino.com/sv/chassenay-d-arce-comtesse-de-neples-brut-champagne/w/6959631
+9428601,Capensis Silene Chardonnay,Capensis Wines,249.0,750 ml,Glasflaska,Fylligt & Smakrikt,Sydafrika,Chardonnay,4.2,1418,,websearch,https://www.vivino.com/sv/capensis-silene-chardonnay/w/8078499
+536201,Francois Martenot Bourgogne Cuvée Prestige Chardonnay,Francois Martenot,139.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.6,3131,,websearch,https://www.vivino.com/sv/francois-martenot-cuvee-prestige-bourgogne-chardonnay/w/1199873
+9498501,Brother's Mark Cabernet Sauvignon,Pedroncelli,199.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,Cabernet sauvignon,4.1,1232,,vertex-ai-search,https://www.vivino.com/sv/pedroncelli-winery-and-vineyards-brother-s-mark-cabernet-sauvignon/w/12135517
+9352401,Sancerre Mainbré Domaine de Pré Semelé,Domaine de Pré Semelé Julien & Clément Raimbault,269.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,4.1,406,,websearch,https://www.vivino.com/sv/claude-remy-et-julien-raimbault-mainbre-sancerre-blanc/w/12643106
+751804,Moët & Chandon Brut Impérial,Moët & Chandon,179.0,200 ml,Lättare glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",4.1,32676,0.86,vivino-sök,https://www.vivino.com/w/1122092
+7367201,5 Finques Reserva,Castillo de Perelada,149.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,"Cabernet sauvignon, Garnatxa, Merlot, Syrah, Samsó",4.1,27072,,vertex-ai-search,https://www.vivino.com/sv/castillo-perelada-five-finques-fincas-reserva/w/99328
+628801,Vouvray Domaine Des Lauriers,Domaine des Lauriers,159.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chenin blanc,3.8,3739,,websearch,https://www.vivino.com/sv/laurent-kraft-domaine-des-lauriers-vouvray-sec/w/2066018
+239801,Barolo Albe G.D. Vajra,G.D. Vajra,309.0,750 ml,Lättare glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,4.1,2112,0.83,vivino-sök,https://www.vivino.com/w/1100124
+792501,Moscato d'Asti Gianni Doglia,Gianni Doglia,115.0,750 ml,Glasflaska,Sött,Italien,,4.1,498,0.83,vivino-sök,https://www.vivino.com/w/2728962
+748701,Deutz Brut Classic,Deutz,579.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",4.1,35815,0.8,vivino-sök,https://www.vivino.com/w/1178663
+1235706,Brunello di Montalcino Col d'Orcia,Col d'Orcia,709.0,1500 ml,Glasflaska,Kryddigt & Mustigt,Italien,Brunello,4.1,55281,0.89,vivino-sök,https://www.vivino.com/w/73468
+208601,The Chocolate Block,Boekenhoutskloof,269.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Sydafrika,"Syrah, Viognier, Cabernet sauvignon, Cinsault, Grenache",4.1,3825,1.0,vivino-sök,https://www.vivino.com/w/1128252
+7252406,Black Stallion Napa Valley Cabernet Sauvignon,Black Stallion Estate Winery,699.0,1500 ml,Glasflaska,Fruktigt & Smakrikt,USA,,4.1,40341,,vertex-ai-search,https://www.vivino.com/sv/black-stallion-cabernet-sauvignon/w/1166077
+759802,Moët & Chandon Rosé Impérial,Moët & Chandon,339.0,375 ml,Glasflaska,Rosé,Frankrike,,4.1,32676,0.84,vivino-sök,https://www.vivino.com/w/1122092
+7366101,Borgogno No Name,Giacomo Borgogno & Figli,319.0,750 ml,Glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,4.1,773,0.8,vivino-sök,https://www.vivino.com/w/1206114
+796202,Château La Rame,Chateau La Rame,149.0,375 ml,Glasflaska,Sött,Frankrike,,3.7,1099,,websearch,https://www.vivino.com/sv/la-rame-bordeaux-rouge/w/1718633
+214401,Poliziano Vino Nobile di Montepulciano Viti Nuove,Poliziano,189.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,4.1,588,0.86,vivino-sök,https://www.vivino.com/w/18794
+2307101,Barbera d'Alba Superiore,G.D. Vajra,235.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,4.1,270,1.0,vivino-sök,https://www.vivino.com/w/1169875
+300401,Château Suduiraut,Château Suduiraut,799.0,750 ml,Glasflaska,Sött,Frankrike,,4.1,50,0.81,vivino-sök,https://www.vivino.com/w/1155918
+355001,Château Labadie,Château Labadie,150.0,750 ml,Glasflaska,Stramt & Nyanserat,Frankrike,"Merlot, Cabernet sauvignon, Cabernet franc",3.8,8627,,websearch,https://www.vivino.com/sv/labadie-medoc/w/1177846
+9322301,Gaston Chiquet Blanc de Blancs d'Aÿ,Gaston Chiquet,499.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,,,,,
+9593401,Santorini Assyrtiko Santo Wines,Santo Wines,300.0,750 ml,Glasflaska,Fylligt & Smakrikt,Grekland,Assyrtiko,4.1,709,0.88,vivino-sök,https://www.vivino.com/w/1122192
+9208201,Mâcon-Chardonnay L'Échenault de Serre,Domain des Crêts,269.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,4.1,3380,,vertex-ai-search,https://www.vivino.com/sv/domaine-des-crets-climat-l-echenault-de-serre-macon-chardonnay/w/5494538
+9449101,Pegaso Barrancos de Pizarra,De Pegaso - Telmo Rodriguez,395.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,Garnacha,4.1,28,1.0,vivino-sök,https://www.vivino.com/w/1179898
+9450101,Giró de Abargues Pepe Mendoza,Pepe Mendoza Casa Agricola,249.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Spanien,,4.1,162,0.84,vivino-sök,https://www.vivino.com/w/8413099
+9437401,Atlántico El Paraguas,Bodegas El Paraguas,299.0,750 ml,Glasflaska,Friskt & Fruktigt,Spanien,"Treixadura, Godello, Albariño",4.1,231,0.8,vivino-sök,https://www.vivino.com/w/1895060
+9031401,Slightly Pinot Noir,Scheid Family Wines,119.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,USA,Pinot noir,,,,,
+7300001,Lepont & Fils Bourgogne Chardonnay,Urban Wines,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,,,,,
+8140101,Jean Biecher Pinot Gris Organic Réserve,Jean Biecher,115.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Frankrike,Pinot gris,3.7,4811,,websearch,https://www.vivino.com/sv/jean-biecher-pinot-gris-organic/w/1682556
+295135,Pizzolato Moscato Frizzante Organic,La Cantina Pizzolato,42.0,200 ml,Burk,Torrt vitt,Italien,Moscato,3.8,188,,websearch,https://www.vivino.com/sv/pizzolato-so-easy-moscato-dolce-frizzante/w/1658531
+7115901,Patriarche Bourgogne Chardonnay Cuvée des Visitandines,Patriarche Père & Fils,139.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,3.6,700,,websearch,https://www.vivino.com/sv/fr-patriarche-pere-fils-cuvee-des-visitandines-bourgogne-chardonnay/w/7970850
+7667101,Bread & Butter Pinot Noir,Bread & Butter Wines,169.0,750 ml,Glasflaska,Kryddigt & Mustigt,USA,,4.0,97263,,vertex-ai-search,https://www.vivino.com/sv/bread-and-butter-pinot-noir/w/1724151
+7314201,Gérard Bertrand Château L'Hospitalet La Réserve Rouge,Gérard Bertrand,225.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Frankrike,"Grenache, Mourvèdre, Syrah",,,,,
+670701,Contacto Alvarinho,Anselmo Mendes,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Portugal,Alvarinho,4,1347,1.0,vivino-sök,https://www.vivino.com/w/1201076
+721801,Dr L Riesling,Dr Loosen,115.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,4,1259,0.96,vivino-sök,https://www.vivino.com/w/24262
+408702,Château Menota,Chateau Menota,129.0,375 ml,Glasflaska,Sött,Frankrike,,4.0,208,,vertex-ai-search,https://www.vivino.com/sv/menota-sauternes-sauternes/w/1404582
+270501,Brolio,Ricasoli,149.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Colorino",4.0,6839,,vertex-ai-search,https://www.vivino.com/sv/ricasoli-brolio-chianti-classico-riserva/w/1285396
+229401,Dreissigacker Riesling Organic Trocken,Weingut Dreissigacker,142.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,,,,,
+7203401,Alain Jaume Côtes du Rhône Grand Veneur Organic Reserve,Alain Jaume,137.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Syrah",3.7,507,,websearch,https://www.vivino.com/sv/alain-jaume-domaine-grand-veneur-cotes-du-rhone-organic-reserve/w/7045000
+7668601,Casa Marzoni Gran Marzoni Appassimento,Casa Marzoni,145.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Primitivo,4.0,11508,,vertex-ai-search,https://www.vivino.com/sv/casa-marzoni-gran-marzoni-appassimento-primiero/w/6691225
+560201,Tapiz Chardonnay Viognier,Bodegas Tapiz,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Argentina,"Chardonnay, Viognier",,,,,
+9222801,Poggio al Leone Morellino di Scansano Riserva,Tenuta della Famiglia Cecchi,169.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Cabernet sauvignon",,,,,
+759201,Nicolas Feuillatte Blanc de Blancs Collection Vintage,Nicolas Feuillatte,399.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,4.0,12031,,vertex-ai-search,https://www.vivino.com/sv/nicolas-feuillatte-collection-vintage-blanc-de-blancs-brut-millesime-champagne/w/6266015
+532801,Monti Garbi Ripasso,Tenuta Sant' Antonio,159.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,,,,,
+7580201,Frantzén & Cauble,Björn Frantzén,179.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,,4.0,2163,,vertex-ai-search,https://www.vivino.com/sv/frantzen-cauble-signature-blend-cotes-du-rhone/w/12550614
+9513201,Domaine du Clos de Sixte Alain Jaume,Alain Jaume,169.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,,4,433,0.9,vivino-sök,https://www.vivino.com/w/1161809
+7412501,Chavin Côtes de Provence Rosé,Domaines Pierre Chavin,139.0,750 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Grenache, Syrah, Cinsault",3.7,2207,,websearch,https://www.vivino.com/sv/pierre-chavin-cotes-de-provence-organic-rose/w/2417810
+1238501,Zenato Valpolicella Classico Superiore,Zenato,159.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Corvina veronese, Rondinella, Corvinone",4,477,0.95,vivino-sök,https://www.vivino.com/w/12385
+2232501,Marquis des Beys Red,Domaine des Tourelles,239.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Libanon,"Cabernet sauvignon, Syrah",4.0,4705,,vertex-ai-search,https://www.vivino.com/sv/domaine-des-tourelles-bekaa-valley-marquis-des-beys-rouge/w/1145002
+536404,Dr Loosen Riesling Beerenauslese,Dr Loosen,159.0,187 ml,Glasflaska,Sött,Tyskland,,4,54,0.77,vivino-sök,https://www.vivino.com/w/1193567
+7022701,Barolo Fontanafredda,Fontanafredda,229.0,750 ml,Glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,4,1297,0.83,vivino-sök,https://www.vivino.com/w/6027081
+2006214,Le Rosé Domaine de la Bargemone,Cave de la Bargemone,62.0,250 ml,Burk,,Frankrike,,4.0,3218,,websearch,https://www.vivino.com/sv/commanderie-de-la-bargemone-commanderie-de-la-bargemone-rose/w/1234771
+9007801,Château de Campuget Syrah Grenache 1753,Château de Campuget,149.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Syrah",4.0,216,,vertex-ai-search,https://www.vivino.com/sv/chateau-de-campuget-seventeen-fiftythree-syrah-grenache/w/7841046
+228702,Nittnaus Beerenauslese,Weingut Nittnaus,129.0,375 ml,Glasflaska,Sött,Österrike,,4.0,2139,,vertex-ai-search,https://www.vivino.com/sv/weingut-hans-und-christine-nittnaus-beerenauslese-exquisit/w/1376149
+468202,Grand Tokaj Szamorodni,Grand Tokaj,159.0,500 ml,Glasflaska,Sött,Ungern,,4,228,0.91,vivino-sök,https://www.vivino.com/w/1237190
+9281101,Rogue Vine Jamón Jamón,Rogue Vine,139.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Chile,Moscatel,4.0,804,,vertex-ai-search,https://www.vivino.com/sv/rogue-vine-jamon-jamon-grand-itata-white-valle-de-itata/w/5694643
+559501,Chablis Vieilles Vignes Sainte Claire J M Brocard,J M Brocard,232.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,4.0,10622,,vertex-ai-search,https://www.vivino.com/sv/jean-marc-brocard-chablis-sainte-claire-vieilles-vignes/w/1374713
+255001,Domaine Helena Mount St Helena Vineyard Cabernet Sauvignon,Domaine Helena,249.0,750 ml,Glasflaska,Fruktigt & Smakrikt,USA,Cabernet sauvignon,4.0,262,,vertex-ai-search,https://www.vivino.com/sv/domaine-helena-cabernet-sauvignon/w/12880702
+9241801,Ameztoi Txakoli,Txakoli Ameztoi,169.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,Hondarrabi zuri,4.0,6423,,vertex-ai-search,https://www.vivino.com/sv/ameztoi-txakoli-txakoli-blanco/w/2495226
+556501,Chablis Sainte Claire J M Brocard,J M Brocard,195.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,4,1390,0.74,vivino-sök,https://www.vivino.com/w/1180709
+9428301,Bargemone Libre Rosé,Domaine Bargemone,199.0,750 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Syrah, Grenache noir, Cabernet sauvignon, Rolle",4.0,82,,vertex-ai-search,https://www.vivino.com/sv/bargemone-libre-rose/w/12541119
+7930701,Juan Gil Silver Label,Bodegas Juan Gil,159.0,750 ml,Lättare glasflaska,,Spanien,Monastrell,4,1281,0.89,vivino-sök,https://www.vivino.com/w/5282020
+9500901,L'Extrême Domaine du Causse d'Arboras,Domaine du Causse d'Arboras,199.0,750 ml,Glasflaska,,Frankrike,"Syrah, Grenache noir, Mourvèdre",4.0,219,,websearch,https://www.vivino.com/sv/causse-d-arboras-153586-l-extreme/w/7349686
+5694501,Tissot & Potel La Sixième Côte Chardonnay,MICHEL TISSOT,145.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Frankrike,"Chardonnay, Savagnin",,,,,
+745001,Launois Blanc de Blancs Grand Cru Réserve,Launois Père et Fils,399.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,4.0,4334,,vertex-ai-search,https://www.vivino.com/sv/launois-pere-and-fils-reserve-blanc-de-blancs-champagne-grand-cru-le-mesnil-sur-oger/w/1323547
+5404101,Haut-Mouleyre Crémant de Bordeaux,Château Haut-Mouleyre,109.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Merlot, Sémillon",3.8,2321,,websearch,https://www.vivino.com/sv/haut-mouleyres-cremant-de-bordeaux-brut/w/9611439
+3247201,Le Volte dell'Ornellaia,Ornellaia,199.0,750 ml,Lättare glasflaska,Stramt & Nyanserat,Italien,"Cabernet sauvignon, Merlot, Petit verdot",,,,,
+270502,Brolio,Ricasoli,95.0,375 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Merlot, Cabernet sauvignon",4.0,6839,,vertex-ai-search,https://www.vivino.com/sv/ricasoli-brolio-chianti-classico-riserva/w/1285396
+564801,Chassagne-Montrachet Joseph Drouhin,Joseph Drouhin,949.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,4,105,0.86,vivino-sök,https://www.vivino.com/w/24094
+369002,Castelnau de Suduiraut,Château Suduiraut,169.0,375 ml,Glasflaska,Sött,Frankrike,,4,433,0.91,vivino-sök,https://www.vivino.com/w/1155918
+657801,District 7 Pinot Noir,Scheid Family Wines,149.0,750 ml,Glasflaska,Kryddigt & Mustigt,USA,Pinot noir,,,,,
+223501,Black Stallion Los Carneros Pinot Noir,Black Stallion Estate Winery,299.0,750 ml,Glasflaska,Kryddigt & Mustigt,USA,Pinot noir,4.0,10436,,vertex-ai-search,https://www.vivino.com/sv/black-stallion-pinot-noir/w/3645800
+2015401,Cantina Kurtatsch Pinot Noir,Cantina Kurtatsch,189.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Italien,Pinot noir,,,,,
+7935301,Minuty Prestige Rosé,Château Minuty,199.0,750 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Grenache, Syrah, Rolle, Cinsault",4,448,0.89,vivino-sök,https://www.vivino.com/w/1222363
+583701,Bourgogne Les Murelles Domaine Roux,Domaine Roux,199.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,,,,,
+7725301,André Clouet Brut Rosé,André Clouet,479.0,750 ml,Glasflaska,,Frankrike,,4.0,3460,,vertex-ai-search,https://www.vivino.com/sv/andre-clouet-brut-rose-no-3-champagne/w/11963626
+9216601,Bernard-Massard Cuvée 1921,Bernard-Massard,199.0,750 ml,Glasflaska,Torrt vitt,Luxemburg,"Chardonnay, Pinot blanc, Pinot gris, Pinot noir, Riesling",4.0,208,,vertex-ai-search,https://www.vivino.com/sv/bernard-massard-cuvee-1921/w/9423766
+295114,Pizzolato Moscato Frizzante Organic,La Cantina Pizzolato,42.0,200 ml,Burk,Torrt vitt,Italien,Moscato,,,,,
+9010401,La Dilettante Brut Catherine et Pierre Breton,Domaine Catherine et Pierre Breton,230.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chenin blanc,4.0,939,,vertex-ai-search,https://www.vivino.com/sv/domaine-breton-catherine-pierre-breton-la-dilettante-brut/w/1722503
+7012001,ÀN/2 Ànima Negra,Ànima Negra,289.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,"Callet, Syrah, Manto negro, Fogoneu",4.0,28201,,vertex-ai-search,https://www.vivino.com/sv/anima-negra-an-2/w/86683
+626501,Rua Pinot Noir,Mora Wines,189.0,750 ml,Glasflaska,Kryddigt & Mustigt,Nya Zeeland,Pinot noir,,,,,
+2256201,Seghesio Sonoma Zinfandel,Seghesio Family Vineyards,249.0,750 ml,Glasflaska,Fruktigt & Smakrikt,USA,,4,392,0.89,vivino-sök,https://www.vivino.com/w/6369
+7536001,Black Stallion Napa Valley Chardonnay,Black Stallion Estate Winery,319.0,750 ml,Glasflaska,Fylligt & Smakrikt,USA,Chardonnay,4.0,9804,,vertex-ai-search,https://www.vivino.com/sv/black-stallion-chardonnay/w/1247400
+9017301,Pyros Pedrenal Valley Malbec organic,Pyros Wines,175.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,3.8,26,,websearch,https://www.vivino.com/sv/pyros-malbec/w/13515802
+9271601,Roccolo del Durlo Soave Classico,Azienda Agricola Le Battistelle,232.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Italien,Garganega,4,983,1.0,vivino-sök,https://www.vivino.com/w/1841929
+2030701,Nigiri Sauvignon Blanc,Vini Bella Terra,109.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,Sauvignon blanc,,,,,
+2031001,Contacto Loureiro,Mendes & Symington,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Portugal,Loureiro,3.9,229,,websearch,https://www.vivino.com/sv/anselmo-mendes-contacto-loureiro/w/13220892
+168401,Etna Rosso Terre dei Miti,Terre dei Miti,199.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,3.9,279,,vertex-ai-search,https://www.vivino.com/sv/terre-dei-miti-etna-rosso/w/12463581
+471401,Bon Courage Prestige Cuvée Chardonnay,Bon Courage,119.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Sydafrika,Chardonnay,3.9,27,0.9,vivino-sök,https://www.vivino.com/w/1181889
+420001,Leth Grüner Veltliner,Weingut Leth,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,3.9,619,0.84,vivino-sök,https://www.vivino.com/w/1590184
+631101,Stoneleigh Sauvignon Blanc,Vinarchy,125.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Nya Zeeland,Sauvignon blanc,3.9,173,,vertex-ai-search,https://www.vivino.com/sv/stoneleigh-lighter-sauvignon-blanc/w/7055329
+1200001,Saint Clair Vicar's Choice Sauvignon Blanc,Saint Clair Family Estate,109.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Nya Zeeland,Sauvignon blanc,3.9,620,0.92,vivino-sök,https://www.vivino.com/w/1100196
+252501,Baron de Ley Reserva,Baron de Ley,129.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,"Tempranillo, Garnacha",3.9,77260,,vertex-ai-search,https://www.vivino.com/sv/baron-de-ley-rioja-reserva/w/21584
+7357001,Casa Marzoni Appassimento,Casa Marzoni,115.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Negroamaro, Primitivo, Malvasía",3.9,2362,0.82,vivino-sök,https://www.vivino.com/w/4405548
+7418901,Zecci Valpolicella Ripasso Superiore,Botter,159.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.9,8596,,vertex-ai-search,https://www.vivino.com/sv/botter-zecci-valpolicella-ripasso-superiore-valpolicella-ripasso/w/5624038
+746901,Königsmosel Riesling,Ewald Theod Drathen,79.0,750 ml,Glasflaska,Druvigt & Blommigt,Tyskland,Riesling,3.7,8075,,websearch,https://www.vivino.com/sv/konigsmosel-riesling/w/1644807
+258101,Leth Riesling Selection,Weingut Leth,109.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Riesling,,,,,
+212901,Dandelion Vineyards Lionheart of the Barossa Shiraz,Dandelion Vineyards,139.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Australien,Shiraz,3.9,533,0.88,vivino-sök,https://www.vivino.com/w/1173844
+7563001,Castelmare Valpolicella Ripasso Superiore,Cantina Valpolicella Negrar,99.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.8,3016,,websearch,https://www.vivino.com/sv/valpolicella-negrar-castelmare-valpolicella-ripasso-superiore-ea64f0/w/6302265
+212902,Dandelion Vineyards Lionheart of the Barossa Shiraz,Dandelion Vineyards,79.0,375 ml,Glasflaska,Fruktigt & Smakrikt,Australien,Shiraz,3.9,533,0.88,vivino-sök,https://www.vivino.com/w/1173844
+130201,G.D. Vajra Organic Langhe Nebbiolo,G.D. Vajra,199.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Nebbiolo,3.9,1360,0.81,vivino-sök,https://www.vivino.com/w/1100122
+320401,Doppio Passo Organic Primitivo,Botter,99.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Primitivo,3.9,16326,,vertex-ai-search,https://www.vivino.com/sv/doppio-passo-primitivo-bio/w/2468762
+7396601,Zensa Primitivo,Orion Wines,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Primitivo,3.9,21650,,vertex-ai-search,https://www.vivino.com/sv/zensa-puglia-primitivo/w/2375106
+239001,Cantina Zaccagnini Del Tralcetto Montepulciano d’Abruzzo Organic,Ciccio Zaccagnini,129.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,Montepulciano,,,,,
+7518101,Domaine Lalande Sauvignon Blanc,Domaine Lalande,89.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.6,1957,,websearch,https://www.vivino.com/sv/domaine-lalande-sauvignon-blanc/w/2218010
+528301,Couvent des Jacobins Bourgogne Rouge,Louis Jadot,239.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,Pinot noir,3.9,150,0.95,vivino-sök,https://www.vivino.com/w/2816
+746902,Königsmosel Riesling,Ewald Theod Drathen,59.0,375 ml,Glasflaska,Druvigt & Blommigt,Tyskland,Riesling,3.7,8075,,websearch,https://www.vivino.com/sv/konigsmosel-riesling/w/1644807
+274102,Nederburg Noble Late Harvest,Nederburg Wines,130.0,375 ml,Glasflaska,Sött,Sydafrika,,3.9,5704,,vertex-ai-search,https://www.vivino.com/sv/nederburg-estate-the-winemaster-s-noble-late-harvest/w/61394
+7493501,Soalheiro Alvarinho,Soalheiro,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Portugal,Alvarinho,3.9,784,0.84,vivino-sök,https://www.vivino.com/w/2078187
+652001,McManis Petite Sirah,McManis Family Vineyards,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,Petite sirah,3.9,533,0.88,vivino-sök,https://www.vivino.com/w/2232
+740401,Langlois Crémant de Loire Brut Réserve,Langlois-Chateau,179.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chenin blanc, Cabernet franc, Chardonnay",3.9,965,0.77,vivino-sök,https://www.vivino.com/w/1362079
+282535,Adega de Monção Alvarinho,Adega de Monção,49.0,250 ml,Burk,Friskt & Fruktigt,Portugal,Alvarinho,3.9,17080,,vertex-ai-search,https://www.vivino.com/sv/adega-de-moncao-alvarinho-deu-la-deu/w/1150168
+1200002,Saint Clair Vicar's Choice Sauvignon Blanc,Saint Clair Family Estate,69.0,375 ml,Glasflaska,Friskt & Fruktigt,Nya Zeeland,Sauvignon blanc,3.9,620,0.92,vivino-sök,https://www.vivino.com/w/1100196
+9504101,Côtes-du-Rhône Villages Séguret La Ferme du Mont,La Ferme du Mont,149.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,,,,,,
+7592201,Vinistella Pinot Grigio,ViniMundi,99.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Italien,Pinot grigio,3.9,84,,vertex-ai-search,https://www.vivino.com/sv/vinimundi-pinot-grigio/w/12962482
+9544501,Benanti Etna Rosso,Benanti,219.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Nerello cappuccio, Nerello mascalese",3.9,161,0.86,vivino-sök,https://www.vivino.com/w/1758784
+579801,Couvent des Jacobins Bourgogne Blanc,Louis Jadot,219.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,3.9,150,0.95,vivino-sök,https://www.vivino.com/w/2816
+9410801,Free to Be Concrete Carbonic Pinotage,Remhoogte Wine Estate,179.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Sydafrika,Pinotage,,,,,
+149202,Xavier Vignon Vacqueyras,Xavier Vignon,85.0,375 ml,Glasflaska,Fruktigt & Smakrikt,Frankrike,"Grenache noir, Syrah, Mourvèdre",3.9,4031,,vertex-ai-search,https://www.vivino.com/sv/xavier-vignon-vacqueyras/w/1189540
+2017501,Adega de Monção Alvarinho,Adega de Monção,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Portugal,Alvarinho,3.9,17080,,vertex-ai-search,https://www.vivino.com/sv/adega-de-moncao-alvarinho-deu-la-deu/w/1150168
+230001,Villa Antinori,Marchesi Antinori,179.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Cabernet sauvignon, Merlot, Syrah",3.9,9345,0.91,vivino-sök,https://www.vivino.com/w/1656
+9251701,Plateau des Chênes,Famille Brechet,189.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Syrah, Grenache",3.9,3588,,vertex-ai-search,https://www.vivino.com/sv/le-plateau-des-chenes-lirac/w/1204576
+9250801,Aphros Loureiro,Adega Aphros Wine,179.0,1000 ml,Lättare glasflaska,,Portugal,Loureiro,3.9,1699,,vertex-ai-search,https://www.vivino.com/sv/aphros-phaunus-loureiro/w/5296311
+9542401,Montessu Agricola Punica,Agricola Punica,179.0,750 ml,Glasflaska,,Italien,"Carignan, Merlot, Syrah, Cabernet franc, Cabernet sauvignon",3.9,22596,,vertex-ai-search,https://www.vivino.com/sv/punica-montessu/w/1126888
+7183201,Côtes du Rhône Saint-Esprit,Delas,129.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Syrah, Marselan, Mourvèdre, Carignan",3.9,265,0.93,vivino-sök,https://www.vivino.com/w/14640
+9272901,Stefan Meyer Löss Spätburgunder,Weingut Stefan Meyer,159.0,750 ml,Glasflaska,Mjukt & Bärigt,Tyskland,Spätburgunder,3.9,339,,vertex-ai-search,https://www.vivino.com/sv/stefan-meyer-loss-spatburgunder/w/11245359
+9371801,Rosso di Montalcino Tenuta di Collosorbo,Tenuta di Collosorbo,219.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,3.9,264,0.82,vivino-sök,https://www.vivino.com/w/94969
+2005401,Maison Vialade Languedoc Organic,Claude Vialade,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Grenache, Marsanne, Viognier",0.0,5,,vertex-ai-search,https://www.vivino.com/sv/maison-vialade-organic-blanc/w/13118424
+9388101,The Vice Pinot Noir Rosé,The Vice Napa Valley,149.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,Pinot noir,3.9,208,,vertex-ai-search,https://www.vivino.com/sv/the-vice-pinot-noir-rose/w/5462672
+588201,A Christmann Riesling,A Christmann,169.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.9,28,0.78,vivino-sök,https://www.vivino.com/w/10699782
+205601,Weingut Müller Kremstal Grüner Veltliner Vom Loess,Weingut Müller,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,3.8,186,,websearch,https://www.vivino.com/sv/muller-gruner-veltliner-vom-loess/w/13611286
+768602,André Clouet Grande Réserve,André Clouet,219.0,375 ml,Glasflaska,Torrt vitt,Frankrike,Pinot noir,3.9,19959,,vertex-ai-search,https://www.vivino.com/sv/andre-clouet-grande-reserve-brut-champagne-grand-cru-bouzy/w/1108849
+2016501,Antonelli Montefalco Rosso,Antonelli San Marco,159.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Montepulciano, Sagrantino",3.9,208,0.88,vivino-sök,https://www.vivino.com/w/74450
+9580401,Carchelo Monastrell Garnacha,Bodegas Carchelo,139.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Spanien,"Garnacha, Monastrell",3.6,4183,,websearch,https://www.vivino.com/sv/carchelo-carchelo-c/w/77868
+9288601,Artisans Vignerons de Nord Xinomavro,Artisans Vignerons de Naoussa,149.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Grekland,Xynomavro,,,,,
+9479801,La Spia Rosso di Valtellina Nebbiolo,La Spia S.R.L. Società Agricola,179.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Nebbiolo,3.9,282,,vertex-ai-search,https://www.vivino.com/sv/la-spia-rosso-di-valtellina-nebbiolo/w/11276532
+3225301,Sancerre Les Baronnes,Henri Bourgeois,249.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.9,2241,0.95,vivino-sök,https://www.vivino.com/w/17672
+9045001,Andrea Felici Verdicchio dei Castelli di Jesi,Az. Agr. Andrea Felici,189.0,750 ml,Glasflaska,Friskt & Fruktigt,Italien,Verdicchio,3.9,4163,0.87,vivino-sök,https://www.vivino.com/w/1523577
+737201,Palmer & Co La Réserve Brut,Palmer & Co,399.0,750 ml,Glasflaska,Torrt vitt,Frankrike,,3.9,15247,0.83,vivino-sök,https://www.vivino.com/w/2243607
+5253301,Jérôme Arnoux Tradition,Jérôme Arnoux,199.0,750 ml,Glasflaska,Mjukt & Bärigt,Frankrike,"Pinot noir, Trousseau, Poulsard",3.9,5722,,vertex-ai-search,https://www.vivino.com/sv/jerome-arnoux-tradition/w/9731266
+381401,Les Hauts de Granget,Union de Producteurs de Saint-Émilion,219.0,750 ml,Glasflaska,Stramt & Nyanserat,Frankrike,"Merlot, Cabernet franc",3.9,6317,,vertex-ai-search,https://www.vivino.com/sv/union-de-producteurs-de-saint-emilion-les-hauts-de-granget-saint-emilion-grand-cru/w/1163453
+7327901,Langhe Rosso,G.D. Vajra,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Barbera, Dolcetto, Nebbiolo",,,,,
+755501,Bonnet Grande Réserve Brut,Alexandre Bonnet,329.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay",3.9,7734,0.85,vivino-sök,https://www.vivino.com/w/1462311
+2281701,Cafaggio Chianti Classico,Basilica Cafaggio,179.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,3.9,56,0.83,vivino-sök,https://www.vivino.com/w/1983514
+7038401,Borgogno Langhe Rosso,Giacomo Borgogno & Figli,149.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Barbera, Dolcetto, Freisa, Merlot",3.7,6664,,websearch,https://www.vivino.com/sv/borgogno-langhe-rosso/w/2663754
+768606,André Clouet Grande Réserve,André Clouet,789.0,1500 ml,Glasflaska,Torrt vitt,Frankrike,,3.9,19959,,vertex-ai-search,https://www.vivino.com/sv/andre-clouet-grande-reserve-brut-champagne-grand-cru-bouzy/w/1108849
+295501,Punt Road Pinot Noir,Punt Road Wines,179.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Australien,Pinot noir,3.7,3817,,websearch,https://www.vivino.com/sv/punt-road-pinot-noir-napoleone-vineyard/w/1677926
+9401906,Domaene Gobelsburg Rosé,Schloss Gobelsburg,279.0,1500 ml,Lättare glasflaska,Friskt & Bärigt,Österrike,Zweigelt,3.9,46,1.0,vivino-sök,https://www.vivino.com/w/1739434
+222101,Rocca Guicciarda Riserva,Ricasoli,169.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.9,945,0.87,vivino-sök,https://www.vivino.com/w/1151294
+270001,Chianti del Barone Ricasoli,Ricasoli,109.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Sangiovese,3.5,14734,,websearch,https://www.vivino.com/sv/ricasoli-chianti/w/12210
+737202,Palmer & Co La Réserve Brut,Palmer & Co,239.0,375 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot noir",3.9,15247,0.83,vivino-sök,https://www.vivino.com/w/2243607
+7653501,Piemonte Barbera Appassimento,San Silvestro,119.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,,,,,
+8313601,Arndorfer Grüner Veltliner,Weingut Arndorfer,189.0,1000 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,,,,,
+9127901,The Misfits Grenache,Ken Forrester,199.0,750 ml,Glasflaska,Mjukt & Bärigt,Sydafrika,Grenache,3.9,301,,vertex-ai-search,https://www.vivino.com/sv/ken-forrester-the-misfits-grenache/w/11804008
+272301,Rocca Guicciarda Riserva,Ricasoli,169.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Canaiolo, Merlot",3.9,945,0.87,vivino-sök,https://www.vivino.com/w/1151294
+730601,Langhe Nebbiolo Pio Cesare,Pio Cesare,225.0,750 ml,Lättare glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,3.9,12303,,vertex-ai-search,https://www.vivino.com/sv/pio-cesare-nebbiolo/w/22549
+9386501,Vranec Luda Mara,Tikves Winery,140.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Nordmakedonien,Vranac,3.9,1177,,vertex-ai-search,https://www.vivino.com/sv/tikves-luda-mara-vranec/w/12655079
+7437301,Beaumont des Crayeres Fleur de Prestige,Beaumont des Crayeres,349.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot noir, Pinot meunier",3.9,1324,,vertex-ai-search,https://www.vivino.com/sv/champagne-beaumont-des-crayeres-champagne-fleur-de-prestige-millesime-brut/w/83964
+282515,Adega de Monção Alvarinho,Adega de Monção,49.0,250 ml,Burk,Friskt & Fruktigt,Portugal,Alvarinho,3.9,17080,,vertex-ai-search,https://www.vivino.com/sv/adega-de-moncao-alvarinho-deu-la-deu/w/1150168
+2010801,Pieropan Soave Classico,Pieropan,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,"Garganega, Trebbiano",3.9,186,0.88,vivino-sök,https://www.vivino.com/w/22925
+2154001,DeLoach Heritage Reserve Pinot Noir,DeLoach Vineyards,119.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,USA,Pinot noir,3.9,345,0.94,vivino-sök,https://www.vivino.com/w/1141982
+9220001,Lagar de Cervera Albariño,Lagar de Fornelos,189.0,750 ml,Glasflaska,Friskt & Fruktigt,Spanien,Albariño,3.9,15604,,vertex-ai-search,https://www.vivino.com/sv/lagar-de-cervera-albarino/w/1569801
+9486401,Domaine Pellé Menetou-Salon Morogues,Domaine Pellé,249.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.9,5309,,websearch,https://www.vivino.com/sv/henry-pelle-menetou-salon-morogues-blanc/w/1195860
+9488401,Supersónico Garnacha Frontonio,Bodegas Frontonio,280.0,750 ml,Glasflaska,Mjukt & Bärigt,Spanien,Garnacha,3.9,1824,,vertex-ai-search,https://www.vivino.com/sv/frontonio-supersonico-garnacha/w/4968370
+9256201,Altos Las Hormigas Vision Sur Malbec,Altos Las Hormigas,269.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,3.9,27,,vertex-ai-search,https://www.vivino.com/sv/altos-las-hormigas-vision-sur-malbec/w/13644140
+9346601,Rosso di Montalcino Pian Dell´Orino,Pian dell' Orino,849.0,750 ml,Glasflaska,,Italien,,4.1,303,,websearch,https://www.vivino.com/sv/pian-dell-orino-rosso-di-montalcino/w/5744491
+582201,Leitz Eins Zwei Dry Riesling,Josef Leitz,107.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.8,13861,,vertex-ai-search,https://www.vivino.com/sv/leitz-eins-zwei-dry-riesling/w/1218213
+591401,Ruppertsberger Hofstück Riesling,Ruppertsberger Weinkeller Hoheburg eG,89.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.8,9734,,vertex-ai-search,https://www.vivino.com/sv/ruppertsberger-riesling-hofstuck/w/2245334
+2018434,Pizzolato Frizzante Rosé,La Cantina Pizzolato,43.0,200 ml,Burk,Rosé,Italien,,3.8,188,,vertex-ai-search,https://www.vivino.com/sv/pizzolato-so-easy-moscato-dolce-frizzante/w/1658531
+7294501,Viva Valentina Il Classico,Iconic Wines,125.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Nero d'avola, Merlot",,,,,
+2265201,Navajas Crianza,Bodegas Navajas,109.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.8,14665,,vertex-ai-search,https://www.vivino.com/sv/navajas-rioja-crianza-tinto/w/78766
+5648201,This is The Bomb Appassimento,Enjoy Wine & Spirits,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,3.8,2749,,vertex-ai-search,https://www.vivino.com/sv/enjoy-wine-spirits-this-is-the-bomb-dark-big-appassimento/w/12106545
+225701,Abbotts & Delaunay Carignan Vieilles Vignes,Abbotts & Delaunay,99.0,750 ml,,Fruktigt & Smakrikt,Frankrike,Carignan,3.8,706,0.86,vivino-sök,https://www.vivino.com/w/5764568
+768801,Louis Bouillot Crémant de Bourgogne Brut,Louis Bouillot,149.0,750 ml,Glasflaska,Torrt vitt,Frankrike,,3.8,48,0.8,vivino-sök,https://www.vivino.com/w/1108718
+269001,Kung Fu Girl Riesling,Charles Smith Wines,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,USA,Riesling,3.8,65204,,vertex-ai-search,https://www.vivino.com/sv/charles-smith-kung-fu-girl-riesling/w/1084272
+7203801,Ruppertsberger Imperial Riesling,Ruppertsberger Weinkeller Hoheburg eG,115.0,750 ml,Glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.8,11946,,vertex-ai-search,https://www.vivino.com/sv/ruppertsberger-imperial-riesling/w/3436615
+235201,Terre du Sud Château de la Liquière,Château de la Liquière famille Vidal Dumoulin,129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,"Grenache, Syrah, Carignan, Cinsault",3.8,273,,websearch,https://www.vivino.com/sv/chateau-de-la-liquiere-terre-du-sud-faugeres-faugeres/w/13690586
+269301,Touraine Sauvignon Blanc,Les Vignerons des Coteaux Romanais,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.8,189,,vertex-ai-search,https://www.vivino.com/sv/les-vignerons-des-coteaux-romanais-touraine-le-grand-st-vincent-sauvignon-x67d1/w/1305017
+458701,Leth Duett Riesling Grüner Veltliner Trocken,Weingut Leth,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,"Riesling, Grüner veltliner",,,,,
+7309401,Zins Zinfandel,Fields Wine Co,99.0,1000 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Zinfandel,,,,,
+259601,Casal Garcia Vinho Verde,Aveleda,78.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Portugal,"Arinto, Loureiro, Trajadura, Azal",3.8,96428,,vertex-ai-search,https://www.vivino.com/sv/casal-garcia-vinho-verde/w/1226459
+395801,Château de Seguin,Château de Seguin,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,"Merlot, Cabernet sauvignon",3.6,22907,,vertex-ai-search,https://www.vivino.com/sv/chateau-de-seguin-bordeaux-superieur/w/1129187
+265901,Coto de Imaz Reserva,El Coto de Rioja,119.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.8,4082,0.93,vivino-sök,https://www.vivino.com/w/8622
+7373801,King’s Bay Sauvignon Blanc,Icon Wines,135.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Nya Zeeland,Sauvignon blanc,3.8,5896,,websearch,https://www.vivino.com/sv/king-s-bay-sauvignon-blanc/w/5269150
+2225701,Gustave Lorentz Riesling Réserve,Gustave Lorentz,125.0,750 ml,Glasflaska,Druvigt & Blommigt,Frankrike,Riesling,3.8,145,0.86,vivino-sök,https://www.vivino.com/w/1214992
+8253401,Bouchard Aîné & Fils Chardonnay,Bouchard Aîné et Fils,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.8,2698,,vertex-ai-search,https://www.vivino.com/sv/bouchard-aine-et-fils-chardonnay-bourgogne/w/83011
+268601,Sangre de Toro Reserva Organic,Miguel Torres,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,"Cariñena, Garnacha, Syrah",3.8,25,0.76,vivino-sök,https://www.vivino.com/w/7414824
+778101,Louis Bouillot Crémant de Bourgogne Rosé Brut,Louis Bouillot,159.0,750 ml,Glasflaska,Rosé,Frankrike,"Pinot noir, Gamay, Chardonnay",3.8,48,0.81,vivino-sök,https://www.vivino.com/w/1108718
+789102,Beaumont de Crayères Grande Réserve Brut,Beaumont des Crayères,201.0,375 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot meunier, Chardonnay, Pinot noir",3.8,11005,0.72,vivino-sök,https://www.vivino.com/w/83953
+789101,Beaumont des Crayères Grande Réserve Brut,Beaumont des Crayères,299.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot meunier, Chardonnay, Pinot noir",3.8,11005,0.71,vivino-sök,https://www.vivino.com/w/83953
+1241901,Casal di Serra Classico Superiore Umani Ronchi,Umani Ronchi,109.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,Verdicchio,3.8,278,0.83,vivino-sök,https://www.vivino.com/w/3743
+2225702,Gustave Lorentz Riesling Réserve,Gustave Lorentz,69.0,375 ml,Glasflaska,Druvigt & Blommigt,Frankrike,Riesling,3.8,145,0.86,vivino-sök,https://www.vivino.com/w/1214992
+768806,Louis Bouillot Crémant de Bourgogne Brut,Louis Bouillot,349.0,1500 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay, Aligoté, Gamay",3.8,48,0.8,vivino-sök,https://www.vivino.com/w/1108718
+250101,El Esteco Malbec,El Esteco,169.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,3.8,6503,,vertex-ai-search,https://www.vivino.com/sv/el-esteco-malbec/w/1788095
+223401,Spier Signature Sauvignon Blanc Sémillon,Spier Wines,89.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Sydafrika,"Sauvignon blanc, Sémillon",3.8,215,0.88,vivino-sök,https://www.vivino.com/w/75117
+770801,Gardo & Morris Brut Sauvignon Blanc,Gardo Morris Wines,135.0,750 ml,Lättare glasflaska,Torrt vitt,Nya Zeeland,Sauvignon blanc,3.7,3987,,websearch,https://www.vivino.com/sv/gardo-morris-sauvignon-blanc-sparkling/w/1262089
+7052101,The Butcher Pinot Noir,Schwarz,169.0,750 ml,Glasflaska,Kryddigt & Mustigt,Österrike,Pinot noir,3.8,51,1.0,vivino-sök,https://www.vivino.com/w/5576824
+292201,Pratsch Grüner Veltliner,Pratsch,112.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,3.8,2013,,vertex-ai-search,https://www.vivino.com/sv/pratsch-matznerhugel-organic-gruner-veltliner/w/9936011
+5095701,Beaumont des Crayères Grand Rosé,Beaumont des Crayères,369.0,750 ml,Glasflaska,Rosé,Frankrike,,3.8,864,,vertex-ai-search,https://www.vivino.com/sv/champagne-beaumont-des-crayeres-champagne-grand-rose-brut/w/83963
+252601,Domaine Bousquet White Brut,Domaine Bousquet,139.0,750 ml,Lättare glasflaska,Torrt vitt,Argentina,"Chardonnay, Pinot noir",3.8,881,,vertex-ai-search,https://www.vivino.com/sv/domaine-bousquet-gualtallary-organic-brut-rose/w/2564872
+669401,Irony Pinot Noir,Irony Wine Cellars,169.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,USA,"Pinot noir, Petite sirah",3.8,3505,,vertex-ai-search,https://www.vivino.com/sv/irony-pinot-noir/w/1155121
+7513101,Chablis Bouchard Aîné & Fils,Bouchard Aîné et Fils,175.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.8,5552,,vertex-ai-search,https://www.vivino.com/sv/bouchard-aine-et-fils-chablis/w/83015
+201601,Réserve de Bonpas Côtes-du-Rhône,Bonpas,109.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Syrah, Mourvèdre",3.6,15045,,websearch,https://www.vivino.com/sv/bonpas-reserve-de-bonpas-rouge/w/1189827
+2014901,Poggiotondo Vermentino Delle Conchiglie,Poggiotondo,129.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,Vermentino,3.8,1061,,vertex-ai-search,https://www.vivino.com/sv/poggiotondo-wines-poggiotondo-vermentino-delle-conchiglie-organic/w/9484260
+9509801,Alvarinho La Festa Famille Fabre,Famille Fabre,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Alvarinho,3.8,78,,vertex-ai-search,https://www.vivino.com/sv/famille-fabre-languedoc-roussillon-la-festa-alvarinho/w/13553138
+463801,Stellenbosch Reserve Vanderstel,The Stellenbosch Reserve,149.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Sydafrika,"Cabernet sauvignon, Merlot, Petit verdot, Malbec, Cabernet franc",3.8,8240,,vertex-ai-search,https://www.vivino.com/sv/the-stellenbosch-reserve-vanderstel/w/4087344
+7327301,Storia di Famiglia Chianti Classico,Cecchi,139.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,3.8,3255,1.0,vivino-sök,https://www.vivino.com/w/5371050
+7736601,La Chouette de Champillon Blanc de Noirs,Champagne Autréau,369.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Pinot meunier",3.8,110,,vertex-ai-search,https://www.vivino.com/sv/la-chouette-de-champillon-blanc-de-noirs-champagne/w/7116397
+216401,Villa Wolf Grauburgunder,Villa Wolf,115.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Grauburgunder,3.8,2397,,vertex-ai-search,https://www.vivino.com/sv/wolf-grauburgunder/w/2678854
+7861401,Jean-Claude Boisset Bourgogne Pinot Noir Les Ursulines,Jean-Claude Boisset,199.0,750 ml,Glasflaska,Mjukt & Bärigt,Frankrike,Pinot noir,3.7,13893,,websearch,https://www.vivino.com/sv/jean-claude-boisset-pinot-noir-bourgogne-les-ursulines/w/1190301
+234201,Almodí Especial Garnatxa Peluda,Altavins Viticultors,129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Spanien,Garnatxa peluda,,,,,
+9311401,Juvé & Camps Reserva de la Familia,Juvé & Camps,219.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Xarel-lo, Macabeo, Parellada",3.8,313,0.83,vivino-sök,https://www.vivino.com/w/5932760
+2017901,Montespina Verdejo,Avelino Vegas,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,Verdejo,3.8,3162,,vertex-ai-search,https://www.vivino.com/sv/montespina-verdejo/w/2482875
+60161001,Roero Arneis Villata,Vite Colte,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,Arneis,3.8,194,1.0,vivino-sök,https://www.vivino.com/w/2142920
+7516901,Barbera d'Alba Le Colline,Le Colline SrL,149.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,Barbera,3.8,1211,,vertex-ai-search,https://www.vivino.com/sv/le-colline-barbera-d-alba/w/13256226
+2225706,Gustave Lorentz Riesling Réserve,Gustave Lorentz,269.0,1500 ml,Glasflaska,Druvigt & Blommigt,Frankrike,Riesling,3.8,145,0.86,vivino-sök,https://www.vivino.com/w/1214992
+560001,Jurtschitsch Rosé vom Zweigelt,Weingut Jurtschitsch,125.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Österrike,Zweigelt,3.8,90,0.8,vivino-sök,https://www.vivino.com/w/20058
+768802,Louis Bouillot Crémant de Bourgogne Brut,Louis Bouillot,99.0,375 ml,Glasflaska,Torrt vitt,Frankrike,,3.8,48,0.8,vivino-sök,https://www.vivino.com/w/1108718
+633901,Gardo & Morris Organic Sauvignon Blanc,Gardo Morris Wines,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Nya Zeeland,Sauvignon blanc,3.8,2445,,vertex-ai-search,https://www.vivino.com/sv/gardo-morris-sauvignon-blanc/w/2593426
+7100201,Casa Capriolo Governo,Casa Capriolo,109.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,,3.8,4728,,vertex-ai-search,https://www.vivino.com/sv/casa-capriolo-governo-toscana/w/2210944
+9040401,Belle Naturelle Grüner Veltliner,Weingut Jurtschitsch,189.0,750 ml,Glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,3.7,3155,,websearch,https://www.vivino.com/sv/weingut-jurtschitsch-belle-naturelle-gruner-veltliner-ernte/w/4606145
+220401,Château Bouscassé,Alain Brumont,199.0,750 ml,Glasflaska,Stramt & Nyanserat,Frankrike,"Tannat, Cabernet franc, Cabernet sauvignon",3.8,22156,,vertex-ai-search,https://www.vivino.com/sv/chateau-bouscasse-madiran/w/3821778
+7657001,Leth Grüner Veltliner Familien Reserve,Weingut Leth,129.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,3.7,1803,,websearch,https://www.vivino.com/sv/franz-leth-gruner-veltliner-familien-reserve/w/4764059
+296102,Leth Grüner Veltliner Terrassen,Weingut Leth,69.0,375 ml,Glasflaska,Friskt & Fruktigt,Österrike,,3.9,7634,,websearch,https://www.vivino.com/sv/franz-leth-gruner-veltliner-terrassen/w/5291000
+225901,Sancerre Les Pierris,Roger Champault et Fils,239.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.8,5337,,websearch,https://www.vivino.com/sv/roger-champault-les-pierris-sancerre-blanc/w/1109407
+770601,Asti Martini,Martini Rossi,99.0,750 ml,Glasflaska,Sött,Italien,Muscat,3.8,27681,,vertex-ai-search,https://www.vivino.com/sv/martini-asti/w/4022142
+257601,Col d'Orcia Rosso di Montalcino,Col d'Orcia,189.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,3.8,888,0.88,vivino-sök,https://www.vivino.com/w/73470
+679202,Campolieti Ripasso,Luigi Righetti,89.0,375 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.8,27203,,vertex-ai-search,https://www.vivino.com/sv/luigi-righetti-campolieti-valpolicella-ripasso-classico-superiore/w/1228323
+7291701,havn Riesling,Weingut Frey,119.0,750 ml,Glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.8,607,,websearch,https://www.vivino.com/sv/frey-29874-havn-organic-riesling/w/12589195
+229201,Côtes du Jura Chardonnay,Fruitière Vinicole d' Arbois,169.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,,,,,
+9009901,Bruna Grimaldi Barbera d'Alba Superiore Scassa,Bruna Grimaldi,199.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,3.8,2066,,vertex-ai-search,https://www.vivino.com/sv/bruna-grimaldi-scassa-barbera-d-alba-superiore/w/1137691
+138101,Trimbach Riesling,Trimbach,189.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Riesling,3.8,9419,,vertex-ai-search,https://www.vivino.com/sv/trimbach-alsace-riesling-alsace-reserve/w/63714
+5099401,Haggan Xinomavro,Artisans Vignerons de Naoussa,169.0,750 ml,Glasflaska,Kryddigt & Mustigt,Grekland,Xynomavro,3.7,1557,,websearch,https://www.vivino.com/sv/haggan-xinomavro/w/11708064
+9512301,Carra Château de Lascaux,Château de Lascaux,189.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Syrah",3.8,3431,,vertex-ai-search,https://www.vivino.com/sv/chateau-de-lascaux-carra-pic-saint-loup-languedoc-rouge/w/95953
+255501,Altitude by Duorum,Duorum Vinhos,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,,3.8,459,,vertex-ai-search,https://www.vivino.com/sv/duorum-altitude-by-duorum-branco/w/12136330
+7748801,Langhe Nebbiolo Leunin,Giacosa Fratelli,149.0,750 ml,Lättare glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,,,,,
+7747601,Bouchard Aîné & Fils Pinot Noir Rosé,Bouchard Aîné et Fils,99.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Frankrike,Pinot noir,3.8,291,,vertex-ai-search,https://www.vivino.com/sv/bouchard-aine-et-fils-pinot-noir-rose/w/8554432
+7939301,Von Winning Riesling,Von Winning,139.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.8,9637,0.89,vivino-sök,https://www.vivino.com/w/1210237
+7786501,Louis Bouillot Crémant de Bourgogne Brut Grand Millésimé,Louis Bouillot,169.0,750 ml,,Torrt vitt,Frankrike,"Aligoté, Chardonnay, Pinot noir",3.8,48,0.88,vivino-sök,https://www.vivino.com/w/1108718
+7956401,Ropiteau Pinot Noir Grande Réserve,Ropiteau Frères,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,Pinot noir,3.8,109,,vertex-ai-search,https://www.vivino.com/sv/ropiteau-grande-reserve-pinot-noir/w/13330911
+7550101,Brancaia Tre,Brancaia,159.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Merlot, Cabernet sauvignon",3.8,33511,,vertex-ai-search,https://www.vivino.com/sv/brancaia-tre/w/12379
+5590401,Scheuermann Vin de Soda,Scheuermann,169.0,750 ml,Glasflaska,Torrt vitt,Tyskland,,3.8,1881,,vertex-ai-search,https://www.vivino.com/sv/scheuermann-pfalz-vin-de-soda/w/9637822
+229801,Domaine des Pasquiers Plan de Dieu,Domaine des Pasquiers,159.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Syrah, Mourvèdre",3.8,7104,,vertex-ai-search,https://www.vivino.com/sv/domaine-des-pasquiers-cotes-du-rhone-villages-plan-de-dieu/w/1179856
+7413401,Philipp Kuhn Pinot Noir Tradition,Philipp Kuhn,199.0,750 ml,Glasflaska,Kryddigt & Mustigt,Tyskland,Pinot noir,3.8,106,0.88,vivino-sök,https://www.vivino.com/w/11289603
+450501,Dehesa La Granja,Fernández Rivera,139.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.8,13307,,vertex-ai-search,https://www.vivino.com/sv/dehesa-la-granja-tinto/w/1152838
+224501,Sancerre Les Belles Dames,Gitton Père et Fils,245.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.9,5407,,websearch,https://www.vivino.com/sv/gitton-pere-et-fils-silex-sancerre-les-belles-dames/w/1175675
+7917501,Gérard Bertrand Picpoul de Pinet,Gérard Bertrand,129.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Picpoule,3.8,156,0.82,vivino-sök,https://www.vivino.com/w/1206906
+2007601,Monterustico Dogliani,Monterustico,129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Dolcetto,3.8,4280,,vertex-ai-search,https://www.vivino.com/sv/monterustico-dogliani/w/5224366
+7939401,Von Winning Win Win Riesling Trocken,Von Winning,159.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.8,9637,0.81,vivino-sök,https://www.vivino.com/w/1210237
+528401,Pouilly-Fumé,Caves des Perrières,219.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.8,3153,,vertex-ai-search,https://www.vivino.com/sv/caves-des-perrieres-pouilly-fume-pouilly-fume/w/1695387
+5607101,Jérôme Arnoux Brut Nature,Jérôme Arnoux,199.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot noir",3.8,1774,,vertex-ai-search,https://www.vivino.com/sv/jerome-arnoux-brut-nature-jura/w/10603588
+659701,Gnarly Head Old Vine Zinfandel,Gnarly Head Wines,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,"Zinfandel, Petite sirah",3.8,3781,0.88,vivino-sök,https://www.vivino.com/w/1591082
+7063101,Chablis Le Finage La Chablisienne,La Chablisienne,195.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.8,1171,0.84,vivino-sök,https://www.vivino.com/w/16611
+2014501,Alta Alella Mirgin Reserva Brut,Alta Alella,149.0,750 ml,Glasflaska,,Spanien,,3.8,2852,,vertex-ai-search,https://www.vivino.com/sv/alta-alella-mirgin-reserva-brut-nature/w/5447754
+9298601,Costadilà 330 SLM,Costadilà,223.0,750 ml,Glasflaska,,Italien,Glera,3.8,2644,,vertex-ai-search,https://www.vivino.com/sv/costadila-threehundredthirty-slm/w/1604992
+9132001,Langhe Rosato Josetta Saffirio,Josetta Saffirio,165.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Nebbiolo,3.8,48,0.8,vivino-sök,https://www.vivino.com/w/3271589
+9067601,Magoutes Moschomavro,Magoutes Vineyard,229.0,750 ml,Glasflaska,,Grekland,,3.8,444,,websearch,https://www.vivino.com/sv/diamantis-magoutes-vineyard-moschomavro/w/9721919
+214801,Maison Blanche Rosé,Terra Vecchia,109.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Frankrike,,3.7,265,,websearch,https://www.vivino.com/sv/maison-blanche-bordeaux-rose/w/3663562
+7859601,R Riesling Organic,Ruppertsberger Weinkeller Hoheburg eG,99.0,1000 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.7,2109,,vertex-ai-search,https://www.vivino.com/sv/ruppertsberger-riesling-organic/w/7923813
+1655401,Trapiche Malbec Oak Cask,Bodegas Trapiche,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,3.7,49444,,vertex-ai-search,https://www.vivino.com/sv/trapiche-oak-cask-malbec/w/1135810
+157101,Noria Blanc de Noirs Brut,Domaine Villa Noria,99.0,750 ml,Lättare glasflaska,Torrt vitt,Frankrike,,3.7,188,,vertex-ai-search,https://www.vivino.com/sv/villa-noria-les-infusions-blanc-de-noirs/w/11824092
+666101,Rosie Rosé,Apricot,89.0,1000 ml,,Fruktigt & Smakrikt,Chile,"Cabernet sauvignon, Merlot",,,,,
+201101,Côtes-du-Rhône E. Guigal,E Guigal,149.0,750 ml,,Kryddigt & Mustigt,Frankrike,"Syrah, Grenache, Mourvèdre",3.7,214,0.86,vivino-sök,https://www.vivino.com/w/7773
+625301,Penfolds Koonunga Hill Shiraz Cabernet,Penfolds,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Australien,"Cabernet sauvignon, Shiraz",3.7,828,0.92,vivino-sök,https://www.vivino.com/w/1306
+7659801,Viva Valentina Sangiovese,Iconic Wines,119.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,,,,,
+7281901,This is The Idiot Pinot Noir,Enjoy Wine & Spirits,99.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Italien,,3.7,2200,,vertex-ai-search,https://www.vivino.com/sv/enjoy-wine-spirits-this-is-the-idiot-pinot-noir/w/12608407
+642001,Apothic Red Winemaker's Blend,Apothic Wines,129.0,750 ml,Glasflaska,Fruktigt & Smakrikt,USA,"Cabernet sauvignon, Merlot, Syrah, Zinfandel",,,,,
+771101,Asti Cinzano,Cinzano,109.0,750 ml,Glasflaska,Sött,Italien,Muscat,3.7,860,,vertex-ai-search,https://www.vivino.com/sv/cinzano-asti/w/1161009
+212001,Sankt Anna Riesling,Weingut Sankt Annaberg,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.7,3865,,websearch,https://www.vivino.com/sv/sankt-anna-riesling/w/1180888
+257102,Mateus Rosé,Sogrape,55.0,375 ml,Glasflaska,Fruktigt & Smakrikt,Portugal,"Baga, Rufete, Tinta barroca, Touriga franca",3.7,58750,,vertex-ai-search,https://www.vivino.com/sv/mateus-the-original-rose/w/1253734
+203201,Simonsig Chardonnay,Simonsig Estate,109.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Sydafrika,Chardonnay,3.7,91,0.84,vivino-sök,https://www.vivino.com/w/91637
+772501,Clotilde Davenne Brut Extra Crémant de Bourgogne,Clotilde Davenne,175.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay",3.7,328,0.87,vivino-sök,https://www.vivino.com/w/7245276
+415302,Château du Levant,Château Liots,150.0,375 ml,Glasflaska,Sött,Frankrike,,3.9,2229,,websearch,https://www.vivino.com/sv/liot-chateau-du-levant-sauternes/w/1182644
+558501,Petit Chablis La Chablisienne,La Chablisienne,169.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.7,6572,0.81,vivino-sök,https://www.vivino.com/w/1151992
+625302,Penfolds Koonunga Hill Shiraz Cabernet,Penfolds,69.0,375 ml,Glasflaska,Fruktigt & Smakrikt,Australien,"Cabernet sauvignon, Shiraz",3.7,828,0.92,vivino-sök,https://www.vivino.com/w/1306
+787902,Gancia Prosecco Brut,Gancia,75.0,375 ml,Glasflaska,Torrt vitt,Italien,Glera,,,,,
+7737201,Bourgogne Chardonnay Labouré-Roi,Labouré-Roi,139.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.7,111,0.88,vivino-sök,https://www.vivino.com/w/2407115
+2266202,Faustino VII,Faustino Martínez,59.0,375 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,"Tempranillo, Mazuelo",3.7,352,0.72,vivino-sök,https://www.vivino.com/w/22352
+581001,Kloster Eberbach Riesling Kabinett,Kloster Eberbach,139.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.7,231,0.83,vivino-sök,https://www.vivino.com/w/1409349
+546101,Mont-Redon Côtes du Rhône Réserve Rouge,Château Mont-Redon,145.0,750 ml,Lättare glasflaska,,Frankrike,"Grenache, Syrah",3.7,41,0.83,vivino-sök,https://www.vivino.com/w/12488
+524401,Gustave Lorentz Gewurztraminer Réserve,Gustave Lorentz,129.0,750 ml,Glasflaska,Druvigt & Blommigt,Frankrike,Gewürztraminer,3.7,29,0.85,vivino-sök,https://www.vivino.com/w/1852779
+253701,Nittardi CAB,Fattoria Nittardi,189.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Cabernet sauvignon,3.7,167,,vertex-ai-search,https://www.vivino.com/sv/fattoria-nittardi-caelum-ad-beata-cab/w/13817566
+278002,El Coto Blanco,El Coto de Rioja,59.0,375 ml,Glasflaska,Friskt & Fruktigt,Spanien,Viura,3.5,20563,,websearch,https://www.vivino.com/sv/el-coto-blanco/w/8617
+811902,Ruffino Vinsanto Serelle,Ruffino,199.0,375 ml,Glasflaska,Sött,Italien,,,,,,
+211901,Turckheim Pinot Gris Réserve,Cave de Turckheim,119.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Frankrike,Pinot gris,3.7,7578,,vertex-ai-search,https://www.vivino.com/sv/cave-de-turckheim-reserve-pinot-gris/w/1828535
+589901,Georg Breuer Sauvage Riesling,Georg Breuer,159.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.7,601,0.88,vivino-sök,https://www.vivino.com/w/75191
+302701,Ribera 1 One,Bodegas Aster,129.0,750 ml,Glasflaska,Stramt & Nyanserat,Spanien,Tempranillo,,,,,
+2266201,Faustino VII,Faustino Martínez,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,"Tempranillo, Mazuelo",3.7,352,0.72,vivino-sök,https://www.vivino.com/w/22352
+9238801,Thorn-Clarke Sandpiper Barossa Shiraz,Thorn-Clarke Wines,129.0,750 ml,Glasflaska,,Australien,Shiraz,3.7,1592,,vertex-ai-search,https://www.vivino.com/sv/thorn-clarke-wines-sandpiper-shiraz/w/2208664
+2015901,Norton Barrel Select Malbec,Bodega Norton,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,3.6,24975,,websearch,https://www.vivino.com/sv/bodega-norton-barrel-select-malbec/w/1136013
+5520601,Petite Orange Pinot Gris,Iconic Wines,119.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Pinot gris,3.6,1993,,websearch,https://www.vivino.com/sv/iconic-wines-wine-of-sweden-petite-orange-pinot-gris/w/10479505
+2201801,Porta 6 Branco,Vidigal wines,89.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Portugal,"Fernão pires, Arinto, Alvarinho",3.7,10894,,vertex-ai-search,https://www.vivino.com/sv/porta-6-branco/w/3904933
+5489308,Fontanafredda Piemonte Barbera Nebbiolo,Fontanafredda,299.0,3000 ml,,Fruktigt & Smakrikt,Italien,"Barbera, Nebbiolo",3.7,272,,vertex-ai-search,https://www.vivino.com/sv/fontanafredda-barbera-nebbiolo-piedmont/w/12318197
+7021701,Les Sorts Selecció,Celler el  Masroig,119.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,"Carignan, Grenache, Syrah",3.7,4695,,vertex-ai-search,https://www.vivino.com/sv/el-masroig-les-sorts-seleccio-montsant/w/7134396
+273401,Marqués de Cáceres Crianza,Bodegas Marqués de Cáceres,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,"Tempranillo, Garnacha, Graciano",3.7,109438,,vertex-ai-search,https://www.vivino.com/sv/bodegas-marques-de-caceres-crianza/w/10247
+5192901,Bourgogne Aligoté Clotilde Davenne,Clotilde Davenne,139.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Aligoté,3.7,129,0.83,vivino-sök,https://www.vivino.com/w/1117577
+227501,Muscadet Sèvre et Maine sur lie,Gadais Père & Fils,99.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Melon de bourgogne,3.7,3192,,vertex-ai-search,https://www.vivino.com/sv/gadais-pere-and-fils-domaine-de-la-tourmaline-muscadet-de-sevre-et-maine-sur-lie/w/1144992
+747102,Bonnet Perle Rosée Brut,Alexandre Bonnet,255.0,375 ml,Glasflaska,Rosé,Frankrike,,3.7,2310,,vertex-ai-search,https://www.vivino.com/sv/alexandre-bonnet-perle-rosee-brut-champagne/w/1286508
+9283701,Vallegre Touriga Nacional,Vallegre Vinhos do Porto,169.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Portugal,Touriga naçional,3.8,757,,websearch,https://www.vivino.com/sv/vallegre-touriga-nacional/w/6783712
+297101,Sister's Run Old Testament Coonawarra Cabernet Sauvignon,Sister's Run Wine Company,115.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Australien,,3.7,8781,,vertex-ai-search,https://www.vivino.com/sv/sister-s-run-old-testament-cabernet-sauvignon-coonawarra/w/1583481
+7152901,Chinon Cuisine de ma Mere,Domaine Grosbois,149.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,Cabernet franc,3.7,505,0.95,vivino-sök,https://www.vivino.com/w/1300916
+450002,Saint Auriol Chatelaine La Clape,Les Domaines Auriol,79.0,375 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Syrah, Grenache, Carignan",3.7,5762,,vertex-ai-search,https://www.vivino.com/sv/claude-vialade-chatelaine-la-clape/w/5769983
+752002,Crémant d'Alsace Chardonnay,Domaine Fernand Engel,99.0,375 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,3.7,5094,0.96,vivino-sök,https://www.vivino.com/w/2440064
+280901,Casa Relvas Touriga Nacional,Casa Relvas,139.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,Touriga naçional,3.7,253,0.86,vivino-sök,https://www.vivino.com/w/11014564
+7398801,Côtes de Saumon Chardonnay Sauvignon Blanc,Jean Biecher,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Chardonnay, Sauvignon blanc",3.7,598,,vertex-ai-search,https://www.vivino.com/sv/jean-biecher-cotes-de-saumon-chardonnay-sauvignon-blanc-vin-de-pays-vignobles-de-france/w/4320277
+7576401,Belleruche Côtes-du-Rhône Chapoutier,Chapoutier,139.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Syrah",3.7,390,0.91,vivino-sök,https://www.vivino.com/w/20671
+7342201,Gérard Bertrand Corbières,Gérard Bertrand,139.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,"Grenache, Mourvèdre, Syrah",3.7,37,0.81,vivino-sök,https://www.vivino.com/w/9823560
+7528501,Villarini Nero d'Avola,Icon Wines,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Nero d'avola,3.7,7111,,vertex-ai-search,https://www.vivino.com/sv/villarini-sicilia-nero-d-avola-organic/w/5447307
+562101,Laroche Bourgogne Réserve,Domaine Laroche,149.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,3.7,3722,,vertex-ai-search,https://www.vivino.com/sv/laroche-bourgogne-reserve-chardonnay/w/1261418
+209501,GRW Saperavi,GRW (Georgian Royal Wine),99.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Georgien,Saperavi,3.7,1927,,websearch,https://www.vivino.com/sv/grw-georgian-royal-saperavi-saperavi-kakheti/w/3630344
+109801,Campo Luz Roble,Vinos de la Luz,109.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Spanien,Tempranillo,3.7,944,,vertex-ai-search,https://www.vivino.com/sv/campo-luz-roble/w/12229131
+233801,Kir-Yianni Assyrtiko,Kir-Yianni Estate,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Grekland,Assyrtiko,3.7,3185,,vertex-ai-search,https://www.vivino.com/sv/kir-yianni-assyrtiko/w/5657996
+450001,Saint Auriol Chatelaine La Clape,Les Domaines Auriol,139.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Syrah, Grenache, Carignan",3.7,5762,,vertex-ai-search,https://www.vivino.com/sv/claude-vialade-chatelaine-la-clape/w/5769983
+229701,Chavin Sauvignon Blanc Côtes de Gascogne,Domaines Pierre Chavin,89.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Colombard, Gros manseng, Sauvignon blanc",,,,,
+558802,Petit Chablis Domaine Sainte Claire J M Brocard,J M Brocard,99.0,375 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.7,5756,,vertex-ai-search,https://www.vivino.com/sv/jean-marc-brocard-domaine-sainte-claire-petit-chablis/w/1193438
+236301,Bardolino Chiaretto La Sogara Rosé Cottini SPA,Cottini SPA,99.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Italien,"Corvina, Molinara, Corvinone",,,,,
+568801,Bourgogne Blanc Jurassique J M Brocard,J M Brocard,139.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.7,1820,,vertex-ai-search,https://www.vivino.com/sv/jean-marc-brocard-chardonnay-bourgogne-jurassique/w/1218308
+247801,Zecci Verdicchio dei Castelli di Jesi Classico Organic,Piersanti,119.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Italien,,3.6,1979,,websearch,https://www.vivino.com/sv/piersanti-zecci-collezione-verdicchio-dei-castelli-di-jesi-classico/w/1170442
+550001,Bourgogne Aligoté Joseph Drouhin,Joseph Drouhin,179.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Aligoté,3.7,4811,,vertex-ai-search,https://www.vivino.com/sv/joseph-drouhin-bourgogne-aligote/w/24069
+753701,Barton & Guestier Crémant de Bourgogne,Barton & Guestier,139.0,750 ml,Glasflaska,Torrt vitt,Frankrike,,3.7,2953,,vertex-ai-search,https://www.vivino.com/sv/barton-guestier-cremant-de-bourgogne-brut/w/7540474
+7630801,1909 Righetti Ripasso,Luigi Righetti,129.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,3.7,180,,vertex-ai-search,https://www.vivino.com/sv/luigi-righetti-nineteen-zero-nine-valpolicella-ripasso-classico-superiore/w/10412960
+7598601,Allesverloren Chenin Blanc,Allesverloren Wine Estate,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Sydafrika,Chenin blanc,3.7,101,0.82,vivino-sök,https://www.vivino.com/w/5279043
+7194701,Côtes du Rhône Blanc,E Guigal,149.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,"Viognier, Roussanne, Clairette, Bourboulenc, Grenache blanc",3.7,32668,0.87,vivino-sök,https://www.vivino.com/w/7775
+241201,Mezzacorona Pinot Grigio Riserva,Mezzacorona,109.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Italien,Pinot grigio,3.7,106,,vertex-ai-search,https://www.vivino.com/sv/mezza-corona-premium-collection-pinot-grigio-riserva-trentino/w/12789942
+7608301,Bourgogne Chardonnay J M Brocard,J M Brocard,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.7,1819,,vertex-ai-search,https://www.vivino.com/sv/jean-marc-brocard-chardonnay-bourgogne/w/1789837
+360101,Château Quinsac Bordeaux Supérieur,Château de Seguin,150.0,750 ml,Glasflaska,Stramt & Nyanserat,Frankrike,"Merlot, Cabernet sauvignon, Malbec, Cabernet franc",3.7,4575,,websearch,https://www.vivino.com/sv/chateau-quinsac-bordeaux-superieur-bordeaux-superieur/w/4878678
+7428501,Silverboom Special Reserve Shiraz Merlot,Taster Wine,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,"Merlot, Shiraz",3.7,16173,,vertex-ai-search,https://www.vivino.com/sv/silverboom-shiraz-merlot-special-reserve/w/2375084
+629001,McManis Viognier,McManis Family Vineyards,99.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,USA,Viognier,3.7,205,0.83,vivino-sök,https://www.vivino.com/w/2230
+644701,Chateau Ste Michelle Chardonnay,Chateau Ste Michelle,129.0,750 ml,Glasflaska,Fylligt & Smakrikt,USA,Chardonnay,3.7,28369,,vertex-ai-search,https://www.vivino.com/sv/chateau-ste-michelle-chardonnay/w/1439
+9280601,SHABO Telti-Kuruk Reserve,SHABO,179.0,750 ml,,,Ukraina,,3.7,312,,vertex-ai-search,https://www.vivino.com/sv/shabo-reserve-telti-kuruk/w/5672550
+281302,Mont-Redon Côtes du Rhône Réserve Blanc,Château Mont-Redon,105.0,375 ml,Glasflaska,,Frankrike,"Grenache blanc, Viognier",3.7,41,0.92,vivino-sök,https://www.vivino.com/w/12488
+797001,De Bortoli Family Selection Brut Cuvée,De Bortoli Wines Pty Ltd,89.0,750 ml,Lättare glasflaska,Torrt vitt,Australien,"Chardonnay, Pinot noir",3.4,1309,,websearch,https://www.vivino.com/sv/de-bortoli-db-family-selection-brut-cuvee/w/6966482
+241701,Privat Brut Nature Reserva Chardonnay,Cava Privat,159.0,750 ml,Glasflaska,Torrt vitt,Spanien,Chardonnay,3.6,597,0.74,vivino-sök,https://www.vivino.com/w/2397838
+1228401,Jean Biecher Riesling Organic Réserve,Jean Biecher,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Riesling,3.6,3323,,vertex-ai-search,https://www.vivino.com/sv/jean-biecher-riesling-organic-alsace/w/7928201
+1267001,El Coto Crianza,El Coto de Rioja,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.6,76344,,vertex-ai-search,https://www.vivino.com/sv/el-coto-crianza/w/8619
+607701,Mulderbosch Rosé,Mulderbosch Vineyards,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,Cabernet sauvignon,3.6,7960,,vertex-ai-search,https://www.vivino.com/sv/mulderbosch-vineyards-cabernet-sauvignon-rose/w/16494
+774201,Pizzolato Vino Spumante Rosé Organic,La Cantina Pizzolato,99.0,750 ml,Glasflaska,Rosé,Italien,"Glera, Raboso",,,,,
+3243101,Boira' Sangiovese,Cantine Volpi,115.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Sangiovese,3.6,11555,,vertex-ai-search,https://www.vivino.com/sv/boira-sangiovese/w/1165743
+8253101,Bouchard Aîné & Fils Pinot Noir,Bouchard Aîné et Fils,99.0,750 ml,,Mjukt & Bärigt,Frankrike,Pinot noir,3.6,2734,,vertex-ai-search,https://www.vivino.com/sv/bouchard-aine-et-fils-pinot-noir-bourgogne/w/83012
+2230001,Fontanafredda Ebbio Langhe Nebbiolo,Fontanafredda,149.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,Nebbiolo,3.6,19889,,vertex-ai-search,https://www.vivino.com/sv/fontanafredda-ebbio-langhe-nebbiolo-langhe-red-wine-v/w/4275592
+3241701,Villa Puccini,Castellani,99.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Merlot",3.6,13432,,vertex-ai-search,https://www.vivino.com/sv/villa-puccini-toscana/w/1153756
+7425501,Pietro Di Campo Barbera Silenzio,Pietro Di Campo,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Barbera,3.6,17789,,vertex-ai-search,https://www.vivino.com/sv/pietro-di-campo-silenzio-barbera/w/2251762
+274001,Amarone della Valpolicella,Luigi Righetti,219.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.7,3015,,websearch,https://www.vivino.com/sv/luigi-righetti-amarone-della-valpolicella/w/91761
+774901,Mionetto Prosecco Brut,Mionetto Spumante,105.0,750 ml,Glasflaska,Torrt vitt,Italien,Glera,3.6,31181,0.8,vivino-sök,https://www.vivino.com/w/1147897
+1267002,El Coto Crianza,El Coto de Rioja,59.0,375 ml,Glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.6,76344,,vertex-ai-search,https://www.vivino.com/sv/el-coto-crianza/w/8619
+219801,Jean Biecher Riesling Réserve,Jean Biecher,109.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Riesling,3.6,4034,,vertex-ai-search,https://www.vivino.com/sv/jean-biecher-riesling-reserve/w/1175425
+601801,Côtes-du-Rhône Reserve,Pellerin,89.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,"Syrah, Grenache noir, Mourvèdre",3.6,182,0.94,vivino-sök,https://www.vivino.com/w/1177518
+632101,La Désirée Chardonnay,Les Frères Couillaud,115.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.6,300,1.0,vivino-sök,https://www.vivino.com/w/3758512
+7038001,Louis Massing Brut,Deregard-Massing,249.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",3.6,4611,,vertex-ai-search,https://www.vivino.com/sv/louis-massing-brut-champagne-champagne-sparkling/w/5935563
+3222801,Selvarossa Salice Salentino,Cantine Due Palme,99.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Negroamaro, Malvasía",3.6,177,0.97,vivino-sök,https://www.vivino.com/w/1207109
+221501,Barefoot White Zinfandel,Barefoot Cellars,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,Zinfandel,3.6,16463,0.88,vivino-sök,https://www.vivino.com/w/1132893
+7352201,Weinmann Grüner Veltliner Klassik,ViniMundi,109.0,1000 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,3.6,1724,,vertex-ai-search,https://www.vivino.com/sv/vinimundi-wines-weinmann-klassik-gruner-veltliner/w/7521151
+1224401,Marie d’ Alsace Biecher Organic Réserve,Jean Biecher,99.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Frankrike,"Pinot blanc, Gewürztraminer",,,,,
+712601,Bianchi Montepulciano d'Abruzzo Umani Ronchi,Umani Ronchi,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Montepulciano, Cabernet sauvignon",3.4,3929,,websearch,https://www.vivino.com/sv/umani-ronchi-bianchi-montepulciano-d-abruzzo/w/1139275
+7572201,Barbera d'Alba Busije,Giacosa Fratelli,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Barbera,3.7,16154,,websearch,https://www.vivino.com/sv/giacosa-fratelli-barbera-d-alba-busije-barbera-dalba/w/6013239
+790401,Privat Brut Nature Reserva,Celler Privat,139.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Chardonnay, Macabeo, Parellada, Pansa blanca",3.6,597,0.82,vivino-sök,https://www.vivino.com/w/2397838
+7057801,GW :s Rosa,Barton & Guestier,99.0,750 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Grenache, Syrah",,,,,
+600301,Gustav Riesling Trocken,Gustav Adolf Schmitt,79.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.6,5397,,vertex-ai-search,https://www.vivino.com/sv/gustav-adolf-schmitt-riesling-trocken-rheinhessen/w/3553587
+202715,Les Frondeurs Madiran,Cave de Crouseilles,84.0,500 ml,Burk,Fruktigt & Smakrikt,Frankrike,"Cabernet franc, Tannat",3.6,448,,vertex-ai-search,https://www.vivino.com/sv/cave-de-crouseilles-les-frondeurs-madiran/w/9659832
+233701,Montepulciano d'Abruzzo Umani Ronchi,Umani Ronchi,89.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Italien,Montepulciano,3.6,3095,0.91,vivino-sök,https://www.vivino.com/w/1207294
+658801,KWV Rosé,KWV,99.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Sydafrika,,3.6,562,,vertex-ai-search,https://www.vivino.com/sv/kwv-classic-collection-rose/w/1667106
+218501,Château du Cléray Muscadet Sèvre et Maine sur Lie,Sauvion,99.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Melon de bourgogne,3.6,1648,,vertex-ai-search,https://www.vivino.com/sv/cleray-haut-culture-sauvion-muscadet-sevre-et-maine-sur-lie/w/87779
+9025101,Logan Weemala Pinot Noir,Logan Wines,159.0,750 ml,Glasflaska,Kryddigt & Mustigt,Australien,Pinot noir,3.6,6581,,vertex-ai-search,https://www.vivino.com/sv/au-logan-weemala-pinot-noir/w/83878
+277301,Briccotondo Barbera,Fontanafredda,109.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Barbera,3.6,23079,,vertex-ai-search,https://www.vivino.com/sv/briccotondo-barbera/w/92460
+2018101,Sander Prestige Cuvée Riesling Brut,Weingut Sander,179.0,750 ml,Glasflaska,Torrt vitt,Tyskland,Riesling,3.6,345,,vertex-ai-search,https://www.vivino.com/sv/sander-prestige-cuvee-riesling-brut/w/2160170
+7509301,Meinklang Pinot Noir,Meinklang,129.0,750 ml,Glasflaska,Mjukt & Bärigt,Österrike,Pinot noir,3.6,7486,,vertex-ai-search,https://www.vivino.com/sv/meinklang-pinot-noir/w/19772
+796135,Ginger Prince Rosé Bubbles,Fowles Wine,79.0,375 ml,Burk,Rosé,Australien,"Shiraz, Riesling, Chardonnay, Vermentino",,,,,
+796902,Freixenet Cordon Negro Brut,Freixenet,69.0,375 ml,Glasflaska,Torrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",3.6,21439,0.83,vivino-sök,https://www.vivino.com/w/1135811
+231301,The Stag Cabernet Sauvignon Feteasca Neagra,Averesti,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Rumänien,,3.6,85,,vertex-ai-search,https://www.vivino.com/sv/averesti-the-stag-dark-ridge-cabernet-sauvignon-feteasca-neagra/w/13681072
+3241706,Villa Puccini,Castellani,189.0,1500 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Merlot",3.6,13432,,vertex-ai-search,https://www.vivino.com/sv/villa-puccini-toscana/w/1153756
+289901,Pinot Gris Premium Réserve,Bestheim,119.0,750 ml,Glasflaska,Druvigt & Blommigt,Frankrike,Pinot gris,3.6,434,1.0,vivino-sök,https://www.vivino.com/w/4919624
+5580401,Tissot & Potel La Sixième Côte Pinot noir,MICHEL TISSOT,145.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,Pinot noir,,,,,
+9240401,Bourgogne Aligoté Albus,Domaine Roux,199.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Aligoté,4.0,265,,websearch,https://www.vivino.com/sv/domaine-roux-pere-et-fils-albus-bourgogne-aligote/w/8776638
+9296201,Celler del Roure Vermell,Celler del Roure,160.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Spanien,,3.6,4354,,vertex-ai-search,https://www.vivino.com/sv/celler-del-roure-vermell/w/2477371
+7174706,Mulderbosch Cabernet Sauvignon Rosé,Mulderbosch Vineyards,215.0,1500 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,Cabernet sauvignon,3.6,143,0.9,vivino-sök,https://www.vivino.com/w/16494
+222001,Saint Auriol Grand Blanc,Les Domaines Auriol,95.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Viognier, Chardonnay, Rolle",3.6,655,,vertex-ai-search,https://www.vivino.com/sv/claude-vialade-grand-blanc-vin-de-pays-doc/w/10813900
+2007801,Basalte du Coiron Syrah,Vignerons Ardèchois - UVICA,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,Syrah,3.6,1059,,vertex-ai-search,https://www.vivino.com/sv/vignerons-ardechois-basalte-du-coiron-syrah/w/8136066
+1210501,Hubert Beck Grande Réserve Pinot Gris,Hubert Beck,119.0,750 ml,Glasflaska,Druvigt & Blommigt,Frankrike,Pinot gris,3.6,1731,,vertex-ai-search,https://www.vivino.com/sv/hubert-beck-grande-reserve-pinot-gris/w/8049350
+7294901,Côtes-du-Rhône Reserve Rosé,Pellerin,99.0,750 ml,,Friskt & Bärigt,Frankrike,"Grenache, Syrah",3.6,182,0.9,vivino-sök,https://www.vivino.com/w/1177518
+773701,Charles Wantz Crémant d'Alsace Carte Noir Brut,Charles Wantz,139.0,750 ml,Glasflaska,Torrt vitt,Frankrike,,,,,,
+795901,Loxarel A Pèl rosé,Loxarel,145.0,750 ml,Glasflaska,Rosé,Spanien,"Pinot noir, Xarel-lo vermell",3.6,809,,vertex-ai-search,https://www.vivino.com/sv/loxarel-a-pel-classic-penedes-brut-nature-rose/w/10533251
+288201,La Gascogne par Alain Brumont Sauvignon Blanc Gros Manseng,Alain Brumont,115.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Gros manseng, Sauvignon blanc",3.6,2217,,vertex-ai-search,https://www.vivino.com/sv/alain-brumont-la-gascogne-gros-manseng-sauvignon-blanc/w/1218195
+228101,Fat Bastard Syrah,The Fat Bastard Wine Company,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,Syrah,,,,,
+7159601,Raimonda Barbera d'Alba,Fontanafredda,119.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,3.6,1793,1.0,vivino-sök,https://www.vivino.com/w/92444
+252201,Logan Weemala Shiraz Logan Wines,Logan Wines,119.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Australien,"Shiraz, Viognier",,,,,
+274002,Amarone della Valpolicella Classico,Luigi Righetti,115.0,375 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.9,24311,,websearch,https://www.vivino.com/sv/luigi-righetti-amarone-della-valpolicella-classico/w/91760
+248001,Hunter's Riesling,Hunter's Wines,119.0,750 ml,Glasflaska,Friskt & Fruktigt,Nya Zeeland,Riesling,3.6,2491,,vertex-ai-search,https://www.vivino.com/sv/hunters-4826-riesling/w/17076
+7412801,Bollo Sangiovese,Poderi dal Nespoli,119.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,,,,,
+267501,Saint Auriol Grand Blanc,Les Domaines Auriol,95.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Viognier, Chardonnay, Rolle",3.6,655,,vertex-ai-search,https://www.vivino.com/sv/claude-vialade-grand-blanc-vin-de-pays-doc/w/10813900
+471501,Moonlight Manor Cabernet Sauvignon,De Waal,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,Cabernet sauvignon,3.5,44,,vertex-ai-search,https://www.vivino.com/sv/de-waal-wines-moonlight-manor-cabernet-sauvignon-reserve/w/13948414
+536801,Sander Riesling trocken,Weingut Sander,124.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.7,803,,websearch,https://www.vivino.com/sv/sander-flaschengarung-brut-riesling/w/2631593
+215101,Xavier Vignon Côtes-du-Rhône Grenache Vieilles Vignes Organic,Xavier Vignon,127.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,Grenache,3.5,7044,,vertex-ai-search,https://www.vivino.com/sv/xavier-vignon-grenache-vieilles-vignes/w/1498244
+219701,Ecologica La Pluma Rosé,Julià & Navinès,99.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Spanien,"Tempranillo, Merlot, Cabernet sauvignon",3.6,1843,,websearch,https://www.vivino.com/sv/ecologic-la-pluma-rose-penedes/w/3336080
+296201,Casillero del Diablo Cabernet Sauvignon,Concha y Toro,89.0,750 ml,Lättare glasflaska,,Chile,Cabernet sauvignon,3.5,183523,,vertex-ai-search,https://www.vivino.com/sv/casillero-del-diablo-cabernet-sauvignon-reserva-central-valley/w/1135067
+500601,Dimension Chardonnay,Du Toitskloof Cellar,85.0,750 ml,,Friskt & Fruktigt,Sydafrika,Chardonnay,3.5,1425,,vertex-ai-search,https://www.vivino.com/sv/du-toitskloof-dimension-chardonnay/w/4263210
+226701,Brochet Facile Sauvignon Blanc,Ampelidae,109.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.5,3939,,vertex-ai-search,https://www.vivino.com/sv/ampelidae-brochet-facile-sauvignon-blanc/w/1226122
+2013902,Cameleon Malbec,Domaine Bousquet,69.0,375 ml,,Fruktigt & Smakrikt,Argentina,Malbec,3.5,4703,,vertex-ai-search,https://www.vivino.com/sv/domaine-bousquet-gualtallary-cameleon-organic-malbec-valle-de-uco/w/3194468
+1651001,Viña Maipo Cabernet Sauvignon,Viña Maipo SpA,69.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Chile,Cabernet sauvignon,3.2,15047,,websearch,https://www.vivino.com/sv/vina-maipo-cabernet-sauvignon/w/68094
+787004,Prosecco Pizzolato Organic,La Cantina Pizzolato,49.0,200 ml,Lättare glasflaska,Torrt vitt,Italien,Glera,3.5,6036,,vertex-ai-search,https://www.vivino.com/sv/pizzolato-prosecco/w/1732977
+296202,Casillero del Diablo Cabernet Sauvignon,Concha y Toro,54.0,375 ml,,Fruktigt & Smakrikt,Chile,Cabernet sauvignon,3.5,183523,,vertex-ai-search,https://www.vivino.com/sv/casillero-del-diablo-cabernet-sauvignon-reserva-central-valley/w/1135067
+220901,Puy Chéri Syrah Rosé,Foncalieu,95.0,750 ml,,Friskt & Bärigt,Frankrike,Syrah,3.5,2330,,vertex-ai-search,https://www.vivino.com/sv/foncalieu-puy-cheri-syrah-rose-languedoc-roussillon/w/6475492
+2213901,Les Fumées Blanches Sauvignon Blanc,François Lurton,107.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.6,154,,websearch,https://www.vivino.com/sv/fr-francois-lurton-les-fumees-blanches-organic-sauvignon-blanc/w/9283124
+2213801,Les Fumées Blanches Rosé,François Lurton,99.0,750 ml,Lättare glasflaska,,Frankrike,Sauvignon gris,3.5,261,1.0,vivino-sök,https://www.vivino.com/w/1138300
+7741001,El Mar Cava Brut,ViniMundi,99.0,750 ml,,Torrt vitt,Spanien,,3.3,1937,,websearch,https://www.vivino.com/sv/el-mar-cava-cava-brut/w/8165929
+5164101,Sofia y Sebastian Cava is Best Enjoyed with Friends Organic,ViniMundi,99.0,750 ml,Glasflaska,Torrt vitt,Spanien,,3.5,1674,,vertex-ai-search,https://www.vivino.com/sv/vinimundi-wines-sofia-y-sebastian-cava-is-best-enjoyed-with-friends/w/9738163
+296204,Casillero del Diablo Cabernet Sauvignon,Concha y Toro,39.0,250 ml,Lättare glasflaska,Fruktigt & Smakrikt,Chile,Cabernet sauvignon,3.5,183523,,vertex-ai-search,https://www.vivino.com/sv/casillero-del-diablo-cabernet-sauvignon-reserva-central-valley/w/1135067
+7354601,Massimo Rosso Organic,Iconic Wines,99.0,1000 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,,,,,
+2231001,Lambrusco Reggiano Dolce,Donelli,89.0,750 ml,Glasflaska,Sött,Italien,,3.5,127,,vertex-ai-search,https://www.vivino.com/sv/donelli-lambrusco-reggiano-rosso-dolce/w/1686033
+207502,Casillero del Diablo Chardonnay,Concha y Toro,54.0,375 ml,Glasflaska,Fylligt & Smakrikt,Chile,Chardonnay,3.5,39785,,vertex-ai-search,https://www.vivino.com/sv/casillero-del-diablo-chardonnay-reserva/w/1135140
+272801,BROT Cava Inicial Semi-Seco,B.R.O.T.,99.0,750 ml,Glasflaska,Halvtorrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",3.5,121,,vertex-ai-search,https://www.vivino.com/sv/b-r-o-t-cava-inicial-organic-semi-seco/w/13827313
+207501,Casillero del Diablo Chardonnay,Concha y Toro,89.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Chile,Chardonnay,3.5,39785,,vertex-ai-search,https://www.vivino.com/sv/casillero-del-diablo-chardonnay-reserva/w/1135140
+7718501,Pizzolato Vino Spumante Blanc de Blancs Organic,La Cantina Pizzolato,89.0,750 ml,Lättare glasflaska,Torrt vitt,Italien,Glera,3.5,133,,vertex-ai-search,https://www.vivino.com/sv/pizzolato-spumante-blanc-de-blancs-organic/w/13353079
+787001,Prosecco Pizzolato Organic,La Cantina Pizzolato,99.0,750 ml,Lättare glasflaska,Torrt vitt,Italien,Glera,3.5,6036,,vertex-ai-search,https://www.vivino.com/sv/pizzolato-prosecco/w/1732977
+199601,Cecchi Toscana Sangiovese,Cecchi,95.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Italien,Sangiovese,3.5,16381,,vertex-ai-search,https://www.vivino.com/sv/casa-vinicola-luigi-cecchi-e-figli-sangiovese-di-toscana/w/12123
+256501,Cigarra Reserva Shiraz Tinta Barroca,Casa Santos Lima,79.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Portugal,"Shiraz, Tinta barroca",3.5,3770,,vertex-ai-search,https://www.vivino.com/sv/cigarra-shiraz-tinta-barroca/w/779711
+699802,Masi Bonacosta Valpolicella,Masi,69.0,375 ml,Glasflaska,Mjukt & Bärigt,Italien,"Corvina, Molinara, Rondinella",3.5,3436,0.95,vivino-sök,https://www.vivino.com/w/21975
+2012401,Juno Shiraz,Cape Wine Company,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,Shiraz,3.5,364,,vertex-ai-search,https://www.vivino.com/sv/juno-shiraz-mourvedre-viognier/w/5374272
+274301,Petillant de Gabriel Brut,Vignobles Gabriel & CO,99.0,750 ml,Lättare glasflaska,Torrt vitt,Frankrike,"Colombard, Ugni blanc",3.5,901,,vertex-ai-search,https://www.vivino.com/sv/vignobles-gabriel-co-petillant-de-gabriel-blanc-de-blancs-brut-bordeaux/w/12818114
+2229901,Domaine Lalande Réserve Merlot,Domaine Lalande,80.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,Merlot,3.5,3053,,vertex-ai-search,https://www.vivino.com/sv/domaine-lalande-reserve-merlot/w/1183256
+231001,Ruffino Chianti,Ruffino,99.0,750 ml,Glasflaska,Mjukt & Bärigt,Italien,Sangiovese,3.5,63242,,vertex-ai-search,https://www.vivino.com/sv/ruffino-chianti-1877/w/2186
+245901,Torres Gran Viña Sol Chardonnay,Miguel Torres,92.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,"Chardonnay, Parellada",3.5,274,0.77,vivino-sök,https://www.vivino.com/w/2629
+1601501,Saint Clair Origin Pinot Noir,Saint Clair Family Estate,119.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Nya Zeeland,Pinot noir,3.5,222,0.87,vivino-sök,https://www.vivino.com/w/1718504
+5392901,Revenge of The Little Pig Pinot Noir,Iconic Wines,99.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Tyskland,Pinot noir,3.5,1544,,vertex-ai-search,https://www.vivino.com/sv/iconic-wines-wine-of-sweden-revenge-of-the-little-pig-pinot-noir/w/10200682
+226901,Kleine Zalze Cellar Selection Fairtrade Red Blend,Kleine Zalze,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,"Cabernet sauvignon, Sangiovese, Shiraz",,,,,
+646301,Penfolds Koonunga Hill Chardonnay,Penfolds,109.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Australien,Chardonnay,3.5,14852,,vertex-ai-search,https://www.vivino.com/sv/penfolds-koonunga-hill-chardonnay/w/1989
+230801,Molí Rosso Di Majo Norante,Di Majo Norante,121.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Montepulciano, Aglianico",3.5,1220,,vertex-ai-search,https://www.vivino.com/sv/di-majo-norante-moli-rosso/w/1633971
+756701,Rotari Brut Riserva,Mezzacorona,139.0,750 ml,Glasflaska,Torrt vitt,Italien,Chardonnay,3.5,2609,,vertex-ai-search,https://www.vivino.com/sv/rotari-riserva-brut/w/1942864
+770101,Rotari Gran Rosé Brut,Mezzacorona,139.0,750 ml,Glasflaska,Rosé,Italien,"Chardonnay, Pinot noir",3.5,2527,,vertex-ai-search,https://www.vivino.com/sv/rotari-brut-rose/w/779940
+537401,Coteaux Bourguignons Chardonnay,Vignerons de Buxy,129.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,3.5,865,,vertex-ai-search,https://www.vivino.com/sv/vignerons-de-buxy-coteaux-bourguignons-buissonnier-chardonnay/w/1650823
+500301,Beaujolais-Villages,Georges Duboeuf,129.0,750 ml,Glasflaska,Mjukt & Bärigt,Frankrike,Gamay,3.5,26601,,vertex-ai-search,https://www.vivino.com/sv/georges-duboeuf-beaujolais-villages/w/79407
+746301,Chateau Musar,Chateau Musar,500.0,750 ml,,Kryddigt & Mustigt,Libanon,"Cabernet sauvignon, Carignan, Cinsault",3.5,61,0.76,vivino-sök,https://www.vivino.com/w/1439713
+241006,Fontana Candida Frascati,Fontana Candida,169.0,1500 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,"Trebbiano toscano, Malvasia di candia, Malvasia del Lazio",3.4,2479,,vertex-ai-search,https://www.vivino.com/sv/fontana-candida-frascati-superiore-secco/w/28654
+756706,Rotari Brut Riserva,Mezzacorona,299.0,1500 ml,Glasflaska,Torrt vitt,Italien,"Chardonnay, Pinot noir",3.5,2609,,vertex-ai-search,https://www.vivino.com/sv/rotari-riserva-brut/w/1942864
+590101,Ruppertsberger Nussbien Riesling Kabinett,Ruppertsberger Weinkeller Hoheburg eG,99.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Tyskland,Riesling,3.4,70,,vertex-ai-search,https://www.vivino.com/sv/ruppertsberger-kabinett-riesling/w/1397096
+792702,Codorníu Ecológica Brut,Codorníu,69.0,375 ml,Glasflaska,Torrt vitt,Spanien,"Parellada, Xarel-lo",3.4,3308,,vertex-ai-search,https://www.vivino.com/sv/codorniu-ecologica-cava-brut/w/1925075
+547501,Bourgogne Pinot Noir Labouré-Roi,Labouré-Roi,149.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Frankrike,Pinot noir,3.4,551,0.88,vivino-sök,https://www.vivino.com/w/1945883
+7280901,Perfect day Bubbles Spumante Cuvée Extra Dry,Contemporary Wines AB,99.0,750 ml,Glasflaska,Torrt vitt,Italien,,3.4,2547,,vertex-ai-search,https://www.vivino.com/sv/perfect-day-vino-da-tavola-bubbles-spumante-cuvee-extra-dry/w/6284470
+224901,Hacienda el Espino Garnacha Tintorera,Hacienda El Espino,89.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,Garnacha tintorera,3.4,2089,,vertex-ai-search,https://www.vivino.com/sv/hacienda-el-espino-garnacha-tintorera-organic/w/8721094
+207301,Org de Rac Shiraz Cabernet Sauvignon Merlot,Org de Rac,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,"Cabernet sauvignon, Merlot, Shiraz",,,,,
+7843501,Montelciego Crianza,Bodegas Montelciego,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.4,7205,,vertex-ai-search,https://www.vivino.com/sv/montelciego-crianza-la-rioja/w/2661382
+547502,Bourgogne Pinot Noir Labouré-Roi,Labouré-Roi,89.0,375 ml,Glasflaska,Mjukt & Bärigt,Frankrike,Pinot noir,3.4,551,0.88,vivino-sök,https://www.vivino.com/w/1945883
+601701,Hope Shiraz Reserve,Iconic Wines,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Australien,Shiraz,3.4,2997,,vertex-ai-search,https://www.vivino.com/sv/hope-estate-reserve-shiraz/w/1417500
+638401,Palazzo Mio Grillo,Nordic Sea Winery,79.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,Grillo,3.4,1249,,vertex-ai-search,https://www.vivino.com/sv/palazzo-mio-mio-grillo-x0066/w/2491920
+9364334,Naturalis Organic Rosé,Angove's,49.0,250 ml,Burk,Fruktigt & Smakrikt,Australien,Shiraz,3.4,71,,vertex-ai-search,https://www.vivino.com/sv/naturalis-south-australia-organic-rose/w/9264395
+629201,Gardo & Morris Pinot Noir,Gardo Morris Wines,129.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Nya Zeeland,Pinot noir,3.4,6487,,vertex-ai-search,https://www.vivino.com/sv/gardo-morris-marlborough-pinot-noir/w/2466183
+7238901,Castelgufo Chianti Riserva Organic,Castelgufo,119.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Colorino, Sangiovese",3.4,4940,,vertex-ai-search,https://www.vivino.com/sv/castelgufo-chianti-riserva/w/5494766
+694201,Rawson's Retreat Shiraz Cabernet,Rawson's Retreat,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Australien,"Cabernet sauvignon, Shiraz",3.4,10867,,vertex-ai-search,https://www.vivino.com/sv/rawsons-retreat-shiraz-cabernet/w/2009
+1644301,Wolf Blass Eaglehawk Chardonnay,Wolf Blass,75.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Australien,Chardonnay,3.4,3700,,vertex-ai-search,https://www.vivino.com/sv/wolf-blass-eaglehawk-chardonnay/w/1130007
+7535001,Charles de Fère Rosé Brut,Charles de Fère,95.0,750 ml,Glasflaska,Rosé,Frankrike,"Bobal, Cinsault, Grenache, Sciacarello, Tempranillo",3.4,1231,,vertex-ai-search,https://www.vivino.com/sv/charles-de-fere-brut-rose-cuvee-jean-louis/w/1668545
+7127501,Federico Paternina Banda Azul Brut,United Wineries,109.0,750 ml,Glasflaska,Torrt vitt,Spanien,,3.4,6131,,vertex-ai-search,https://www.vivino.com/sv/federico-paternina-sa-cava-banda-azul-vintage-brut/w/6763556
+234001,La Corte del Pozzo Bardolino,Fasoli Gino,115.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Italien,"Corvina, Rondinella, Corvinone",3.2,4763,,websearch,https://www.vivino.com/sv/fasoli-gino-la-corte-del-pozzo-bardolino/w/1165670
+2267401,Viña Albali Reserva,Felix Solis,89.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.4,32041,,vertex-ai-search,https://www.vivino.com/sv/felix-solis-vina-albali-reserva-valdepenas/w/1823360
+216701,Terre de Mistral Reserve Côtes du Rhône Organic,Les Vignerons d'Estezargues,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,"Carignan, Grenache, Mourvèdre, Syrah",3.3,1855,,websearch,https://www.vivino.com/sv/estezargues-terre-de-mistral-reserve-cotes-du-rhone/w/2678172
+213701,Perdeberg Pinotage,Perdeberg Cellar,97.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,Pinotage,3.3,1720,,vertex-ai-search,https://www.vivino.com/sv/perdeberg-perdeberg-fairtrade-pinotage/w/4195011
+685101,Río Claro Sauvignon Blanc,Miguel Torres,82.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Chile,Sauvignon blanc,3.3,1263,,vertex-ai-search,https://www.vivino.com/sv/miguel-torres-chile-rio-claro-sauvignon-blanc/w/2687498
+645602,Gardo & Morris Organic Pinot Noir,Gardo Morris Wines,86.0,375 ml,Glasflaska,Mjukt & Bärigt,Nya Zeeland,Pinot noir,3.3,135,,vertex-ai-search,https://www.vivino.com/sv/gardo-morris-waipara-pinot-noir/w/1858716
+7062501,Buccia,Iconic Wines,109.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Italien,Carricante,3.3,364,,vertex-ai-search,https://www.vivino.com/sv/iconic-wines-wine-of-sweden-buccia-carricante-arancio/w/12523669
+471601,SEDA Bobal Syrah,Torre Oria,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Spanien,"Bobal, Syrah",,,,,
+7278201,Piemonte Barbera,San Silvestro,129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Barbera,3.6,13199,,websearch,https://www.vivino.com/sv/san-silvestro-ottone-i-barbera-piemonte/w/17063
+5304901,La Scoperta Barbera d´Asti,Cantine Pirovano,105.0,1000 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,,,,,
+7525301,Pol Rémy Gala Brut,Pol Rémy,69.0,750 ml,Lättare glasflaska,,Frankrike,"Chardonnay, Folle blanche, Ugni blanc",3.2,99,,vertex-ai-search,https://www.vivino.com/sv/pol-remy-gala-brut/w/1533869
+653901,Fair & Square Smart,La Riojana,79.0,1000 ml,,Druvigt & Blommigt,Argentina,,3.1,50,,vertex-ai-search,https://www.vivino.com/sv/la-riojana-fair-square-smart-organic-red/w/10835874
+260934,GOSA Organic Rosé,Bodegas Juan Gil,45.0,250 ml,Burk,Friskt & Bärigt,Spanien,"Syrah, Tempranillo",3.1,389,,vertex-ai-search,https://www.vivino.com/sv/juan-gil-gosa-organic-monastrell/w/2557299
+540802,Beaujolais Royal,Dufouleur Frères,75.0,375 ml,Glasflaska,Mjukt & Bärigt,Frankrike,Gamay,3.1,3557,,vertex-ai-search,https://www.vivino.com/sv/dufouleur-freres-royal-beaujolais/w/1186470
+540801,Beaujolais Royal,Dufouleur Frères,119.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Frankrike,Gamay,3.1,3557,,vertex-ai-search,https://www.vivino.com/sv/dufouleur-freres-royal-beaujolais/w/1186470
+764901,Chapel Hill Blanc de Blancs Chardonnay,Balatonboglár Winery,79.0,750 ml,Lättare glasflaska,Torrt vitt,Ungern,Chardonnay,3.1,243,,vertex-ai-search,https://www.vivino.com/sv/balatonboglar-winery-blanc-de-blancs-chardonnay-brut/w/11919236
+242104,Dulban Garnacha,Castelo de Pedregosa,40.0,250 ml,Burk,Mjukt & Bärigt,Spanien,Garnacha,,,,,
+242124,Dulban Garnacha,Castelo de Pedregosa,40.0,250 ml,Burk,Mjukt & Bärigt,Spanien,Garnacha,,,,,
+229934,Vinette Chardonnay,Vinette,39.0,250 ml,Burk,Friskt & Fruktigt,Sydafrika,Chardonnay,2.8,126,,vertex-ai-search,https://www.vivino.com/sv/vinette-wines-chardonnay/w/8833903
+229915,Vinette Chardonnay,Vinette,39.0,250 ml,Burk,Friskt & Fruktigt,Sydafrika,Chardonnay,2.8,126,,vertex-ai-search,https://www.vivino.com/sv/vinette-wines-chardonnay/w/8833903
+261401,OVE Lisboa Rosé,Enjoy Wine & Spirits,89.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Portugal,,,,,,
+604501,Black Tower Fruity White,Reh Kendermann,75.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Tyskland,Rivaner,3.5,4852,,vertex-ai-search,https://www.vivino.com/sv/black-tower-fruity-white/w/1147489
+546401,Sander Silvaner,Weingut Sander,109.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Silvaner,0.0,15,,vertex-ai-search,https://www.vivino.com/sv/weingut-sander-bechtheimer-hasensprung-silvaner-eiswein/w/7547206
+464101,Cono Sur Pinot Noir Organic,Viña Cono Sur,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Chile,Pinot noir,0.0,17,,vertex-ai-search,https://www.vivino.com/sv/cono-sur-organic-rose/w/13199255
+5026801,Golden Year Rosé,Urban Wines,99.0,750 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Grenache, Syrah",3.6,1474,,vertex-ai-search,https://www.vivino.com/sv/golden-year-rose/w/9420081
+7215614,Cape Fynbos Merlot,The Grape Grinder,50.0,250 ml,Burk,Fruktigt & Smakrikt,Sydafrika,Merlot,0.0,7,,vertex-ai-search,https://www.vivino.com/sv/grape-grinder-cape-fynbos-merlot/w/13508229
+2019101,Ruppertsberger Von Wallberg Sauvignon Blanc,Ruppertsberger Weinkeller Hoheburg eG,129.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Sauvignon blanc,0.0,16,,vertex-ai-search,https://www.vivino.com/sv/ruppertsberger-sauvignon-blanc-pfalz/w/12050269
+5972201,Wolfgang Grüner Veltliner,Iconic Wines,109.0,1000 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,0.0,18,,vertex-ai-search,https://www.vivino.com/sv/iconic-wines-wine-of-sweden-wolfgang-gruner-veltliner/w/11485802
+415101,Château Bonnet Blanc,André Lurton,115.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Sauvignon blanc, Colombard, Sémillon",3.6,6423,,websearch,https://www.vivino.com/sv/chateau-bonnet-entre-deux-mers-blanc/w/73566
+536101,Francois Martenot Bourgogne Cuvée Prestige Pinot Noir,Francois Martenot,149.0,750 ml,Glasflaska,Mjukt & Bärigt,Frankrike,Pinot noir,3.3,2642,,websearch,https://www.vivino.com/sv/francois-martenot-cuvee-prestige-bourgogne-pinot-noir/w/1144430
+415102,Château Bonnet Blanc,André Lurton,69.0,375 ml,Glasflaska,Friskt & Fruktigt,Frankrike,"Sauvignon blanc, Colombard, Sémillon",3.6,6423,,websearch,https://www.vivino.com/sv/chateau-bonnet-entre-deux-mers-blanc/w/73566
+9316801,Eva Fricke Blanc de Noir Brut Nature,Weingut Eva Fricke,289.0,750 ml,Glasflaska,,Tyskland,Pinot noir,0.0,12,,vertex-ai-search,https://www.vivino.com/sv/fricke-blanc-de-noir-brut-nature/w/13158744
+471715,Piccolo Primo Primitivo,Varvaglione Vigne e Vini,45.0,250 ml,Burk,Fruktigt & Smakrikt,Italien,Primitivo,,,,,
+569101,Famille Audu Chardonnay,Gaec du mas de Reboul,99.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Frankrike,,,,,,
+2019501,Casa Santos Lima Dão reserva,Casa Santos Lima - Companhia das Vinhas S.A.,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,"Touriga naçional, Jaen, Tinta roriz",3.9,160,,websearch,https://www.vivino.com/sv/casa-santos-lima-meia-serra-reserva-tinto/w/11289938
+2030801,Lisa 1503 Spumante,Ca’ di Rajo,99.0,750 ml,Lättare glasflaska,Torrt vitt,Italien,"Garganega, Chardonnay",,,,,
+253401,Gio Rosso Piceno,Terre Cortesi Moncaro,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Montepulciano, Sangiovese",,,,,
+169406,Inycon Fiano Chardonnay,Cantine Settesoli,149.0,1500 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,"Fiano, Chardonnay",,,,,
+2031201,Huber Riesling Family Selection,Weingut Markus Huber GmbH & Co KG,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Riesling,,,,,
+2031334,Ecologica Girasol Rosé Organic Bobal,Hammeken Cellars,49.0,250 ml,Burk,Fruktigt & Smakrikt,Spanien,Bobal,3.3,153,,websearch,https://www.vivino.com/sv/girasol-castilla-la-mancha-ecologica-organic-rose/w/5660700
+282001,Torre do Olivar Treixadura,Adegas Pazo do Mar,149.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,"Treixadura, Albariño",,,,,
+278501,Oakenshield Petite Sirah Castoro Cellars,Castoro Cellars,169.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,Petite sirah,,,,,
+271301,Albades Garnacha Blanca Viura,Hammeken Cellars,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,"Garnacha blanca, Viura",,,,,
+261934,Leva Chardonnay Dimiat & Muscat,Vinex Slavyantsi,39.0,250 ml,Burk,Druvigt & Blommigt,Bulgarien,"Chardonnay, Dimiat, Muscat",3.3,602,,websearch,https://www.vivino.com/sv/leva-chardonnay-muscat-rose-valley/w/7030178
+772002,Casalforte Prosecco Extra Dry,Collis Heritage S.p.A.,69.0,375 ml,Lättare glasflaska,Torrt vitt,Italien,Glera,3.5,5604,,websearch,https://www.vivino.com/sv/casalforte-prosecco-extra-dry/w/1973260
+7598201,Salt & Pepper Double Reserve Cabernet Sauvignon,Providential Wines & Spirits AB,99.0,750 ml,,Fruktigt & Smakrikt,Frankrike,Cabernet sauvignon,,,,,
+649801,Stoneleigh Riesling,Vinarchy,119.0,750 ml,Lättare glasflaska,,Nya Zeeland,Riesling,,,,,
+650801,Black Tower Organic Pink Bubbly,Reh Kendermann,79.0,750 ml,,Fruktigt & Smakrikt,EU,,,,,,
+772001,Casalforte Prosecco Extra Dry,Collis Heritage S.p.A.,99.0,750 ml,Lättare glasflaska,Torrt vitt,Italien,Glera,3.5,5604,,websearch,https://www.vivino.com/sv/casalforte-prosecco-extra-dry/w/1973260
+7216901,Passicone Rosso Organico,Nordic Sea Winery,99.0,1000 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Montepulciano, Primitivo, Sangiovese",3.6,2420,,websearch,https://www.vivino.com/sv/passicone-rosso-organico/w/7120193
+469604,Dolcetto di Pegaso,Calwine,43.0,250 ml,Burk,Fruktigt & Smakrikt,Italien,Dolcetto,,,,,
+761301,Julià & Navinès Cava Organic Semi Seco,1+1=3 U Mes U Fan Tres S.L.,109.0,750 ml,Glasflaska,Halvtorrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",3.7,7521,,websearch,https://www.vivino.com/sv/julia-navines-cava-semi-seco-cava/w/3542318
+499301,Crudo Catarratto Zibibbo Organic,Cantine Colomba Bianca,99.0,750 ml,Glasflaska,Druvigt & Blommigt,Italien,"Catarratto, Zibibbo",,,,,
+215801,Domaine de Collavery,Les Quatre Tours,110.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Frankrike,,3.7,7022,,websearch,https://www.vivino.com/sv/collavery-coteaux-d-aix-en-provence/w/1154322
+7978001,Castelmare Prosecco Organic Extra Dry,Oenoforos S A,109.0,750 ml,Glasflaska,Torrt vitt,Italien,Glera,3.6,2632,,websearch,https://www.vivino.com/sv/castelmare-prosecco-organico-extra-dry/w/7567486
+7241101,Ecoltura Appassimento,Domaine Wines Sweden AB,99.0,750 ml,,Kryddigt & Mustigt,Italien,Primitivo,3.7,4050,,websearch,https://www.vivino.com/sv/fasoli-gino-ecoltura-appassimento/w/5606208
+7937701,Casteloro Prosecco Organic Extra Dry,Fields Wine Company AB,99.0,750 ml,Glasflaska,Torrt vitt,Italien,Glera,3.6,252,,websearch,https://www.vivino.com/sv/casteloro-prosecco-prosecco-organic-extra-dry-prosecco/w/11377753
+221602,Cava 1+1=3 Brut Rosé Pinot Noir Organic,1+1=3 U Mes U Fan Tres S.L.,89.0,375 ml,,Rosé,Spanien,Pinot noir,,,,,
+7960001,Enzo Bartoli Barbera d'Asti Superiore,MGM S.r.l.,159.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,4.0,24006,,websearch,https://www.vivino.com/sv/enzo-bartoli-barbera-d-asti-superiore/w/5927106
+535402,Tommasi Graticcio Appassionato,Tommasi Viticoltori,77.0,375 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Corvina veronese, Merlot, Rondinella",3.8,42968,,websearch,https://www.vivino.com/sv/tommasi-graticcio-appassionato/w/2254874
+535401,Tommasi Graticcio Appassionato,Tommasi Viticoltori,119.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Corvina veronese, Merlot, Rondinella",3.8,42968,,websearch,https://www.vivino.com/sv/tommasi-graticcio-appassionato/w/2254874
+7967101,Maison Bonjour Chardonnay Reserve de la Cave,Vins Biecher,99.0,1000 ml,,Fylligt & Smakrikt,Frankrike,Chardonnay,3.6,1043,,websearch,https://www.vivino.com/sv/maison-bonjour-chardonnay-reserve-de-la-cave/w/7865793
+5114301,Maple & Ash Pinot Noir,Oenoforos S A,119.0,750 ml,Glasflaska,,USA,,3.8,2351,,websearch,https://www.vivino.com/sv/maple-ash-pinot-noir/w/12185343
+7177001,Perfect day VdP Méditerranée,Contemporary Wines AB,99.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Frankrike,"Cinsault, Grenache, Syrah, Rolle",3.3,1726,,websearch,https://www.vivino.com/sv/perfect-day-vino-da-tavola-rose/w/4433373
+7408701,Lynx Petite Sirah Zinfandel,House of Big Wines,109.0,750 ml,Glasflaska,Fruktigt & Smakrikt,USA,"Petite sirah, Zinfandel",3.7,8811,,websearch,https://www.vivino.com/sv/lynx-california-petite-sirah-zinfandel/w/3620750
+3236402,Mauro Primitivo Alberello,Nordic Sea Winery,59.0,375 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Primitivo,3.5,4827,,websearch,https://www.vivino.com/sv/mauro-50264-alberello-primitivo-del-salento/w/2365245
+2018801,Calissano Monferrato,CA' BIANCA SPA,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Barbera, Albarossa",,,,,
+787301,Castiôn Moscato d'Asti,San Martino di Soave Ernesto,119.0,750 ml,Glasflaska,Sött,Italien,,3.9,2398,,websearch,https://www.vivino.com/sv/castion-moscato-d-asti/w/1189324
+7934201,Casteloro Prosecco Extra Dry,Fields Wine Company AB,97.0,750 ml,Glasflaska,Torrt vitt,Italien,Glera,3.5,2632,,websearch,https://www.vivino.com/sv/casteloro-prosecco-prosecco-extra-dry/w/6887564
+471101,Lavista Malbec Reserve,Bodegas DiamAndes,79.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,,,,,
+243501,The Wanted Zin Zinfandel Old Vines,Orion Wines,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,,3.8,20996,,websearch,https://www.vivino.com/sv/the-wanted-zinfandel-old-vines/w/1567077
+626601,Ecologica Berlina Organic,Ruppertsberger Weinkeller Hoheburg eG,79.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Tyskland,"Riesling, Rivaner",,,,,
+657101,Grower's Club Malbec,Origin Global Distribution,79.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Sydafrika,Malbec,2.8,85,,websearch,https://www.vivino.com/sv/origin-grower-s-club-malbec-western-cape/w/13674303
+7235001,Black Tower Organic White Bubbly,Reh Kendermann,79.0,750 ml,Lättare glasflaska,Lätt & Avrundat,EU,"Airén, Macabeo, Sauvignon blanc, Verdejo",3.4,444,,websearch,https://www.vivino.com/sv/black-tower-white-bubbly/w/2437454
+5864301,Il Capolavoro Appassimento Rosso,Globus Wine,79.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.8,17484,,websearch,https://www.vivino.com/sv/il-capolavoro-appassimento/w/2092363
+7444702,Casalforte Moscato,Collis Heritage,65.0,375 ml,,Sött,Italien,Moscato,3.6,51,,websearch,https://www.vivino.com/sv/casalforte-moscato-dolce/w/13292872
+7710401,Alvaroni Cava Brut Organic,Fields Wine Co,97.0,750 ml,Glasflaska,Torrt vitt,Spanien,,3.3,1934,,websearch,https://www.vivino.com/sv/alvaroni-cava-organic-brut/w/7473384
+7487901,P.Lex Pinot Grigio,Icon Wines,109.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Italien,Pinot grigio,3.5,3382,,websearch,https://www.vivino.com/sv/p-lex-pinot-grigio/w/2256317
+7349801,Casteloro Valpolicella Ripasso Superiore,Fields Wine Company AB,115.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.8,8800,,websearch,https://www.vivino.com/sv/casteloro-valpolicella-ripasso-superiore/w/6396490
+7990701,Maison Francoise Chardonnay,Nordic Sea Winery,109.0,1000 ml,Lättare glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,3.5,876,,websearch,https://www.vivino.com/sv/maison-francoise-chardonnay/w/8291405
+7213901,GW :s Reserva,Scanivinus Lda.,109.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Portugal,"Aragonez, Cabernet sauvignon, Castelão",,,,,
+7420801,Amarone della Valpolicella Casteloro,Fields Wine Company AB,199.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,,,,,
+5056901,Arc-en-Ciel Rosé,Providential Wines & Spirits AB,99.0,1000 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,"Carignan, Grenache, Merlot",3.5,339,,websearch,https://www.vivino.com/sv/arc-en-ciel-rose/w/9876834
+7252601,La Bestia Governo Rosso Toscano,Domaine Wines,109.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Colorino, Sangiovese",,,,,
+281415,Camp Sparkling,Maison Idiart,40.0,200 ml,Burk,Torrt vitt,Frankrike,,,,,,
+281435,Camp Sparkling,Maison Idiart,40.0,200 ml,Burk,Torrt vitt,Frankrike,,,,,,
+7582501,Grandiosa Gran Especial Malbec,Icon Wines,99.0,1000 ml,Lättare glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,3.6,1467,,websearch,https://www.vivino.com/sv/grandiosa-gran-especial-malbec/w/8421946
+7102001,ChateauBriand Bordeaux,Carovin AB,119.0,750 ml,Glasflaska,Stramt & Nyanserat,Frankrike,"Merlot, Cabernet sauvignon",,,,,
+778201,Campo Viejo Cava Brut Reserva Organic,Vinarchy,109.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",3.7,431,,websearch,https://www.vivino.com/sv/campo-viejo-cava-brut-reserva/w/10689496
+5962001,Hola MZ Rosé by Måns Zelmerlöw,Barcelona Brands S.L,99.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Spanien,"Tempranillo, Garnacha, Syrah",,,,,
+280101,Ruppertsberger Imperial Cuvée Organic,Ruppertsberger Weinkeller Hoheburg eG,89.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,"Pinot blanc, Riesling, Chardonnay, Scheurebe, Pinot gris",3.7,3034,,websearch,https://www.vivino.com/sv/ruppertsberger-imperial-cuvee-organic/w/5574117
+749602,Jacob's Creek Organic Chardonnay,Vinarchy,59.0,375 ml,Glasflaska,Friskt & Fruktigt,Australien,Chardonnay,3.2,257,,websearch,https://www.vivino.com/sv/jacob-s-creek-organic-chardonnay/w/6851753
+2003635,Eòlic Brut Nature,Molí Parellada,39.0,200 ml,Burk,Torrt vitt,Spanien,"Macabeo, Xarel-lo",2.9,153,,websearch,https://www.vivino.com/sv/moli-parellada-eolic-organic-brut-nature/w/11082933
+260301,Segredos de São Miguel Organic,Casa Relvas,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,"Aragonez, Alicante bouschet, Syrah",,,,,
+7024801,Leif Mannerström Sauvignon Blanc,Urban Wines,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.5,955,,websearch,https://www.vivino.com/sv/leif-mannerstrom-sauvignon-blanc/w/7337828
+3245202,Raccolto Nero d'Avola Cabernet Sauvignon Organic,Nordic Sea Winery,64.0,375 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Nero d'avola, Cabernet sauvignon",,,,,
+642701,Stoneleigh Chardonnay,Vinarchy,125.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Nya Zeeland,Chardonnay,3.7,3549,,websearch,https://www.vivino.com/sv/stoneleigh-chardonnay/w/23836
+286601,Foot of Africa Coastal blend,Kleine Zalze,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Sydafrika,"Chardonnay, Chenin blanc, Sauvignon blanc",,,,,
+7239901,Enzo Bartoli Barolo,MGM S.r.l.,239.0,750 ml,Glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,4.0,14633,,websearch,https://www.vivino.com/sv/enzo-bartoli-barolo/w/5928997
+5239101,Pinot Noir Cuvée Celeste,Fields Wine Company AB,95.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Frankrike,Pinot noir,,,,,
+558801,Petit Chablis Domaine Sainte Claire J M Brocard,J M Brocard,170.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.7,5760,,websearch,https://www.vivino.com/sv/jean-marc-brocard-domaine-sainte-claire-petit-chablis/w/1193438
+670234,Lubanzi Sparkling Cinsault Rosé,Lubanzi Wines,39.0,200 ml,Burk,Rosé,Sydafrika,Cinsault,3.9,277,,websearch,https://www.vivino.com/sv/lubanzi-cinsault/w/12044943
+756401,Gato Negro Cabernet Sauvignon,Viña San Pedro,69.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Chile,Cabernet sauvignon,3.4,42171,,websearch,https://www.vivino.com/sv/gato-negro-cabernet-sauvignon/w/3565573
+7104601,Le Chef Rouge,Giertz Vinimport,99.0,1000 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,"Cinsault, Grenache, Syrah, Marselan",3.3,1414,,websearch,https://www.vivino.com/sv/le-chef-grand-terroir-rouge/w/7727566
+232601,Epicuro Zinfandel,Femar Vini,99.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Zinfandel,3.8,17715,,websearch,https://www.vivino.com/sv/epicuro-zinfandel/w/2355610
+755201,Emily Blanc de Blancs,Josep Masachs,85.0,750 ml,Lättare glasflaska,Torrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",,,,,
+679201,Campolieti Ripasso,Luigi Righetti,129.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,4.0,5534,,websearch,https://www.vivino.com/sv/luigi-righetti-campolieti-valpolicella-ripasso/w/6776278
+5026001,Hola MZ Cava by Måns Zelmerlöw,Barcelona Brands S.L,109.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",,,,,
+7928001,Bread & Butter Chardonnay,Bread & Butter Wines,169.0,750 ml,Glasflaska,Fylligt & Smakrikt,USA,Chardonnay,3.9,64980,,websearch,https://www.vivino.com/sv/bread-and-butter-chardonnay/w/1755251
+7558601,Catch & Release Sauvignon Blanc,Les Domaines Auriol,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.5,2222,,websearch,https://www.vivino.com/sv/les-domaines-auriol-catch-release-sauvignon-blanc/w/4089374
+754735,Bubbelburk Brut,Quarisa Wines,70.0,375 ml,Burk,Torrt vitt,Australien,Glera,,,,,
+631102,Stoneleigh Sauvignon Blanc,Vinarchy,79.0,375 ml,Glasflaska,Friskt & Fruktigt,Nya Zeeland,Sauvignon blanc,3.9,23488,,websearch,https://www.vivino.com/sv/stoneleigh-sauvignon-blanc/w/23834
+207504,Casillero del Diablo Chardonnay,Concha y Toro,39.0,250 ml,Lättare glasflaska,Fylligt & Smakrikt,Chile,Chardonnay,3.5,39799,,websearch,https://www.vivino.com/sv/casillero-del-diablo-chardonnay-reserva/w/1135140
+563701,Chablis Le Beaunois Labouré-Roi,Labouré-Roi,169.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,,,,,
+7684501,Fortellino Ripasso Superiore,The Company of Urban wines And Other Liquids Sweden AB,119.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.7,2822,,websearch,https://www.vivino.com/sv/fortellino-valpolicella-ripasso-superiore-valpolicella-ripasso/w/8737940
+5248201,Massetti Chianti,Fields Wine Company AB,109.0,1000 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,3.3,957,,websearch,https://www.vivino.com/sv/massetti-chianti/w/10099743
+768601,André Clouet Grande Réserve,André Clouet,369.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Pinot noir,3.9,19967,,websearch,https://www.vivino.com/sv/andre-clouet-grande-reserve-brut-champagne-grand-cru-bouzy/w/1108849
+215402,Château Baulac Dodijos,Château Baulac,145.0,375 ml,Glasflaska,Sött,Frankrike,,3.8,1551,,websearch,https://www.vivino.com/sv/chateau-baulac-dodijos-sauternes/w/2064040
+5978601,Cuvée Celeste Blanc de Blancs Brut,Fields Wine Company AB,79.0,750 ml,Lättare glasflaska,Torrt vitt,Frankrike,,3.5,995,,websearch,https://www.vivino.com/sv/de-meyran-cuvee-celeste-blanc-de-blancs-brut-cremant-de-loire/w/11580296
+1236602,Capitel de'Roari Amarone,Luigi Righetti,119.0,375 ml,Glasflaska,Kryddigt & Mustigt,Italien,,4.1,30980,,websearch,https://www.vivino.com/sv/luigi-righetti-capitel-de-roari-amarone-della-valpolicella-classico/w/1141801
+7679001,Maggio,Iconic Wines,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Barbera, Bonarda, Cabernet sauvignon, Dolcetto, Freisa",3.6,4357,,websearch,https://www.vivino.com/sv/maggio-piedmont-rosso/w/6161172
+5558001,Butter Chardonnay,Oenoforos AB,109.0,750 ml,Glasflaska,Fylligt & Smakrikt,USA,,3.5,850,,websearch,https://www.vivino.com/sv/butter-chardonnay/w/12183431
+7693401,Hans Baer Riesling Trocken,Weinkellerei Hechtsheim,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,4.0,31235,,websearch,https://www.vivino.com/sv/hans-baer-riesling-trocken/w/5548979
+3241702,Villa Puccini,Castellani,59.0,375 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Sangiovese, Merlot",3.6,13441,,websearch,https://www.vivino.com/sv/villa-puccini-toscana/w/1153756
+7376601,Marastoni Chianti,Fields Wine Co,99.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,3.4,1236,,websearch,https://www.vivino.com/sv/marastoni-chianti/w/8926607
+7776801,Casteloro Valpolicella,Fields Wine Company AB,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,3.5,842,,websearch,https://www.vivino.com/sv/casteloro-valpolicella/w/9004656
+464304,JP Chenet Cabernet-Syrah,Les Grands Chais de France,39.0,250 ml,Lättare glasflaska,Mjukt & Bärigt,Frankrike,"Cabernet sauvignon, Syrah",,,,,
+232202,il Conte Montepulciano d'Abruzzo,Nordic Sea Winery,54.0,375 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Montepulciano,3.6,264,,websearch,https://www.vivino.com/sv/gr-oenoforos-montepulciano-d-abruzzo/w/6157098
+2008001,OVE Reserva,My Pleasure in Sweden AB,79.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,"Alicante bouschet, Syrah, Tinta roriz",,,,,
+266201,Fariña Lágrima,Bodegas Fariña,109.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Spanien,,,,,,
+7651301,Enzo Bartoli Dolcetto,MGM S.r.l.,119.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Dolcetto,3.7,2766,,websearch,https://www.vivino.com/sv/enzo-bartoli-dolcetto/w/7138148
+206602,Jacob's Creek Organic Shiraz Cabernet,Vinarchy,59.0,375 ml,Glasflaska,Fruktigt & Smakrikt,Australien,"Cabernet sauvignon, Shiraz",3.2,1166,,websearch,https://www.vivino.com/sv/jacob-s-creek-organic-shiraz-cabernet/w/4298006
+7180501,Valpolicella Ripasso ai Colli Vivaldi,Vivaldi Wines,119.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Corvina, Rondinella, Corvinone",3.7,8210,,websearch,https://www.vivino.com/sv/vivaldi-ai-colli-valpolicella-ripasso/w/1791547
+2017701,La Molla Montepulciano d'Abruzzo Riserva,Spring Wine & Spirits,149.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,Montepulciano,3.9,786,,websearch,https://www.vivino.com/sv/la-molla-montepulciano-d-abruzzo-riserva-montepulciano-dabruzzo/w/13674469
+3236401,Mauro Primitivo Alberello,Nordic Sea Winery,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Primitivo,3.5,4827,,websearch,https://www.vivino.com/sv/mauro-50264-alberello-primitivo-del-salento/w/2365245
+2016801,Plume Souvignier Gris,Domaine la Colombette,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Souvignier gris,,,,,
+745101,Roodeberg,KWV,109.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,"Cabernet sauvignon, Merlot, Shiraz",3.6,27634,,websearch,https://www.vivino.com/sv/roodeberg-classic-red-blend/w/1372694
+7297701,Famiglia Grillo Organic,Famiglia Grillo,109.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,"Merlot, Sangiovese",3.6,5382,,websearch,https://www.vivino.com/sv/famiglia-grillo-organic-rosso/w/2850845
+8895801,Frontera Chardonnay,Concha y Toro,69.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Chile,Chardonnay,3.3,15451,,websearch,https://www.vivino.com/sv/cl-frontera-chardonnay/w/1135142
+601202,El Cortejo Sauvignon Blanc,Nordic Sea Winery,59.0,375 ml,Glasflaska,Friskt & Fruktigt,Argentina,Sauvignon blanc,2.9,755,,websearch,https://www.vivino.com/sv/el-cortejo-sauvignon-blanc/w/1185648
+1651002,Viña Maipo Cabernet Sauvignon,Viña Maipo SpA,49.0,375 ml,Glasflaska,Fruktigt & Smakrikt,Chile,Cabernet sauvignon,3.2,15047,,websearch,https://www.vivino.com/sv/vina-maipo-cabernet-sauvignon/w/68094
+7660201,Côtes du Rhône Reserve Blanc,Pellerin,99.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Frankrike,"Grenache blanc, Marsanne, Viognier, Roussanne",3.3,413,,websearch,https://www.vivino.com/sv/joseph-pellerin-reserve-cotes-du-rhone-blanc/w/6345429
+2018501,Costa Carmenere Barrel Reserve,Talagante International Brands,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Chile,Carmenère,,,,,
+276001,Albades Garnacha,Hammeken Cellars,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Spanien,"Garnacha, Cariñena",3.9,292,,websearch,https://www.vivino.com/sv/albades-garnacha-de-montana/w/12915086
+5600801,Julià & Navinès Cava Organic Rosé,1+1=3 U Mes U Fan Tres S.L.,99.0,750 ml,Glasflaska,Rosé,Spanien,"Chardonnay, Grenache, Macabeo, Pinot noir",3.7,494,,websearch,https://www.vivino.com/sv/julia-navines-cava-rose/w/4670087
+7494901,Signed By Riesling Organic,Anora Group PLC,89.0,1000 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,,,,,
+229601,Visio Vintners Pinotage,Liciacept (Pty) Ltd (trading as Visio Vintners),119.0,750 ml,Lättare glasflaska,,Sydafrika,Pinotage,3.5,150,,websearch,https://www.vivino.com/sv/visio-vintners-pinotage/w/11567504
+1210304,JP Chenet Colombard Sauvignon,Les Grands Chais de France,39.0,250 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Colombard, Sauvignon blanc",3.5,7000,,websearch,https://www.vivino.com/sv/jp-chenet-original-colombard-sauvignon-gascony/w/1160896
+7823001,Coste di moro Lunaria Montepulciano d`Abruzzo,Soc Coop Ag Olearia Vinicola Orsogna,129.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Montepulciano,3.9,22289,,websearch,https://www.vivino.com/sv/lunaria-coste-di-moro-montepulciano-d-abruzzo/w/3641284
+2006714,Fiuza Castelão,Fiuza & Bright,39.0,250 ml,Burk,Fruktigt & Smakrikt,Portugal,Castelão,3.2,70,,websearch,https://www.vivino.com/sv/fiuza-castelao/w/12296514
+665701,Moselland Riesling Spätlese,Moselland,89.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.8,3461,,websearch,https://www.vivino.com/sv/moselland-riesling-spatlese/w/1972850
+216301,Tamaral,Bodegas Tamaral,166.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Spanien,"Tempranillo, Cabernet sauvignon",3.9,5163,,websearch,https://www.vivino.com/sv/tamaral-crianza/w/1637474
+7133501,Casa Vinironia Rosso Grande Organic,Casa Vinironia,99.0,1000 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,,3.5,549,,websearch,https://www.vivino.com/sv/casa-vinironia-vino-da-tavola-rosso-grande/w/8060426
+7542301,Pietra d' Elsa Toscana Sangiovese,Vinimundi AB,99.0,1000 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,3.6,1322,,websearch,https://www.vivino.com/sv/vinimundi-wines-pietra-d-elsa-toscana-sangiovese/w/8269410
+5024701,Dominio Alto Crianza,Fields Wine Company AB,89.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,"Garnacha, Mazuelo, Tempranillo",,,,,
+257101,Mateus Rosé,Sogrape,89.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Portugal,"Baga, Rufete, Tinta barroca, Touriga franca",3.4,332,,websearch,https://www.vivino.com/sv/mateus-rose/w/74905
+768401,Pata Negra Brut,Jaume Serra,89.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",,,,,
+219434,WG Wine Gourmet Sparkling Grüner Veltliner,HEBA Food & Beverages AB,36.0,200 ml,Burk,Torrt vitt,Österrike,Grüner veltliner,,,,,
+2006234,Le Rosé Domaine de la Bargemone,Cave de la Bargemone,62.0,250 ml,Burk,Friskt & Bärigt,Frankrike,,4.0,3218,,websearch,https://www.vivino.com/sv/commanderie-de-la-bargemone-commanderie-de-la-bargemone-rose/w/1234771
+789701,Mia Sparkling Moscato,Freixenet,92.0,750 ml,Glasflaska,Sött,Spanien,Muscat,,,,,
+7882201,Zingled out Zinfandel,Oenoforos,104.0,1000 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,,4.0,1426,,websearch,https://www.vivino.com/sv/zingled-out-american-zinfandel/w/3765250
+7896701,Brochet Réserve Sauvignon Blanc,Ampelidae,129.0,750 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Sauvignon blanc,3.6,4310,,websearch,https://www.vivino.com/sv/ampelidae-brochet-reserve-sauvignon-blanc/w/3178058
+7062601,Leitz Magic Mountain Rüdesheimer Riesling Trocken,Weingut Leitz,167.0,750 ml,Glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.9,6897,,websearch,https://www.vivino.com/sv/leitz-magic-mountain-rudesheimer-riesling/w/1589378
+620201,Hunter's Sauvignon Blanc,Hunter's Wines,129.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Nya Zeeland,Sauvignon blanc,3.8,8098,,websearch,https://www.vivino.com/sv/hunters-4826-sauvignon-blanc/w/17074
+7587601,Philippe Benoit Bordeaux,Mare Magnum,119.0,750 ml,Lättare glasflaska,Stramt & Nyanserat,Frankrike,,3.7,822,,websearch,https://www.vivino.com/sv/philippe-benoit-bordeaux/w/13192356
+1234301,Amarone A Alpha Zeta,Alpha Zeta,249.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Corvina veronese, Rondinella, Corvinone",4.1,14931,,websearch,https://www.vivino.com/sv/alpha-zeta-a-amarone-della-valpolicella/w/1144268
+7804701,Bread & Butter Cabernet Sauvignon,Bread & Butter Wines,169.0,750 ml,Glasflaska,Fruktigt & Smakrikt,USA,Cabernet sauvignon,4.0,50080,,websearch,https://www.vivino.com/sv/bread-and-butter-cabernet-sauvignon-california-red-wine/w/6218579
+5287301,Pascal Costeau Côtes-du-Rhône Grande Réserve,Fields Wine Company AB,89.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Syrah",3.5,617,,websearch,https://www.vivino.com/sv/pascal-costeau-grande-reserve-vieilles-vignes-cotes-du-rhone/w/10095824
+2014601,Maison Petit Perle Blanc,Les Chais du Plan Carré,99.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Frankrike,"Grenache blanc, Sauvignon blanc, Viognier",3.8,278,,websearch,https://www.vivino.com/sv/les-chais-du-plan-carre-maison-petit-perle-cuvee-millesimee-blanc/w/13380531
+149201,Xavier Vignon Vacqueyras,Xavier Vignon,155.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Frankrike,"Grenache noir, Syrah, Mourvèdre",3.9,4043,,websearch,https://www.vivino.com/sv/xavier-vignon-vacqueyras/w/1189540
+7903901,Saint Louis Pinot Noir,Giertz Vinimport,99.0,1000 ml,Lättare glasflaska,Mjukt & Bärigt,Frankrike,Pinot noir,3.5,35,,websearch,https://www.vivino.com/sv/e-c-oxenham-cy-domaine-saint-louis-pinot-noir/w/6991137
+7895101,Maison Blanche Sauvignon Blanc Chardonnay,Jean Biecher,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,"Chardonnay, Sauvignon blanc",3.7,256,,websearch,https://www.vivino.com/sv/jean-biecher-maison-blanche-sauvignon-blanc-chardonnay/w/12401807
+2018201,Casa de Cambres Reserva Red,"Solar de Cambres, LDA",129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,"Tinta roriz, Touriga franca, Touriga naçional",3.7,1159,,websearch,https://www.vivino.com/sv/cambres-reserva-tinto/w/1304329
+266401,Q Malbec,Quarisa Wines,89.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Australien,Malbec,,,,,
+5602901,Cava Complicado de Miss Li,Solera Sweden AB,115.0,750 ml,Glasflaska,Torrt vitt,Spanien,,,,,,
+278601,Campo Viejo Crianza,Vinarchy,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,"Tempranillo, Garnacha, Mazuelo",,,,,
+5053401,Crémant de Loire Blanc de Blancs Brut Cuvée Celeste,Fields Wine Company AB,119.0,750 ml,Glasflaska,Torrt vitt,Frankrike,,3.7,3664,,websearch,https://www.vivino.com/sv/de-meyran-cuvee-celeste-cremant-de-loire-blanc-de-blancs-brut-cremant-de-loire-sparkling-v-rrk9p/w/9563238
+241501,Masi Masianco Pinot Grigio delle Venezie,Masi,99.0,750 ml,Glasflaska,Friskt & Fruktigt,Italien,"Pinot grigio, Verduzzo",3.6,15959,,websearch,https://www.vivino.com/sv/masi-veneto-masianco/w/21950
+228201,Côté Mas Organic Rosé,Jean-Claude Mas,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,"Mourvèdre, Syrah",,,,,
+1236601,Capitel de'Roari Amarone,Luigi Righetti,225.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,,4.1,30980,,websearch,https://www.vivino.com/sv/luigi-righetti-capitel-de-roari-amarone-della-valpolicella-classico/w/1141801
+742201,Taittinger Brut Réserve,Taittinger,539.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay, Pinot meunier",,,,,
+5207701,Nicolas Brobergière Brut,Urban Wines,269.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Pinot meunier, Pinot noir",3.8,3168,,websearch,https://www.vivino.com/sv/nicolas-brobergiere-cuvee-premiere-brut-champagne/w/9928050
+681601,The Great Bonza Reserve Shiraz Cabernet,Quarisa Wines,89.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Australien,"Shiraz, Cabernet sauvignon, Durif",3.8,587,,websearch,https://www.vivino.com/sv/quarisa-the-great-bonza-reserve-shiraz-cabernet-south-eastern/w/5690759
+563702,Chablis Le Beaunois Labouré-Roi,Labouré-Roi,99.0,375 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.7,6228,,websearch,https://www.vivino.com/sv/laboure-roi-le-beaunois-chablis/w/1125280
+5058001,Dominio Alto Cava Brut Organic,Fields Wine Company AB,89.0,750 ml,Glasflaska,Torrt vitt,Spanien,,3.5,1384,,websearch,https://www.vivino.com/sv/dominio-alto-cava-ecologico-brut/w/9542992
+657301,Caravan Durif,Quarisa Wines,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Australien,Durif,3.8,14470,,websearch,https://www.vivino.com/sv/quarisa-caravan-durif-a-k-a-petite-sirah/w/1833027
+7423401,Bergh Grüner Veltliner Organic,Icon Wines,109.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Grüner veltliner,,,,,
+256601,Gazela,Sogrape,75.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Portugal,"Arinto, Loureiro, Trajadura, Azal",,,,,
+220301,Cuvée Madame Sélection de Mademoiselle,Contemporary Wines AB,139.0,750 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Mourvèdre, Syrah, Cinsault, Grenache",,,,,
+253201,Parajes del Valle Monastrell,Parajes del Valle Bodegas y Viñedos S.L,99.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Spanien,Monastrell,3.7,12458,,websearch,https://www.vivino.com/sv/parajes-del-valle-monastrell/w/7281325
+2030401,Baglietti Prosecco,47 Anno Domini,109.0,750 ml,Glasflaska,Torrt vitt,Italien,Glera,3.6,948,,websearch,https://www.vivino.com/sv/baglietti-organic-prosecco-prosecco/w/11264402
+694202,Rawson's Retreat Shiraz Cabernet,Rawson's Retreat,55.0,375 ml,Glasflaska,Fruktigt & Smakrikt,Australien,"Cabernet sauvignon, Shiraz",3.4,10867,,websearch,https://www.vivino.com/sv/rawsons-retreat-shiraz-cabernet/w/2009
+7454301,Riunite Lambrusco Farfalle,Cantine Riunite,99.0,750 ml,Glasflaska,Sött,Italien,,,,,,
+7045101,François Martenot Crémant de Bourgogne Brut,Francois Martenot,139.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Chardonnay, Gamay, Pinot noir, Aligoté",3.8,9320,,websearch,https://www.vivino.com/sv/francois-martenot-cremant-de-bourgogne-brut/w/4857842
+229501,Blason de Bourgogne Mâcon-Villages Chardonnay,Vignerons des Grandes Vignes,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.5,6516,,websearch,https://www.vivino.com/sv/blason-chardonnay-macon-villages/w/22528
+5246801,Dominio Alto Reserva,Fields Wine Company AB,99.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,,,,,,
+215501,Costa Casablanca Pinot Noir,Talagante International Brands,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Chile,Pinot noir,,,,,
+629301,Moonlight Manor Chenin Blanc Sauvignon Blanc,Origin Wine Stellenbosch,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Sydafrika,"Chenin blanc, Sauvignon blanc, Viognier",,,,,
+658601,Cono Sur Cabernet Sauvignon Carmenere Syrah Organic,Viña Cono Sur,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Chile,"Cabernet sauvignon, Carmenère, Syrah",3.5,6408,,websearch,https://www.vivino.com/sv/cono-sur-organic-cabernet-sauvignon-carmenere-syrah-colchagua-valley/w/6051475
+297401,Ruppertsberger Imperial Pinot Noir,Ruppertsberger Weinkeller Hoheburg eG,95.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Tyskland,Pinot noir,3.3,2768,,websearch,https://www.vivino.com/sv/ruppertsberger-imperial-pinot-noir/w/7043340
+2011501,Boca Mar Algarve Reserva,Casa Santos Lima - Companhia das Vinhas S.A.,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,,,,,,
+277134,Asiotus Vino Bianco Biologico Frizzante,Cuvage Srl,39.0,200 ml,Burk,Torrt vitt,Italien,Glera,,,,,
+2015501,Dicey Dice Pinot Noir,Dicey Ltd,120.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Nya Zeeland,Pinot noir,4.0,208,,websearch,https://www.vivino.com/sv/dicey-pinot-noir/w/9551882
+541101,Mezzacorona Pinot Nero,Nosio,99.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Italien,,3.5,3116,,websearch,https://www.vivino.com/sv/mezza-corona-pinot-nero-trentino/w/2353969
+269914,Velo Barbera,Torrevilla,40.0,250 ml,Burk,Fruktigt & Smakrikt,Italien,Barbera,3.5,134,,websearch,https://www.vivino.com/sv/velo-piedmont-barbera/w/10664684
+7479801,Crémant de Bourgogne Grande Reserve Brut,Fields Wine Company AB,129.0,750 ml,Glasflaska,Torrt vitt,Frankrike,,3.8,274,,websearch,https://www.vivino.com/sv/louis-bouillot-cremant-de-bourgogne-grande-reserve-brut-cremant-de-bourgogne/w/6600426
+7214301,Dominio Alto Gran Reserva,Fields Wine Company AB,119.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.7,4154,,websearch,https://www.vivino.com/sv/dominio-alto-gran-reserva/w/8930266
+9009634,Leva Cabernet Shiraz Rosé,Sortoizpitvane Sungurlare,39.0,250 ml,Burk,Fruktigt & Smakrikt,Bulgarien,"Cabernet sauvignon, Shiraz",3.3,1222,,websearch,https://www.vivino.com/sv/leva-val-des-roses-cabernet-shiraz-rose/w/1650424
+238701,Ménage à Trois Cabernet Sauvignon,Calwine,139.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,Cabernet sauvignon,,,,,
+747001,Loxarel A Pèl Classic Penedes Brut Nature Reserva,Masia can Mayols.L,145.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Chardonnay, Macabeo, Xarel-lo",3.7,7632,,websearch,https://www.vivino.com/sv/loxarel-a-pel-classic-reserva-brut-nature/w/6649617
+236414,Le Meilleur Pinot Noir,Oenoforos,49.0,250 ml,Burk,Mjukt & Bärigt,Frankrike,Pinot noir,,,,,
+270901,Pietra Di Pinot Grigio,Gruppo Martellozzo,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,Pinot grigio,3.4,2700,,websearch,https://www.vivino.com/sv/piera-martellozzo-pietra-di-pinot-grigio-delle-venezie/w/3253014
+206301,Prince Alexandre Rosé Brut Organic,Cave Robert et Marcel,109.0,750 ml,Glasflaska,Rosé,Frankrike,"Cabernet franc, Grolleau",3.8,72,,websearch,https://www.vivino.com/sv/robert-marcel-prince-alexandre-cremant-de-loire-brut-rose/w/2179914
+257501,Robert Hall Paso Red Red Blend,O'Neill Vintners & Distillers,149.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,USA,"Cabernet sauvignon, Graciano, Petite sirah",4.0,358,,websearch,https://www.vivino.com/sv/robert-hall-paso-red/w/8472717
+7765301,Grande Cuvée La Maison Rosé,Vini Bella Terra,109.0,1000 ml,Lättare glasflaska,Friskt & Bärigt,Frankrike,,,,,,
+5531501,Hola MZ Cava Rosé by Måns Zelmerlöw,Barcelona Brands S.L,119.0,750 ml,Glasflaska,Rosé,Spanien,,,,,,
+7960006,Enzo Bartoli Barbera d'Asti Superiore,MGM S.r.l.,329.0,1500 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,4.0,24006,,websearch,https://www.vivino.com/sv/enzo-bartoli-barbera-d-asti-superiore/w/5927106
+7794001,Enzo Bartoli Rosato,MGM S.r.l.,139.0,750 ml,Glasflaska,Friskt & Bärigt,Italien,"Barbera, Dolcetto",3.8,3818,,websearch,https://www.vivino.com/sv/enzo-bartoli-rosato/w/6334674
+225614,Maison Petit Perle Le Petit Petit Grenache,Vignobles de Cicéron,49.0,250 ml,Burk,Fruktigt & Smakrikt,Frankrike,Grenache,,,,,
+7477501,Maison Francoise Bordeaux,Carovin AB,109.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,,3.4,560,,websearch,https://www.vivino.com/sv/maison-francoise-reserve-bordeaux/w/12980382
+668001,Cono Sur Bicicleta Gewürztraminer,Viña Cono Sur,79.0,750 ml,Glasflaska,Druvigt & Blommigt,Chile,Gewürztraminer,,,,,
+253501,Minimalista Monastrell,Wiberica Biotec S.L.,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Spanien,Monastrell,,,,,
+792601,Ecologica Moscato Spumante,La Riojana,109.0,750 ml,Glasflaska,Sött,Argentina,Muscat,3.6,801,,websearch,https://www.vivino.com/sv/ecologic-moscato-spumante-dolce/w/6545993
+393001,Gran Passione Appassimento Organic,ViniMundi,119.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,"Merlot, Negroamaro, Malvasia nero",4.0,7245,,websearch,https://www.vivino.com/sv/gran-passione-gran-passione-appassimento-organic/w/6093370
+630201,Gurra Gurra Creek Shiraz,Nordic Sea Winery,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Australien,"Shiraz, Cabernet sauvignon",3.5,2425,,websearch,https://www.vivino.com/sv/gurra-gurra-creek-shiraz/w/1803879
+5742801,Ruppertsberger Von Wallberg Riesling Trocken,Ruppertsberger Weinkeller Hoheburg eG,129.0,750 ml,Glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.9,967,,websearch,https://www.vivino.com/sv/ruppertsberger-von-wallberg-riesling/w/11091917
+7482501,¡Hola! Mediterráneo Gran Cuvée Blanc de Blancs,Barcelona Brands S.L,99.0,750 ml,Glasflaska,Torrt vitt,Spanien,,,,,,
+232001,Villa Dauga Albariño,Bodegas Pazo Cilleiro,129.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,Albariño,3.7,1834,,websearch,https://www.vivino.com/sv/villa-dauga-albarino/w/11175610
+2005235,Alto Molino Chardonnay,Artel inc,46.0,250 ml,Burk,Friskt & Fruktigt,Argentina,Chardonnay,,,,,
+7786001,Pazzione Cava by Pernilla Wahlgren,ViniMundi,115.0,750 ml,Glasflaska,Torrt vitt,Spanien,,3.2,1398,,websearch,https://www.vivino.com/sv/pazzione-pernilla-wahlgren-cava-organic-extra-brut-cava/w/8136180
+7429901,Prohibition Zinfandel,Solera Sweden AB,99.0,750 ml,Glasflaska,Fruktigt & Smakrikt,USA,Zinfandel,3.6,5237,,websearch,https://www.vivino.com/sv/primewine-prohibition-zinfandel/w/2736685
+2011201,Lunadoro Rosso di Montepulciano Organic,Schenk Italia Spa,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,3.7,229,,websearch,https://www.vivino.com/sv/lunadoro-rosso-di-montepulciano/w/1190307
+7285901,Riesling Returns The Grape Collective,Spring Wine & Spirits,139.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Riesling,3.8,2871,,websearch,https://www.vivino.com/sv/the-grape-collective-riesling-returns/w/8521859
+249201,Nizza Scrimaglio,Vite Colte,129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,Barbera,,,,,
+752101,Petite Belle Sparkling Brut,Liciacept (Pty) Ltd (trading as Visio Vintners),99.0,750 ml,Glasflaska,Torrt vitt,Sydafrika,"Chenin blanc, Colombard",3.4,428,,websearch,https://www.vivino.com/sv/petite-belle-blanc-de-blancs-brut/w/13366289
+221601,Cava 1+1=3 Brut Rosé Pinot Noir Organic,1+1=3 U Mes U Fan Tres S.L.,139.0,750 ml,Glasflaska,Rosé,Spanien,Pinot noir,,,,,
+7038501,Castelmare Prosecco Rosé Extra Dry,Oenoforos,114.0,750 ml,Glasflaska,Rosé,Italien,,3.6,850,,websearch,https://www.vivino.com/sv/castelmare-prosecco-organic-rose-extra-dry/w/9006822
+219901,Christina Carnuntum Organic,Weingut Franz Netzl,120.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Österrike,,,,,,
+2010702,Château Tirecul La Gravière Les Pins,Bruno Bilancini El,120.0,375 ml,Glasflaska,Sött,Frankrike,,,,,,
+241301,Jacob's Creek Lighter Alcohol Shiraz,Vinarchy,89.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Australien,Shiraz,3.2,62,,websearch,https://www.vivino.com/sv/jacob-s-creek-classic-lighter-alcohol-shiraz/w/10187064
+224701,Chin Chin,Viña Morande,85.0,750 ml,Lättare glasflaska,,Chile,"Cabernet sauvignon, Carmenère",,,,,
+468402,Château Bastor-Lamontagne Organic,Terres Bordelaises,229.0,375 ml,Glasflaska,Sött,Frankrike,,4.0,4338,,websearch,https://www.vivino.com/sv/chateau-bastor-lamontagne-sauternes/w/93611
+7726201,Philippe De Nantheuil Brut,CVC NF,269.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot meunier, Pinot noir, Chardonnay",3.7,4505,,websearch,https://www.vivino.com/sv/philippe-de-nantheuil-brut-champagne/w/2127075
+636002,Stoneleigh Latitude Chardonnay,Vinarchy,85.0,375 ml,Glasflaska,Fylligt & Smakrikt,Nya Zeeland,Chardonnay,3.7,3625,,websearch,https://www.vivino.com/sv/stoneleigh-chardonnay-latitude/w/3427775
+9212401,Boya Pinot Noir,Viña Garcés Silva,169.0,750 ml,,Kryddigt & Mustigt,Chile,Pinot noir,3.6,3938,,websearch,https://www.vivino.com/sv/boya-pinot-noir/w/1912227
+9213001,Doja Prokupac,VINARIJA DOJA D.o.o,149.0,750 ml,Glasflaska,Kryddigt & Mustigt,Serbien,Prokupac,3.9,2348,,websearch,https://www.vivino.com/sv/doja-vinarija-prokupac/w/4951481
+7788901,P.Lex Prosecco Brut,Icon Wines,125.0,750 ml,Glasflaska,Torrt vitt,Italien,Glera,,,,,
+754401,Pirie Traditional Method,Brown Family Wine Group,249.0,750 ml,Glasflaska,Torrt vitt,Australien,"Pinot noir, Chardonnay",,,,,
+635701,Adobe Reserva Rosé,Viñedos Emiliana,79.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Chile,"Cabernet sauvignon, Syrah, Merlot",,,,,
+9231201,Manuel Formigo Finca Teira,Adega Manuel Formigo,149.0,750 ml,Glasflaska,Friskt & Fruktigt,Spanien,,3.8,782,,websearch,https://www.vivino.com/sv/manuel-formigo-finca-teira-blanco/w/1367346
+9001901,Ricossa Monferrato Nebbiolo,Ricossa SRL,119.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Nebbiolo,,,,,
+7897901,Richard Juhlin Blanc de Blancs Brut,Domaine Wines Sweden AB,129.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,3.7,4107,,websearch,https://www.vivino.com/sv/richard-juhlin-blanc-de-blancs-brut/w/8317448
+555101,Groh Organic Grauburgunder Trocken,Estate Groh,139.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Grauburgunder,3.8,2241,,websearch,https://www.vivino.com/sv/de-groh-organic-grauburgunder/w/7328425
+259101,Children of the revolution Pinot Noir,Fourth Wave Wine,99.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Australien,Pinot noir,,,,,
+8110901,Bergh Riesling Organic,Icon Wines,119.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Österrike,Riesling,,,,,
+7835901,Petite Cuvée Madame,Contemporary Wines AB,109.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Frankrike,"Syrah, Cinsault, Grenache, Mourvèdre, Cabernet sauvignon",,,,,
+762801,Pongrácz Brut,Bergkelder,139.0,750 ml,Glasflaska,Torrt vitt,Sydafrika,"Pinot noir, Chardonnay",3.7,12390,,websearch,https://www.vivino.com/sv/pongracz-methode-cap-classique-brut/w/1166928
+223902,Les Remparts des Ceps Dorés Rosé,Les Vignerons de Roaix Seguret,76.0,375 ml,Glasflaska,Friskt & Bärigt,Frankrike,"Grenache, Cinsault, Syrah",3.2,209,,websearch,https://www.vivino.com/sv/roaix-seguret-les-remparts-des-ceps-dores-cotes-du-rhone-rose/w/7398020
+626301,Folklore Albariño,Vining,129.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,Albariño,3.6,5090,,websearch,https://www.vivino.com/sv/folklore-rias-baixas-albarino/w/5979520
+252901,Stoneleigh Wild Valley Sauvignon Blanc,Vinarchy,139.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Nya Zeeland,Sauvignon blanc,,,,,
+280201,Marrenon Les Grains Pinot Noir,"Marrenon, Vignobles en Ventoux & Luberon",109.0,750 ml,Lättare glasflaska,Mjukt & Bärigt,Frankrike,Pinot noir,3.6,2156,,websearch,https://www.vivino.com/sv/marrenon-les-grains-pinot-noir-cuvee-rare/w/3955158
+5027601,Armatura Brunello di Montalcino,The Company of Urban wines And Other Liquids Sweden AB,289.0,750 ml,Glasflaska,Kryddigt & Mustigt,Italien,Sangiovese,4.0,3982,,websearch,https://www.vivino.com/sv/armatura-brunello-di-montalcino/w/9402407
+7687301,Baglietti Rosé No. 7,47 Anno Domini,115.0,750 ml,Glasflaska,Rosé,Italien,,3.5,1517,,websearch,https://www.vivino.com/sv/baglietti-rose-no-7/w/6443639
+796606,Baglietti Prosecco Organic,47 Anno Domini,279.0,1500 ml,Glasflaska,Torrt vitt,Italien,Glera,,,,,
+5301401,Jean Vidérue Châteauneuf-du-Pape,The Company of Urban wines And Other Liquids Sweden AB,259.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Grenache, Mourvèdre, Syrah",4.1,2617,,websearch,https://www.vivino.com/sv/jean-viderue-chateauneuf-du-pape/w/10165111
+268001,Manifesto Nero d'Avola,Nordic Sea Winery,89.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,"Nero d'avola, Cabernet sauvignon",3.6,5156,,websearch,https://www.vivino.com/sv/it-manifesto-nero-d-avola-organic/w/2660828
+2014701,Orange Wine Ciceron Organic,Cave de la Pierrelys,119.0,750 ml,Lättare glasflaska,Druvigt & Blommigt,Frankrike,"Grenache blanc, Marsanne, Sauvignon blanc, Viognier, Muscat",3.4,282,,websearch,https://www.vivino.com/sv/claude-vialade-fils-orange/w/12234532
+5525001,Ascot Pinot Noir,Domaine Wines Sweden AB,109.0,750 ml,Glasflaska,Kryddigt & Mustigt,USA,Pinot noir,3.8,1706,,websearch,https://www.vivino.com/sv/ascot-pinot-noir/w/10660107
+207801,Calvet Saumur-Champigny,Dulong Calvet,149.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,Cabernet franc,,,,,
+261915,Leva Chardonnay Dimiat & Muscat,Vinex Slavyantsi,39.0,250 ml,Burk,Druvigt & Blommigt,Bulgarien,"Chardonnay, Dimiat, Muscat",3.3,602,,websearch,https://www.vivino.com/sv/leva-chardonnay-muscat-rose-valley/w/7030178
+2017301,Abrigados Reserva,Adega Castelo Rodrigo,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,"Touriga naçional, Alfrocheiro, Tinta roriz, Touriga franca",,,,,
+9325901,Luigi Bosca De Sangre Malbec,Leoncio Arizu,185.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,,,,,
+2014001,Reyneke Organic Red,Vinimark Trading,129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Sydafrika,"Syrah, Cabernet sauvignon, Merlot",,,,,
+608301,Campo Viejo Reserva,Vinarchy,119.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,"Tempranillo, Mazuelo, Graciano",3.8,88544,,websearch,https://www.vivino.com/sv/campo-viejo-reserva/w/1163217
+5508401,Château Les Trois Manoirs,SCEA Vignobles Cruchon et Fils,149.0,750 ml,Glasflaska,Stramt & Nyanserat,Frankrike,,3.7,6190,,websearch,https://www.vivino.com/sv/les-trois-manoirs-medoc/w/1689997
+7498901,Espacio Garnacha,Anora Group PLC,70.0,750 ml,Lättare glasflaska,,Spanien,Garnacha,0.0,11,,websearch,https://www.vivino.com/sv/espacio-vino-de-mesa-gran-especial-garnacha/w/13648288
+287501,Richard Crémant du Jura Brut Nature Blanc de blancs,RICHARD FAMILY SARL,169.0,750 ml,Glasflaska,Torrt vitt,Frankrike,Chardonnay,,,,,
+2018601,Pflüger Red Balloon Cuvée,Weinkontor A.&J. Pflüger,119.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Tyskland,"Pinot noir, Dornfelder, Merlot",,,,,
+7149901,Alvaroni Cava Reserva Brut,Fields Wine Co,109.0,750 ml,Glasflaska,Torrt vitt,Spanien,,3.4,78,,websearch,https://www.vivino.com/sv/alvaroni-cava-organic-brut-reserva/w/8719683
+2017101,The Low Blanc de Blancs,United Drinks Europe BV,99.0,750 ml,Lättare glasflaska,Torrt vitt,Tyskland,,,,,,
+7283101,Gremillet Cuvée Prestige Brut,Champagne J-M Gremillet,479.0,750 ml,,,Frankrike,"Pinot noir, Chardonnay",3.9,1548,,websearch,https://www.vivino.com/sv/champagne-gremillet-champagne-cuvee-prestige-brut/w/1419956
+7876801,Dignitat Cava Brut Nature,Josep Masachs,119.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",3.4,3653,,websearch,https://www.vivino.com/sv/dignitat-cava-organic-brut-nature/w/1711885
+7582101,Il Capolavoro Piemonte Rosso,Globus Wine,79.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Barbera, Nebbiolo, Dolcetto",,,,,
+244801,Saint Mont Les Cépages Préservés,Plaimont Producteurs,99.0,750 ml,Lättare glasflaska,Fylligt & Smakrikt,Frankrike,,3.8,1185,,websearch,https://www.vivino.com/sv/plaimont-les-cepages-preserves-saint-mont/w/9474488
+549402,Sancerre Domaine des Vieux Pruniers,Earl Christian Thirot Fournier,129.0,375 ml,Glasflaska,,Frankrike,Sauvignon blanc,3.8,1990,,websearch,https://www.vivino.com/sv/des-vieux-pruniers-sancerre-blanc/w/1203145
+5829001,Pitch Algarve Reserva,Casa Santos Lima - Companhia das Vinhas S.A.,89.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Portugal,"Syrah, Touriga naçional, Alicante bouschet",,,,,
+7305901,Zengarello Barolo,Urban Wines,209.0,750 ml,Glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,,,,,
+211401,Crudo Rosé Organic,Maggio Vini,99.0,750 ml,Glasflaska,Friskt & Bärigt,Italien,Frappato,3.4,196,,websearch,https://www.vivino.com/sv/crudo-frappato-organic-rose-sicily/w/12633669
+773101,Vilarnau Brut Nature Organic,Gonzalez Byass,119.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Macabeo, Parellada, Xarel-lo",,,,,
+2018001,La Belle Extra Brut Blanc de Blancs,Chaquepe,149.0,750 ml,Glasflaska,Torrt vitt,Argentina,Chardonnay,,,,,
+7366301,Enzo Bartoli Langhe Nebbiolo,MGM S.r.l.,149.0,750 ml,Glasflaska,Stramt & Nyanserat,Italien,Nebbiolo,3.7,4434,,websearch,https://www.vivino.com/sv/enzo-bartoli-nebbiolo/w/6527743
+7841601,Casteloro Prosecco Rosé,Fields Wine Company AB,99.0,750 ml,Lättare glasflaska,Rosé,Italien,"Pinot noir, Glera",3.5,156,,websearch,https://www.vivino.com/sv/casteloro-prosecco-prosecco-rose-extra-dry-prosecco/w/9053791
+229502,Blason de Bourgogne Mâcon-Villages Chardonnay,Vignerons des Grandes Vignes,79.0,375 ml,Glasflaska,Friskt & Fruktigt,Frankrike,Chardonnay,3.5,6516,,websearch,https://www.vivino.com/sv/blason-chardonnay-macon-villages/w/22528
+645701,Crozes-Hermitage Terrasse Des Chassis,Terranea,199.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,Syrah,,,,,
+655101,Quara Single Vineyard Malbec,Bodegas Felix Lavaque,165.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Argentina,Malbec,,,,,
+276634,Rosé Sparkling Wine Belrose,Arthur Metz,39.0,200 ml,Burk,Rosé,Frankrike,"Grenache, Syrah, Ugni blanc",,,,,
+255901,Vivir Sin Dormir Monastrell Organico,Bodegas Antonio Arraez,99.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Spanien,Monastrell,,,,,
+561201,Stoneleigh Pinot Noir Rosé,Vinarchy,129.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Nya Zeeland,Pinot noir,,,,,
+254401,La Planta Reserva,"La Planta Agro, S.L",149.0,750 ml,Glasflaska,Kryddigt & Mustigt,Spanien,Tempranillo,3.9,386,,websearch,https://www.vivino.com/sv/arzuaga-la-planta-reserva/w/12387395
+5291501,150+1 Barbera Piemonte,Schenk Italia Spa,99.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Barbera,,,,,
+312801,Alba Rhino Vinho Verde,Quinta das Arcas – Soc. Agr. Lda,169.0,750 ml,Glasflaska,Friskt & Fruktigt,Portugal,Alvarinho,,,,,
+277114,Asiotus Vino Bianco Biologico Frizzante,Cuvage Srl,39.0,200 ml,Burk,Torrt vitt,Italien,Glera,,,,,
+7171906,Mandrarossa Timperosse Petit Verdot,Cantine Settesoli,269.0,1500 ml,Glasflaska,Fruktigt & Smakrikt,Italien,Petit verdot,,,,,
+219301,Let every moment Spark Brut,Juhászvin,99.0,750 ml,Lättare glasflaska,Torrt vitt,Ungern,,,,,,
+9432101,Bargemone Rosé Minuit,Domaine Bargemone,139.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Frankrike,,,,,,
+9387601,Pita Pet-Nat,António Lopes Ribeiro Wines Lda,199.0,750 ml,Lättare glasflaska,,Portugal,,,,,,
+7099001,Lynx Pinot Noir,House of Big Wines,139.0,750 ml,Glasflaska,Kryddigt & Mustigt,USA,Pinot noir,3.8,128,,websearch,https://www.vivino.com/sv/lynx-california-pinot-noir/w/13566943
+9019201,Mira Sav Blanc,MIRA s.r.o.,300.0,750 ml,Lättare glasflaska,,Tjeckien,Sauvignon blanc,4.2,138,,websearch,https://www.vivino.com/sv/mira-velkopavlovicka-sav-blanc/w/11887388
+9485201,Otronia Rugientes 45 Bodega Argento,Bodega Argento S.A,289.0,750 ml,Glasflaska,,Argentina,Pinot noir,,,,,
+9301501,Viore Rosado,Bodegas Riojanas Grupo,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Spanien,"Garnacha, Tinta de toro",3.4,426,,websearch,https://www.vivino.com/sv/viore-rosado-toro/w/4194841
+9057401,Zolo Reserve Cabernet Sauvignon,Fincas Patagonicas,189.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Argentina,Cabernet sauvignon,3.8,4461,,websearch,https://www.vivino.com/sv/zolo-reserve-cabernet-sauvignon/w/86153
+9307401,Beaune Bressandes Premier Cru Albert Morot,Albert Morot,649.0,750 ml,Glasflaska,,Frankrike,Pinot noir,4.0,958,,websearch,https://www.vivino.com/sv/albert-morot-beaune-1er-cru-les-bressandes/w/2432007
+9115601,Cinque Terre Terenzuola,TERENZUOLA DI IVAN GIULIANI,279.0,750 ml,Glasflaska,Friskt & Fruktigt,Italien,"Albarola, Vermentino, Bosco, Rossese",3.9,657,,websearch,https://www.vivino.com/sv/terenzuola-cinque-terre/w/1658367
+9291001,Pink Punk Chichateau,Chichateau Doo,159.0,750 ml,Glasflaska,Friskt & Bärigt,Serbien,"Cabernet franc, Merlot, Cabernet sauvignon",4.0,942,,websearch,https://www.vivino.com/sv/chichateau-pink-punk-roze/w/2689627
+9281401,Fileri Rosé de Gris,Nestor Winery,179.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Grekland,,,,,,
+9129501,Emrich-Schönleber Riesling Sekt Brut,Emrich-Schönleber,259.0,750 ml,Glasflaska,Torrt vitt,Tyskland,Riesling,3.9,249,,websearch,https://www.vivino.com/sv/emrich-schonleber-riesling-brut/w/2721564
+9047501,Château Lagrange,Château Lagrange,699.0,750 ml,Glasflaska,Stramt & Nyanserat,Frankrike,"Cabernet sauvignon, Merlot, Petit verdot",4.1,43243,,websearch,https://www.vivino.com/sv/chateau-lagrange-saint-julien-grand-cru-classe/w/97051
+9369901,30.000 Maravedies Bodega Marañones,Alma Carraovejas Distribucion SLU,280.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Spanien,,,,,,
+9457601,Mas de Daumas Gassac Blanc,Mas de Daumas Gassac,649.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,,4.1,4987,,websearch,https://www.vivino.com/sv/mas-de-daumas-gassac-blanc/w/1772933
+9486101,Quars,Portal del Priorat,300.0,750 ml,Glasflaska,Fylligt & Smakrikt,Spanien,Garnacha blanca,,,,,
+9554401,Volnay Olivier Leflaive,Olivier Leflaive,759.0,750 ml,Glasflaska,,Frankrike,Pinot noir,,,,,
+9027301,Château Sociando-Mallet,Chateau Sociando-Mallet,399.0,750 ml,Glasflaska,,Frankrike,,,,,,
+9306501,Weingut Dr. Hermann Kinheimer Hubertuslay Riesling Kabinett,Weingut Dr. Hermann,221.0,750 ml,Glasflaska,Druvigt & Blommigt,Tyskland,Riesling,4.1,183,,websearch,https://www.vivino.com/sv/weingut-dr-hermann-kinheimer-hubertuslay-riesling-kabinett-eb234/w/6619079
+9311201,Macán Benjamin de Rothschild Vega Sicilia,Bodegas Benjamin de Rothschild Vega Sicilia,795.0,750 ml,Glasflaska,,Spanien,Tempranillo,4.4,20597,,websearch,https://www.vivino.com/sv/benjamin-de-rothschild-and-vega-macan/w/1994112
+9238301,Vara y Pulgar Blanco,Compañía de Vinos del Atlántico,219.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,,,,,,
+9261201,Clos Alkio Cava Brut Nature,Clos Alkio,349.0,750 ml,Glasflaska,Torrt vitt,Spanien,"Parellada, Xarel-lo",4.0,56,,websearch,https://www.vivino.com/sv/clos-alkio-cava-brut-nature/w/13380910
+9200801,Château de Rochemorin Blanc,Vignobles André Lurton,259.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Sauvignon blanc,3.8,2027,,websearch,https://www.vivino.com/sv/chateau-de-rochemorin-pessac-leognan-blanc/w/73561
+9255401,Sadie Family Wines Columella,The Sadie Family Wines,1089.0,750 ml,Lättare glasflaska,,Sydafrika,,4.4,5920,,websearch,https://www.vivino.com/sv/sadie-family-columella/w/1164602
+9339401,Van Volxem 1900 Brut,Weingut Van Volxem,359.0,750 ml,Glasflaska,Torrt vitt,Tyskland,Riesling,4.2,1143,,websearch,https://www.vivino.com/sv/van-volxem-nineteen-zero-zero-brut/w/1871261
+9122502,Volare del Flor Per Se,Per Se,699.0,375 ml,Lättare glasflaska,,Argentina,,4.4,111,,websearch,https://www.vivino.com/sv/perse-ar-volare-de-flor-gualtallary/w/4807884
+9015801,Reina De Los Deseos,Uvas Felices,929.0,750 ml,Glasflaska,,Spanien,,,,,,
+7990301,Weinmann Riesling Organic,ViniMundi,88.0,1000 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,,3.8,140,,websearch,https://www.vivino.com/sv/weinmann-riesling/w/9056957
+7882301,This is The Bitch Blanc de Blancs Brut,Enjoy Wine & Spirits,89.0,750 ml,Glasflaska,Torrt vitt,Tyskland,,,,,,
+7255601,Lucia De Maio Rosato Organic,Cantine di Verona s.c.a.,99.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,,,,,,
+7795101,Casa Marzoni Prosecco Organic,Casa Marzoni,99.0,750 ml,Glasflaska,Torrt vitt,Italien,,,,,,
+7967201,Cuvée 33 Coteaux Varois en Provence Rosé Organic,Icon Wines,99.0,750 ml,Lättare glasflaska,Fruktigt & Smakrikt,Frankrike,,,,,,
+7206101,Lucia De Maio Ripasso Valpolicella,Cantine di Verona s.c.a.,129.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Italien,"Corvina, Rondinella, Corvinone",3.9,252,,websearch,https://www.vivino.com/sv/it-cantina-di-verona-lucia-de-maio-valpolicella-ripasso/w/13773671
+7125801,This is The Bitch Rosé,Enjoy Wine & Spirits,99.0,750 ml,Lättare glasflaska,Friskt & Bärigt,Frankrike,,,,,,
+7574901,Signed By Sauvignon Blanc,Anora Group PLC,95.0,1000 ml,Lättare glasflaska,Friskt & Fruktigt,Tyskland,Sauvignon blanc,,,,,
+7100701,Château Tour de Naujan Bordeaux Supérieur Collection Prestige,Grands Châteaux de France (Château Tour de Naujan),149.0,750 ml,Glasflaska,Kryddigt & Mustigt,Frankrike,"Merlot, Cabernet sauvignon",3.6,217,,websearch,https://www.vivino.com/sv/chateau-tour-de-naujan-bordeaux-superieur/w/2007239
+7326801,Casa Nero  Piemonte Rosso Autentico,Globus Wine A/S,95.0,1000 ml,Lättare glasflaska,Fruktigt & Smakrikt,Italien,"Barbera, Nebbiolo",3.7,65,,websearch,https://www.vivino.com/sv/casa-nero-rosso-autentico/w/13779454
+7746801,Viva Valentina Blanc de Blancs,Iconic Wines,99.0,750 ml,Glasflaska,Torrt vitt,Italien,,0.0,17,,websearch,https://www.vivino.com/sv/cerester-viva-valentina-blanc-de-blancs-organic/w/13724891
+7333201,Cava Parador Imperial Reserva,Anora Plc,109.0,750 ml,Glasflaska,Torrt vitt,Spanien,,,,,,
+7947401,Appassinero Appassimento,Globus Wine,90.0,1000 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,,,,,,
+7279501,Berså Bianco,The Wine & Spirit Collective,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Italien,"Trebbiano, Catarratto, Chardonnay",,,,,
+7545401,Roseblood d'Estoublon,Societe Agricole du Domaine D'Estoublon,179.0,750 ml,Glasflaska,Friskt & Bärigt,Frankrike,,4.0,3784,,websearch,https://www.vivino.com/sv/chateau-d-estoublon-roseblood-d-estoublon/w/8505439
+7532501,Frantzén & Cauble Bourgogne Blanc,Björn Frantzén,249.0,750 ml,Glasflaska,Fylligt & Smakrikt,Frankrike,Chardonnay,,,,,
+7819301,Vieira Atlantica Albariño,Urban Wines,99.0,750 ml,Lättare glasflaska,Friskt & Fruktigt,Spanien,,,,,,
+7550001,Château Le Grand Moulin Bordeaux,Carovin AB,119.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Frankrike,,3.7,208,,websearch,https://www.vivino.com/sv/chateau-le-grand-moulin-bordeaux-bordeaux/w/12658647
+253001,Vigno Odfjell Carignan,Odfjell Vineyards,299.0,750 ml,Glasflaska,Fruktigt & Smakrikt,Chile,Carignan,4.0,505,,websearch,https://www.vivino.com/sv/odfjell-vignadores-de-vigno-carignan/w/1751925
+743001,Jeanmaire Brut,Jeanmaire,305.0,750 ml,Glasflaska,Torrt vitt,Frankrike,"Pinot noir, Chardonnay, Pinot meunier",0.0,4,,websearch,https://www.vivino.com/sv/jeanmaire-collection-brut-champagne/w/2097123
+7468301,Château Vieira Bordeaux Supérieur,Société Viticole de France,115.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,,,,,,
+7467701,Castelcaia Riserva,Oenoforos AB,99.0,750 ml,Lättare glasflaska,,Italien,,,,,,
+7603301,Villa Mirage Côtes du Rhône,Spring Wine & Spirits,79.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Frankrike,,,,,,
+2307201,Casalforte Corvina Veronese,Collis Heritage S.p.A.,99.0,750 ml,Lättare glasflaska,Kryddigt & Mustigt,Italien,Corvina,3.6,5940,,websearch,https://www.vivino.com/sv/casalforte-corvina-veronese/w/1260262
+7130201,Fitapreta o Illuminsta Red Wine,Fitapreta Vinhos,195.0,750 ml,Glasflaska,,Portugal,"Aragonez, Alicante bouschet, Trincadeira, Castelão",,,,,
