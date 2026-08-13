@@ -980,6 +980,14 @@
     return "1000+";
   }
 
+  const SV_MONTHS = ["jan", "feb", "mar", "apr", "maj", "jun", "jul", "aug", "sep", "okt", "nov", "dec"];
+  function fmtDate(iso) {
+    if (!iso) return null;
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+    if (!m) return null;
+    return `${parseInt(m[3], 10)} ${SV_MONTHS[parseInt(m[2], 10) - 1]} ${m[1]}`;
+  }
+
   function sbUrl(varunummer) {
     return varunummer ? `https://www.systembolaget.se/produkt/vin/-${varunummer}/` : null;
   }
@@ -1050,9 +1058,10 @@
         sbUrl(w.varunummer) ? `<a class="vlink sblink" href="${sbUrl(w.varunummer)}" target="_blank" rel="noopener">Systembolaget ↗</a>` : "",
       ].filter(Boolean).join("");
       const grapesLine = w.druvor.length ? `<div class="wine-grapes">${w.druvor.join(", ")}</div>` : "";
+      const lanseradDate = fmtDate(w.lanserad);
       const badges = [
-        w.ny ? '<span class="badge good">Nyhet</span>' : "",
-        w.tillfalligt ? '<span class="badge warn">Tillfälligt sortiment</span>' : "",
+        w.ny ? `<span class="badge good">Nyhet${lanseradDate ? " · " + lanseradDate : ""}</span>` : "",
+        w.tillfalligt ? `<span class="badge warn">Tillfälligt sortiment${lanseradDate ? " · sedan " + lanseradDate : ""}</span>` : "",
         w.butiker[0] === "ONLINE" ? '<span class="badge muted">Endast online</span>' : "",
       ].filter(Boolean).join("");
       const badgesLine = badges ? `<div class="wine-badges">${badges}</div>` : "";

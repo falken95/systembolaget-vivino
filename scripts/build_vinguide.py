@@ -74,6 +74,7 @@ for r in rows:
         "butiker": butiker,
         "ny": is_new(r.get("ProductLaunchDate")),
         "tillfalligt": r.get("AssortmentText") == "Tillfälligt sortiment",
+        "lanserad": (r.get("ProductLaunchDate") or "").strip() or None,
     })
 
 stores = []
