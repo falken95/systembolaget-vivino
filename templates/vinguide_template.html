@@ -526,6 +526,11 @@
     color: var(--ink);
   }
 
+  .wine-vintage {
+    font-weight: 400;
+    color: var(--ink-muted);
+  }
+
   .wine-producer {
     font-size: 12.5px;
     color: var(--ink-muted);
@@ -552,6 +557,12 @@
     font-variant-numeric: tabular-nums;
     text-align: right;
     white-space: nowrap;
+  }
+
+  .price-volym {
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin-top: 1px;
   }
 
   .rating {
@@ -734,6 +745,7 @@
         <label class="check"><input type="checkbox" id="tag-ny"> <span class="badge good">Nyhet</span> senaste 30 dagarna</label>
         <label class="check"><input type="checkbox" id="tag-tillfalligt"> <span class="badge warn">Tillfälligt sortiment</span></label>
         <label class="check"><input type="checkbox" id="tag-online"> <span class="badge muted">Endast online</span></label>
+        <label class="check"><input type="checkbox" id="tag-rabatt"> <span class="badge good">Fyndpris</span> minst 30% under Vivinos marknadspris</label>
       </div>
 
       <label class="check"><input type="checkbox" id="f-matched"> Bara viner med Vivino-betyg</label>
@@ -761,6 +773,7 @@
 
       <footer class="note">
         Betyg och recensionsantal hämtade från Vivino, priser från Systembolaget.
+        Fyndpris-taggen jämför Systembolagets pris (normaliserat till kr/750ml) mot Vivinos marknadspris — finns bara för viner med en aktiv återförsäljarmarknad på Vivino, dvs en bråkdel av sortimentet.
         Omfattar hela det svenska sortimentet (Fast sortiment, Tillfälligt sortiment, Lokalt &amp; Småskaligt, Säsong och Webblanseringar) samt ordervaror som bara finns online.
         Flaskor i Box, Påse, Pappförpackning eller PET, samt smaksatta viner, är exkluderade.
       </footer>
@@ -779,7 +792,7 @@
 
   const state = {
     q: "", minRating: 0, origin: "", grape: "", matchedOnly: false, store: "", showOnline: false,
-    tags: { ny: false, tillfalligt: false, online: false },
+    tags: { ny: false, tillfalligt: false, online: false, rabatt: false },
     priceMin: PRICE_MIN, priceMax: PRICE_MAX,
     sortKey: "betyg", sortDir: "desc",
   };
@@ -792,7 +805,7 @@
     openDropdowns.clear();
   }
 
-  function initDropdown(rootId, options, initialValue, onChange, { searchable = false } = {}) {
+  function initDropdown(rootId, options, initialValue, onChange, { searchable = false, searchPlaceholder = "Sök…" } = {}) {
     const root = document.getElementById(rootId);
     const trigger = root.querySelector(".dd-trigger");
     const label = root.querySelector(".dd-label");
@@ -825,7 +838,7 @@
       let searchInput = panel.querySelector(".dd-search");
       let optsContainer = panel.querySelector(".dd-options");
       if (!searchInput) {
-        panel.innerHTML = '<input type="text" class="dd-search" placeholder="Sök butik…"><div class="dd-options"></div>';
+        panel.innerHTML = `<input type="text" class="dd-search" placeholder="${searchPlaceholder}"><div class="dd-options"></div>`;
         searchInput = panel.querySelector(".dd-search");
         optsContainer = panel.querySelector(".dd-options");
         searchInput.addEventListener("input", e => {
@@ -912,13 +925,13 @@
   initDropdown("dd-grape", [
     { value: "", label: "Alla druvor" },
     ...grapes.map(g => ({ value: g, label: g })),
-  ], "", v => { state.grape = v; render(); });
+  ], "", v => { state.grape = v; render(); }, { searchable: true, searchPlaceholder: "Sök druva…" });
 
   initDropdown("dd-store", [
     { value: "", label: "Alla butiker" },
     { value: "ONLINE", label: "Online (endast ordervaror)" },
     ...STORES.map(s => ({ value: s.id, label: `${s.city} – ${s.name}` })),
-  ], "", v => { state.store = v; render(); }, { searchable: true });
+  ], "", v => { state.store = v; render(); }, { searchable: true, searchPlaceholder: "Sök butik…" });
 
   // ---- Prisreglage (dubbelt <input type=range>, likt Systembolagets eget filter) ----
   const priceMinInput = document.getElementById("price-min-input");
@@ -1000,9 +1013,9 @@
       if (state.minRating > 0 && (w.betyg == null || w.betyg < state.minRating)) return false;
       if (!state.store && !state.showOnline && !state.tags.online && w.butiker[0] === "ONLINE") return false;
       if (state.store && !w.butiker.includes(state.store)) return false;
-      const anyTagSelected = state.tags.ny || state.tags.tillfalligt || state.tags.online;
+      const anyTagSelected = state.tags.ny || state.tags.tillfalligt || state.tags.online || state.tags.rabatt;
       if (anyTagSelected) {
-        const matchesTag = (state.tags.ny && w.ny) || (state.tags.tillfalligt && w.tillfalligt) || (state.tags.online && w.butiker[0] === "ONLINE");
+        const matchesTag = (state.tags.ny && w.ny) || (state.tags.tillfalligt && w.tillfalligt) || (state.tags.online && w.butiker[0] === "ONLINE") || (state.tags.rabatt && w.rabatt);
         if (!matchesTag) return false;
       }
       if (state.origin && w.ursprung !== state.origin) return false;
@@ -1070,13 +1083,14 @@
         w.ny ? `<span class="badge good">Nyhet${lanseradDate ? " · " + lanseradDate : ""}</span>` : "",
         w.tillfalligt ? '<span class="badge warn">Tillfälligt sortiment</span>' : "",
         w.butiker[0] === "ONLINE" ? '<span class="badge muted">Endast online</span>' : "",
+        w.rabatt ? `<span class="badge good">Fyndpris -${w.rabatt_procent}% vs Vivino</span>` : "",
       ].filter(Boolean).join("");
       const badgesLine = badges ? `<div class="wine-badges">${badges}</div>` : "";
       return `<tr>
-        <td><div class="wine-name">${w.namn}</div><div class="wine-producer">${w.producent}</div>${grapesLine}${badgesLine}</td>
+        <td><div class="wine-name">${w.namn}${w.argang ? ` <span class="wine-vintage">${w.argang}</span>` : ""}</div><div class="wine-producer">${w.producent}</div>${grapesLine}${badgesLine}</td>
         <td class="num">${ratingCell}</td>
         <td class="reviews">${reviewsCell}</td>
-        <td class="num">${fmtPrice(w.pris)}</td>
+        <td class="num">${fmtPrice(w.pris)}${w.volym ? `<div class="price-volym">${w.volym}</div>` : ""}</td>
         <td>${w.ursprung || "–"}</td>
         <td class="links"><div class="links-inner">${links}</div></td>
       </tr>`;
@@ -1113,6 +1127,7 @@
   document.getElementById("tag-ny").addEventListener("change", e => { state.tags.ny = e.target.checked; render(); });
   document.getElementById("tag-tillfalligt").addEventListener("change", e => { state.tags.tillfalligt = e.target.checked; render(); });
   document.getElementById("tag-online").addEventListener("change", e => { state.tags.online = e.target.checked; render(); });
+  document.getElementById("tag-rabatt").addEventListener("change", e => { state.tags.rabatt = e.target.checked; render(); });
 
   document.querySelectorAll("thead th").forEach(th => {
     const key = th.dataset.key;

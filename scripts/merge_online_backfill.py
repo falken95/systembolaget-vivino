@@ -14,7 +14,7 @@ with open("national_backfill.csv", encoding="utf-8-sig") as f:
     national_rows = {r["Varunummer"]: r for r in csv.DictReader(f)}
 
 FIELDNAMES = ["Varunummer", "Namn", "Producent", "Pris", "Volym", "Forpackning", "Kategori3",
-              "Ursprung", "Druvor", "AssortmentText", "IsNewInAssortment", "ProductLaunchDate",
+              "Ursprung", "Druvor", "AssortmentText", "IsNewInAssortment", "ProductLaunchDate", "Argang",
               "Antal_butiker", "Butiker"]
 
 merged = {}
@@ -34,6 +34,7 @@ for r in store_rows:
         "AssortmentText": nat.get("AssortmentText", r.get("AssortmentText", "")),
         "IsNewInAssortment": nat.get("IsNewInAssortment", ""),
         "ProductLaunchDate": nat.get("ProductLaunchDate", ""),
+        "Argang": nat.get("Argang", ""),
         "Antal_butiker": r["Antal_butiker"],
         "Butiker": r["Butiker"],
     }
@@ -64,6 +65,7 @@ for vn, nat in national_rows.items():
         "AssortmentText": nat["AssortmentText"],
         "IsNewInAssortment": nat.get("IsNewInAssortment", ""),
         "ProductLaunchDate": nat.get("ProductLaunchDate", ""),
+        "Argang": nat.get("Argang", ""),
         "Antal_butiker": "Online",
         "Butiker": "ONLINE",
     }

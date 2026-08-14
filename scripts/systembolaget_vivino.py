@@ -306,6 +306,80 @@ _VIVINO_GRAPES_BLOCK_RE = re.compile(r'"grapes":\[(.*?)\]')
 _VIVINO_WINERY_RE = re.compile(r'"winery":\{"id":\d+,"name":"([^"]*)"')
 _VIVINO_WINE_NAME_RE = re.compile(r'"wine":\{"id":\d+,"name":"([^"]*)"')
 _VIVINO_GRAPE_NAME_RE = re.compile(r'"name":"([^"]*)"')
+_VIVINO_PRELOADED_STATE_RE = re.compile(r"window\.__PRELOADED_STATE__\.winePageInformation = (\{.*?\});\s*\n")
+
+
+def parse_sb_volume_ml(volym: Optional[str]) -> Optional[int]:
+    """Tolkar Systembolagets Volym-fält till total mängd ml — inklusive
+    flerflaskeförpackningar ("3 flaskor à 750ml" -> 2250), så att priset kan
+    normaliseras till kr/750ml oavsett flaskstorlek innan det jämförs mot
+    Vivinos marknadspris (se get_vivino_market_price_per_750ml)."""
+    if not volym:
+        return None
+    v = volym.strip()
+    m = re.match(r"^(\d+)\s*ml$", v)
+    if m:
+        return int(m.group(1))
+    m = re.match(r"^(\d+)\s*flaskor\s*à\s*(\d+)\s*ml$", v)
+    if m:
+        return int(m.group(1)) * int(m.group(2))
+    return None
+
+
+def get_vivino_market_price_per_750ml(wine_id: str) -> Optional[dict]:
+    """Hämtar Vivinos marknadspris (median av aktiva återförsäljarpriser) för
+    vinets primära/aktuella årgång, normaliserat till kr/750ml. En årgång kan
+    ha återförsäljare med olika flaskstorlekar (t.ex. både 750ml och magnum)
+    i samma prislista — normalisera VARJE enskilt pris till 750ml-ekvivalent
+    innan medianen räknas ut, annars blandas storlekarna ihop till ett
+    missvisande snittpris.
+
+    Returnerar None om vinet saknar aktiva återförsäljare på Vivino (vanligt
+    för vardagsviner — Vivinos marknadsprisdata täcker mest viner med en
+    aktiv andrahands-/samlarmarknad, inte hela sortimentet)."""
+    try:
+        resp = requests.get(f"https://www.vivino.com/w/{wine_id}", headers=REQUEST_HEADERS, timeout=15)
+        if resp.status_code != 200:
+            return None
+        m = _VIVINO_PRELOADED_STATE_RE.search(resp.text)
+        if not m:
+            return None
+        data = json.loads(m.group(1))
+    except (requests.RequestException, json.JSONDecodeError):
+        return None
+
+    vintages = ((data.get("checkout_prices") or {}).get("vintages")) or []
+    if not vintages:
+        return None
+
+    # Samma årgång som toppfältet "price" pekar på — den Vivino visar som
+    # huvudpris på sidan. Faller tillbaka på första årgången i listan om
+    # toppfältet saknas.
+    default_vintage_id = (data.get("price") or {}).get("vintage_id")
+    chosen = next(
+        (v for v in vintages if v["availability"]["vintage"]["id"] == default_vintage_id),
+        vintages[0],
+    )
+
+    normalized = []
+    for merchant in chosen.get("merchants_with_prices", []):
+        for p in merchant.get("prices", []):
+            amount = p.get("amount")
+            vol_ml = (p.get("bottle_type") or {}).get("volume_ml")
+            if amount is None or not vol_ml or (p.get("currency") or {}).get("code") != "SEK":
+                continue
+            normalized.append(amount / (vol_ml / 750))
+
+    if not normalized:
+        return None
+    normalized.sort()
+    n = len(normalized)
+    median = normalized[n // 2] if n % 2 else (normalized[n // 2 - 1] + normalized[n // 2]) / 2
+    return {
+        "pris_per_750ml": round(median, 2),
+        "prispunkter": n,
+        "argang": chosen["availability"]["vintage"]["year"],
+    }
 
 
 def _json_string_unescape(raw: str) -> str:

@@ -45,6 +45,17 @@ def is_new(launch_date_str):
 
 EXCLUDED_PACKAGING = {"Box", "Påse", "Pappförpackning", "PET-flaska"}
 
+# Kräver både en tydlig rabatt och minst två prispunkter bakom Vivinos
+# marknadspris (se get_vivino_market_price_per_750ml) — en enda
+# återförsäljares pris är inte ett tillförlitligt "marknadspris" att jämföra
+# Systembolagets pris mot.
+RABATT_THRESHOLD_PCT = 30
+RABATT_MIN_PRISPUNKTER = 2
+
+def is_rabatt(rabatt_procent, prispunkter):
+    return (rabatt_procent is not None and rabatt_procent >= RABATT_THRESHOLD_PCT
+            and (prispunkter or 0) >= RABATT_MIN_PRISPUNKTER)
+
 wines = []
 seen_site_ids = set()
 skipped_box = 0
@@ -53,6 +64,8 @@ for r in rows:
         skipped_box += 1
         continue
     grapes_raw = r.get("Druvor") or ""
+    rabatt_procent = to_int(r.get("Rabatt_procent"))
+    prispunkter = to_int(r.get("Vivino_prispunkter"))
     butiker_raw = (r.get("Butiker") or "").strip()
     if butiker_raw == "ONLINE":
         butiker = ["ONLINE"]
@@ -66,6 +79,8 @@ for r in rows:
         "namn": r.get("Namn", ""),
         "producent": r.get("Producent", ""),
         "pris": to_float(r.get("Pris")),
+        "volym": (r.get("Volym") or "").strip() or None,
+        "argang": (r.get("Argang") or "").strip() or None,
         "ursprung": r.get("Ursprung", ""),
         "druvor": [g.strip() for g in grapes_raw.split(",") if g.strip()],
         "betyg": to_float(r.get("Vivino_betyg")),
@@ -75,6 +90,8 @@ for r in rows:
         "ny": is_new(r.get("ProductLaunchDate")),
         "tillfalligt": r.get("AssortmentText") == "Tillfälligt sortiment",
         "lanserad": (r.get("ProductLaunchDate") or "").strip() or None,
+        "rabatt": is_rabatt(rabatt_procent, prispunkter),
+        "rabatt_procent": rabatt_procent if is_rabatt(rabatt_procent, prispunkter) else None,
     })
 
 stores = []

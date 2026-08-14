@@ -68,6 +68,7 @@ def crawl_segment(extra_params, label):
                 "AssortmentText": p.get("assortmentText", ""),
                 "IsNewInAssortment": p.get("isNewInAssortment"),
                 "ProductLaunchDate": (p.get("productLaunchDate") or "").split("T")[0],
+                "Argang": p.get("vintage") or "",
             }
         # RÄTT sluttecken: metadata.nextPage == -1, inte "tom produktlista"
         # (API:t upprepar annars bara sista sidan för evigt efter ~333 sidor).
@@ -92,7 +93,7 @@ for cat2 in WINE_CATEGORIES:
 print(f"\nKlart. {len(national)} unika viner totalt (alla sortimentstyper).", flush=True)
 
 fieldnames = ["Varunummer", "Namn", "Producent", "Pris", "Volym", "Forpackning", "Kategori3",
-              "Ursprung", "Druvor", "AssortmentText", "IsNewInAssortment", "ProductLaunchDate"]
+              "Ursprung", "Druvor", "AssortmentText", "IsNewInAssortment", "ProductLaunchDate", "Argang"]
 with open("national_backfill.csv", "w", newline="", encoding="utf-8-sig") as f:
     w = csv.DictWriter(f, fieldnames=fieldnames)
     w.writeheader()
