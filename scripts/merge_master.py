@@ -19,6 +19,7 @@ with open("all_stores_wines.csv", encoding="utf-8-sig") as f:
 
 fieldnames = ["Varunummer", "Namn", "Producent", "Pris", "Volym", "Forpackning", "Kategori3",
               "Ursprung", "Druvor", "AssortmentText", "IsNewInAssortment", "ProductLaunchDate", "Argang",
+              "IsCompletelyOutOfStock", "IsTemporaryOutOfStock", "IsDiscontinued", "IsSupplierTemporaryNotAvailable",
               "Antal_butiker", "Butiker", "Vivino_url", "Vivino_betyg", "Vivino_antal_recensioner",
               "Vivino_pris_per_750ml", "Vivino_prispunkter", "Rabatt_procent"]
 

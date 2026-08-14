@@ -15,6 +15,7 @@ with open("national_backfill.csv", encoding="utf-8-sig") as f:
 
 FIELDNAMES = ["Varunummer", "Namn", "Producent", "Pris", "Volym", "Forpackning", "Kategori3",
               "Ursprung", "Druvor", "AssortmentText", "IsNewInAssortment", "ProductLaunchDate", "Argang",
+              "IsCompletelyOutOfStock", "IsTemporaryOutOfStock", "IsDiscontinued", "IsSupplierTemporaryNotAvailable",
               "Antal_butiker", "Butiker"]
 
 merged = {}
@@ -35,6 +36,10 @@ for r in store_rows:
         "IsNewInAssortment": nat.get("IsNewInAssortment", ""),
         "ProductLaunchDate": nat.get("ProductLaunchDate", ""),
         "Argang": nat.get("Argang", ""),
+        "IsCompletelyOutOfStock": nat.get("IsCompletelyOutOfStock", ""),
+        "IsTemporaryOutOfStock": nat.get("IsTemporaryOutOfStock", ""),
+        "IsDiscontinued": nat.get("IsDiscontinued", ""),
+        "IsSupplierTemporaryNotAvailable": nat.get("IsSupplierTemporaryNotAvailable", ""),
         "Antal_butiker": r["Antal_butiker"],
         "Butiker": r["Butiker"],
     }
@@ -66,6 +71,10 @@ for vn, nat in national_rows.items():
         "IsNewInAssortment": nat.get("IsNewInAssortment", ""),
         "ProductLaunchDate": nat.get("ProductLaunchDate", ""),
         "Argang": nat.get("Argang", ""),
+        "IsCompletelyOutOfStock": nat.get("IsCompletelyOutOfStock", ""),
+        "IsTemporaryOutOfStock": nat.get("IsTemporaryOutOfStock", ""),
+        "IsDiscontinued": nat.get("IsDiscontinued", ""),
+        "IsSupplierTemporaryNotAvailable": nat.get("IsSupplierTemporaryNotAvailable", ""),
         "Antal_butiker": "Online",
         "Butiker": "ONLINE",
     }

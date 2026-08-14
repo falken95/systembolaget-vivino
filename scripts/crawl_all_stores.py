@@ -1,9 +1,20 @@
 """Fullskalig körning: hämtar vinsortimentet (med våra etablerade
 kvalifikationer) för ALLA fysiska butiker (isAgent=false, exkl. ombud) och
 bygger en Varunummer -> lista av butiks-ID:n-mappning. Resumable: skriver
-efter VARJE butik, och hoppar över redan klara butiker vid omstart."""
+efter VARJE butik, och hoppar över redan klara butiker vid omstart.
+
+Committar och pushar även periodiskt (var COMMIT_EVERY_N_STORES:e butik) —
+i molnmiljön kan hela crawlen (451 butiker) ta längre än sessionens
+tidsgräns och avbrytas mitt i utan förvarning (upptäckt 2026-08-14: en
+körning dödades efter 100+ minuter utan att någonsin nå slutet). Utan
+periodisk push skulle framstegsfilerna bara finnas kvar i den förlorade
+containern — nästa schemalagda körning skulle aldrig se dem och tvingas
+börja om från noll varje gång. Push-fel loggas men avbryter inte crawlen;
+om push är blockerat (se README) fortsätter crawlen ändå, den blir bara
+inte återupptagningsbar förrän push fungerar."""
 import csv
 import json
+import subprocess
 import sys
 import time
 
@@ -17,6 +28,7 @@ from systembolaget_vivino import (SYSTEMBOLAGET_SEARCH_URL, SYSTEMBOLAGET_API_KE
 EXCLUDE_PACKAGING = {"Box", "Påse", "Pappförpackning", "PET-flaska"}
 OUT_CSV = "all_stores_wines.csv"
 PROGRESS_FILE = "all_stores_progress.json"
+COMMIT_EVERY_N_STORES = 25
 FIELDNAMES = ["Varunummer", "Namn", "Producent", "Pris", "Volym", "Forpackning", "Kategori3",
               "Ursprung", "Druvor", "AssortmentText", "Antal_butiker", "Butiker"]
 
@@ -56,6 +68,32 @@ def save_progress():
             w.writerow(row)
     with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
         json.dump(sorted(done_stores), f)
+
+
+def commit_progress(n_done, n_total):
+    """Bästa-försök: committar och pushar framstegsfilerna så en avbruten
+    körning kan återupptas av nästa schemalagda crawl istället för att
+    börja om från noll. Fel (t.ex. blockerad push) loggas men är inte
+    fatala — crawlen fortsätter att köra och samla data lokalt oavsett."""
+    try:
+        subprocess.run(["git", "add", OUT_CSV, PROGRESS_FILE], check=True, capture_output=True, cwd=".")
+        result = subprocess.run(
+            ["git", "commit", "-m", f"Crawl progress: {n_done}/{n_total} butiker"],
+            capture_output=True, cwd=".",
+        )
+        if result.returncode != 0:
+            # Inget att committa (t.ex. inga nya butiker sedan sist) är inte ett fel.
+            if b"nothing to commit" not in result.stdout:
+                print(f"[progress-commit] commit misslyckades: {result.stdout.decode(errors='replace')}", flush=True)
+            return
+        push = subprocess.run(["git", "push"], capture_output=True, cwd=".")
+        if push.returncode != 0:
+            print(f"[progress-commit] push misslyckades (fortsätter ändå): "
+                  f"{push.stderr.decode(errors='replace')[:300]}", flush=True)
+        else:
+            print(f"[progress-commit] {n_done}/{n_total} butiker committat och pushat.", flush=True)
+    except Exception as e:
+        print(f"[progress-commit] oväntat fel (fortsätter ändå): {e}", flush=True)
 
 
 remaining = [s for s in stores if s["siteId"] not in done_stores]
@@ -123,5 +161,8 @@ for i, store in enumerate(remaining, 1):
     save_progress()
     print(f"[{i}/{len(remaining)}] {site_id} {store['displayName']} ({store['city']}): "
           f"{raw_count} rådata, {kept_count} viner. Totalt unika viner hittills: {len(wines)}", flush=True)
+
+    if len(done_stores) % COMMIT_EVERY_N_STORES == 0:
+        commit_progress(len(done_stores), len(stores))
 
 print(f"\nKlart. {len(wines)} unika viner över {len(done_stores)} butiker. Skrivet till {OUT_CSV}.", flush=True)

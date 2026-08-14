@@ -746,6 +746,7 @@
         <label class="check"><input type="checkbox" id="tag-tillfalligt"> <span class="badge warn">Tillfälligt sortiment</span></label>
         <label class="check"><input type="checkbox" id="tag-online"> <span class="badge muted">Endast online</span></label>
         <label class="check"><input type="checkbox" id="tag-rabatt"> <span class="badge good">Fyndpris</span> minst 30% under Vivinos marknadspris</label>
+        <label class="check"><input type="checkbox" id="tag-utgatt"> <span class="badge warn">Utgått</span> avregistrerat eller helt slut nationellt</label>
       </div>
 
       <label class="check"><input type="checkbox" id="f-matched"> Bara viner med Vivino-betyg</label>
@@ -792,7 +793,7 @@
 
   const state = {
     q: "", minRating: 0, origin: "", grape: "", matchedOnly: false, store: "", showOnline: false,
-    tags: { ny: false, tillfalligt: false, online: false, rabatt: false },
+    tags: { ny: false, tillfalligt: false, online: false, rabatt: false, utgatt: false },
     priceMin: PRICE_MIN, priceMax: PRICE_MAX,
     sortKey: "betyg", sortDir: "desc",
   };
@@ -1013,9 +1014,9 @@
       if (state.minRating > 0 && (w.betyg == null || w.betyg < state.minRating)) return false;
       if (!state.store && !state.showOnline && !state.tags.online && w.butiker[0] === "ONLINE") return false;
       if (state.store && !w.butiker.includes(state.store)) return false;
-      const anyTagSelected = state.tags.ny || state.tags.tillfalligt || state.tags.online || state.tags.rabatt;
+      const anyTagSelected = state.tags.ny || state.tags.tillfalligt || state.tags.online || state.tags.rabatt || state.tags.utgatt;
       if (anyTagSelected) {
-        const matchesTag = (state.tags.ny && w.ny) || (state.tags.tillfalligt && w.tillfalligt) || (state.tags.online && w.butiker[0] === "ONLINE") || (state.tags.rabatt && w.rabatt);
+        const matchesTag = (state.tags.ny && w.ny) || (state.tags.tillfalligt && w.tillfalligt) || (state.tags.online && w.butiker[0] === "ONLINE") || (state.tags.rabatt && w.rabatt) || (state.tags.utgatt && w.utgatt);
         if (!matchesTag) return false;
       }
       if (state.origin && w.ursprung !== state.origin) return false;
@@ -1084,6 +1085,7 @@
         w.tillfalligt ? '<span class="badge warn">Tillfälligt sortiment</span>' : "",
         w.butiker[0] === "ONLINE" ? '<span class="badge muted">Endast online</span>' : "",
         w.rabatt ? `<span class="badge good">Fyndpris -${w.rabatt_procent}% vs Vivino</span>` : "",
+        w.utgatt ? '<span class="badge warn">Utgått</span>' : "",
       ].filter(Boolean).join("");
       const badgesLine = badges ? `<div class="wine-badges">${badges}</div>` : "";
       return `<tr>
@@ -1128,6 +1130,7 @@
   document.getElementById("tag-tillfalligt").addEventListener("change", e => { state.tags.tillfalligt = e.target.checked; render(); });
   document.getElementById("tag-online").addEventListener("change", e => { state.tags.online = e.target.checked; render(); });
   document.getElementById("tag-rabatt").addEventListener("change", e => { state.tags.rabatt = e.target.checked; render(); });
+  document.getElementById("tag-utgatt").addEventListener("change", e => { state.tags.utgatt = e.target.checked; render(); });
 
   document.querySelectorAll("thead th").forEach(th => {
     const key = th.dataset.key;

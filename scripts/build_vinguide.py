@@ -92,6 +92,7 @@ for r in rows:
         "lanserad": (r.get("ProductLaunchDate") or "").strip() or None,
         "rabatt": is_rabatt(rabatt_procent, prispunkter),
         "rabatt_procent": rabatt_procent if is_rabatt(rabatt_procent, prispunkter) else None,
+        "utgatt": to_bool(r.get("IsDiscontinued")) or to_bool(r.get("IsCompletelyOutOfStock")),
     })
 
 stores = []
