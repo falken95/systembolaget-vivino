@@ -9,7 +9,7 @@ import os
 import sys
 import time
 
-sys.path.insert(0, r"C:\Users\carlp\projects\systembolaget-vivino")
+sys.path.insert(0, r"C:\Users\carlp\projects\systembolaget-vivino-repo\scripts")
 from systembolaget_vivino import (
     get_vivino_wine_by_id,
     producer_match,
