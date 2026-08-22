@@ -59,9 +59,17 @@ def is_rabatt(rabatt_procent, prispunkter):
 wines = []
 seen_site_ids = set()
 skipped_box = 0
+skipped_inactive = 0
 for r in rows:
     if r.get("Forpackning") in EXCLUDED_PACKAGING or r.get("Kategori3") == "Smaksatt":
         skipped_box += 1
+        continue
+    # Utgångna/cykla-ut-viner behålls i master_wines.csv (se merge_master.py)
+    # men döljs i appen. Explicit "False"-koll, inte to_bool(), så att en
+    # tom/saknad Aktiv-kolumn (äldre data) defaultar till synlig istället för
+    # att av misstag dölja allt.
+    if r.get("Aktiv") == "False":
+        skipped_inactive += 1
         continue
     grapes_raw = r.get("Druvor") or ""
     rabatt_procent = to_int(r.get("Rabatt_procent"))
@@ -119,4 +127,5 @@ with open(out_path, "w", encoding="utf-8") as f:
     f.write(html)
 
 matched = sum(1 for w in wines if w["betyg"] is not None)
-print(f"Embedded {len(wines)} wines ({matched} matched, {len(stores)} stores) into {out_path} (skipped {skipped_box} box wines)")
+print(f"Embedded {len(wines)} wines ({matched} matched, {len(stores)} stores) into {out_path} "
+      f"(skipped {skipped_box} box wines, {skipped_inactive} inactive/cycled-out wines)")

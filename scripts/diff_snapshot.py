@@ -1,7 +1,10 @@
 """Jämför en tidigare sortiments-snapshot mot den nya (efter merge_online_backfill.py)
 och loggar förändringar till data/history.csv. Skriver också ut en lista över
 Varunummer som är nya sedan förra körningen (för Vivino-matchning) till
-pending_match.json.
+pending_match.json — förutom de som redan har en matchning i
+vivino_matches.csv (t.ex. ett vin som cyklat ut och kommit tillbaka; se
+merge_master.py:s Aktiv-hantering, som är anledningen till att det inte
+behöver matchas om).
 
 Användning: diff_snapshot.py <previous_all_stores_wines.csv> <new_all_stores_wines.csv>
 """
@@ -69,11 +72,21 @@ with open("history.csv", "a", newline="", encoding="utf-8-sig") as f:
         w.writeheader()
     w.writerows(changes)
 
-new_varunummer = [vn for vn in new if vn not in prev]
+try:
+    with open("vivino_matches.csv", encoding="utf-8-sig") as f:
+        already_matched = {r["Varunummer"] for r in csv.DictReader(f)}
+except FileNotFoundError:
+    already_matched = set()
+
+new_varunummer_all = [vn for vn in new if vn not in prev]
+new_varunummer = [vn for vn in new_varunummer_all if vn not in already_matched]
+skipped_already_matched = len(new_varunummer_all) - len(new_varunummer)
+
 with open("pending_match.json", "w", encoding="utf-8") as f:
     json.dump(new_varunummer, f, ensure_ascii=False, indent=2)
 
 from collections import Counter
 counts = Counter(c["typ"] for c in changes)
 print(f"Diff klar: {len(changes)} förändringar ({dict(counts)}). "
-      f"{len(new_varunummer)} nya viner skrivna till pending_match.json för matchning.")
+      f"{len(new_varunummer)} nya viner skrivna till pending_match.json för matchning "
+      f"({skipped_already_matched} redan matchade sedan tidigare, t.ex. återkomna viner, hoppas över).")
