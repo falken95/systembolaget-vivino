@@ -41,6 +41,10 @@ Körs av ett schemalagt Claude-jobb (se `.claude`-rutinen "Systembolaget weekly 
 
 Viner där Systembolagets pris (normaliserat till kr/750ml) ligger ≥30% under Vivinos marknadspris — och där marknadspriset bygger på minst 2 aktiva återförsäljarpriser — taggas "Fyndpris" i webbappen (se `RABATT_THRESHOLD_PCT`/`RABATT_MIN_PRISPUNKTER` i `build_vinguide.py`). Vivinos prisdata täcker bara en bråkdel av sortimentet — mest viner med en aktiv andrahands-/samlarmarknad, inte vardagsviner.
 
+## Kommande-taggen
+
+Systembolaget listar viner i sök-API:t (och alltså i vår crawl) innan säljstart — produktsidan visar "Ej säljstartad" fram till `ProductLaunchDate` (upptäckt 2026-09-11: en Barolo med `ProductLaunchDate` en vecka fram i tiden dök upp som "ny" i butik trots att den inte gick att köpa än). `build_vinguide.py`s `is_kommande()` taggar varje vin vars `ProductLaunchDate` ligger EFTER dagens datum som "Kommande" — en ren datumjämförelse vid varje bygge, så taggen försvinner automatiskt så fort säljstartsdatumet passerat utan att något behöver städas manuellt. `is_new()` ("Nyhet"-taggen) har en övre gräns vid dagens datum av samma anledning — annars skulle framtida säljstartsdatum räknas som "nya" också.
+
 ## Utgångna viner (Aktiv-flaggan)
 
 `scripts/crawl_all_stores.py` skriver bara över `all_stores_wines.csv` med det som faktiskt hittas i den aktuella crawlen — ett vin som inte längre säljs någonstans (butik eller online) finns helt enkelt inte med. Utan vidare hantering skulle `merge_master.py` (som bygger `master_wines.csv` direkt från `all_stores_wines.csv`) tappa bort sådana viner helt, och om de dyker upp i sortimentet igen senare skulle de se ut som helt nya viner — trots att de redan har en giltig Vivino-matchning liggande i `vivino_matches.csv`, vilket skulle slösa bort en ny (och möjligen misslyckad) WebSearch-matchning i onödan.

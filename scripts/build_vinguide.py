@@ -28,20 +28,35 @@ NEW_WINDOW_DAYS = 30
 _today = date.today()
 _new_cutoff = _today - timedelta(days=NEW_WINDOW_DAYS)
 
+def _parse_date(d):
+    d = (d or "").strip()
+    if not d:
+        return None
+    try:
+        y, m, day = map(int, d.split("-")[:3])
+        return date(y, m, day)
+    except (ValueError, IndexError):
+        return None
+
 def is_new(launch_date_str):
     # Nyhetstaggen styrs av ProductLaunchDate (finns för de flesta viner),
     # inte Systembolagets egen IsNewInAssortment-flagga — den senare täcker
     # bara en bråkdel (25 av 10 686 vid senaste crawl) och har en okänd,
     # icke-kontrollerbar definition. Med lanseringsdatum kan vi garantera
     # exakt "ny i 1 månad"-fönstret användaren bad om.
-    d = (launch_date_str or "").strip()
-    if not d:
-        return False
-    try:
-        y, m, day = map(int, d.split("-")[:3])
-        return date(y, m, day) >= _new_cutoff
-    except (ValueError, IndexError):
-        return False
+    # Övre gräns vid dagens datum krävs uttryckligen — annars fångas även
+    # ännu inte säljstartade viner (ProductLaunchDate i framtiden) av samma
+    # "d >= cutoff"-villkor, vilket dubblerar med Kommande-taggen nedan.
+    d = _parse_date(launch_date_str)
+    return d is not None and _new_cutoff <= d <= _today
+
+def is_kommande(launch_date_str):
+    # Systembolaget listar viner i sök-API:t (och alltså i vår crawl) innan
+    # säljstart — produktsidan visar "Ej säljstartad" fram till ProductLaunchDate.
+    # Rent datumjämförelse mot dagens datum vid varje bygge: taggen försvinner
+    # automatiskt så fort säljstartsdatumet passerat, ingen separat städning behövs.
+    d = _parse_date(launch_date_str)
+    return d is not None and d > _today
 
 EXCLUDED_PACKAGING = {"Box", "Påse", "Pappförpackning", "PET-flaska"}
 
@@ -96,6 +111,7 @@ for r in rows:
         "url": r.get("Vivino_url") or None,
         "butiker": butiker,
         "ny": is_new(r.get("ProductLaunchDate")),
+        "kommande": is_kommande(r.get("ProductLaunchDate")),
         "tillfalligt": r.get("AssortmentText") == "Tillfälligt sortiment",
         "lanserad": (r.get("ProductLaunchDate") or "").strip() or None,
         "rabatt": is_rabatt(rabatt_procent, prispunkter),
