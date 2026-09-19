@@ -1,10 +1,11 @@
-import csv, json, sys
+import csv, json, os, sys
 from datetime import date, timedelta
 
 csv_path = sys.argv[1]
 stores_path = sys.argv[2] if len(sys.argv) > 2 else None
-html_template_path = r"C:\Users\carlp\AppData\Local\Temp\claude\C--Users-carlp\c454c059-8531-49d4-ad42-b4c02d333c24\scratchpad\vinguide_template.html"
-out_path = r"C:\Users\carlp\AppData\Local\Temp\claude\C--Users-carlp\c454c059-8531-49d4-ad42-b4c02d333c24\scratchpad\vinguide.html"
+repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+html_template_path = os.path.join(repo_root, "templates", "vinguide_template.html")
+out_path = os.path.join(repo_root, "vinguide.html")
 
 with open(csv_path, encoding="utf-8-sig") as f:
     rows = list(csv.DictReader(f))
