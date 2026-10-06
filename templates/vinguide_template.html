@@ -764,7 +764,7 @@
               <th data-key="namn" data-type="text">Vin <span class="arrow">▲</span></th>
               <th data-key="betyg" data-type="num">Betyg <span class="arrow">▲</span></th>
               <th data-key="recensioner" data-type="num">Recensioner <span class="arrow">▲</span></th>
-              <th data-key="pris" data-type="num">Pris <span class="arrow">▲</span></th>
+              <th data-key="pris" data-type="num" title="Normaliserat till kr/750ml så att flaskor av olika storlek går att jämföra rättvist">Pris <span class="arrow">▲</span></th>
               <th data-key="ursprung" data-type="text">Ursprung <span class="arrow">▲</span></th>
               <th data-type="none">Länkar</th>
             </tr>
@@ -775,6 +775,7 @@
 
       <footer class="note">
         Betyg och recensionsantal hämtade från Vivino, priser från Systembolaget.
+        Priskolumnen är normaliserad till kr/750ml så att halvflaskor, magnumflaskor och flerflaskeförpackningar går att jämföra rättvist mot vanliga flaskor — det faktiska priset och flaskstorleken visas under.
         Fyndpris-taggen jämför Systembolagets pris (normaliserat till kr/750ml) mot Vivinos marknadspris — finns bara för viner med en aktiv återförsäljarmarknad på Vivino, dvs en bråkdel av sortimentet.
         Omfattar hela det svenska sortimentet (Fast sortiment, Tillfälligt sortiment, Lokalt &amp; Småskaligt, Säsong och Webblanseringar) samt ordervaror som bara finns online.
         Flaskor i Box, Påse, Pappförpackning eller PET, samt smaksatta viner, är exkluderade.
@@ -1094,7 +1095,7 @@
         <td><div class="wine-name">${w.namn}${w.argang ? ` <span class="wine-vintage">${w.argang}</span>` : ""}</div><div class="wine-producer">${w.producent}</div>${grapesLine}${badgesLine}</td>
         <td class="num">${ratingCell}</td>
         <td class="reviews">${reviewsCell}</td>
-        <td class="num">${fmtPrice(w.pris)}${w.volym ? `<div class="price-volym">${w.volym}</div>` : ""}</td>
+        <td class="num">${fmtPrice(w.pris)}${w.pris_faktisk != null && w.pris_faktisk !== w.pris ? `<div class="price-volym">${fmtPrice(w.pris_faktisk)} / ${w.volym || "flaska"}</div>` : (w.volym ? `<div class="price-volym">${w.volym}</div>` : "")}</td>
         <td>${w.ursprung || "–"}</td>
         <td class="links"><div class="links-inner">${links}</div></td>
       </tr>`;

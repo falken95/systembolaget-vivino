@@ -31,7 +31,7 @@ fieldnames = ["Varunummer", "Namn", "Producent", "Pris", "Volym", "Forpackning",
               "Ursprung", "Druvor", "AssortmentText", "IsNewInAssortment", "ProductLaunchDate", "Argang",
               "IsCompletelyOutOfStock", "IsTemporaryOutOfStock", "IsDiscontinued", "IsSupplierTemporaryNotAvailable",
               "Antal_butiker", "Butiker", "Vivino_url", "Vivino_betyg", "Vivino_antal_recensioner",
-              "Vivino_pris_per_750ml", "Vivino_prispunkter", "Rabatt_procent", "Aktiv"]
+              "Pris_per_750ml", "Vivino_pris_per_750ml", "Vivino_prispunkter", "Rabatt_procent", "Aktiv"]
 
 SB_FIELDS = ["Varunummer", "Namn", "Producent", "Pris", "Volym", "Forpackning", "Kategori3",
              "Ursprung", "Druvor", "AssortmentText", "IsNewInAssortment", "ProductLaunchDate", "Argang",
@@ -57,14 +57,17 @@ def price_fields(vn, sb_pris_str, sb_volym_str):
     p = prices.get(vn)
     sb_vol_ml = parse_sb_volume_ml(sb_volym_str)
     sb_pris = float(sb_pris_str) if sb_pris_str not in (None, "") else None
+    sb_pris_per_750 = ""
     rabatt_procent = ""
     priced = False
+    if sb_vol_ml and sb_pris is not None:
+        sb_pris_per_750 = round(sb_pris / (sb_vol_ml / 750), 2)
     if p and sb_vol_ml and sb_pris is not None:
         priced = True
         vivino_pris = float(p["Vivino_pris_per_750ml"])
-        sb_pris_per_750 = sb_pris / (sb_vol_ml / 750)
         rabatt_procent = round((vivino_pris - sb_pris_per_750) / vivino_pris * 100)
     return {
+        "Pris_per_750ml": sb_pris_per_750,
         "Vivino_pris_per_750ml": p["Vivino_pris_per_750ml"] if p else "",
         "Vivino_prispunkter": p["Vivino_prispunkter"] if p else "",
         "Rabatt_procent": rabatt_procent,
