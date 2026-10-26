@@ -101,7 +101,7 @@ print(f"{len(remaining)} butiker kvar att hämta.", flush=True)
 
 for i, store in enumerate(remaining, 1):
     site_id = store["siteId"]
-    page = 0
+    page = 1
     raw_count = 0
     kept_count = 0
     while True:
@@ -118,7 +118,7 @@ for i, store in enumerate(remaining, 1):
             print(f"[{site_id}] nätverksfel sida {page}: {e}, försöker igen om 3s", flush=True)
             time.sleep(3)
             continue
-        if resp.status_code == 404 and page > 0:
+        if resp.status_code == 404 and page > 1:
             break
         if resp.status_code != 200:
             print(f"[{site_id}] fel status {resp.status_code} sida {page}", flush=True)

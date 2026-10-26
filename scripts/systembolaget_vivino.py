@@ -188,7 +188,7 @@ WINE_CATEGORIES = {"Rött vin", "Vitt vin", "Mousserande vin", "Rosévin"}
 def load_from_store(store_id: str, api_key: str, include_assortment: Optional[set] = None,
                      include_category2: Optional[set] = WINE_CATEGORIES) -> list:
     wines = []
-    page = 0
+    page = 1
     page_size = 30
     headers = dict(REQUEST_HEADERS)
     headers["Ocp-Apim-Subscription-Key"] = api_key
@@ -202,9 +202,10 @@ def load_from_store(store_id: str, api_key: str, include_assortment: Optional[se
             "size": page_size,
         }
         resp = requests.get(SYSTEMBOLAGET_SEARCH_URL, headers=headers, params=params, timeout=20)
-        if resp.status_code == 404 and page > 0:
+        if resp.status_code == 404 and page > 1:
             # Systembolagets API svarar 404 (istället för en tom lista) när man
             # begär en sida bortom sortimentets slut — normalt slut på pagineringen.
+            # Paginering är 1-indexerad (page=0 avvisas numera med 400).
             break
         if resp.status_code != 200:
             print(f"Fel vid hämtning från Systembolaget (status {resp.status_code}). "

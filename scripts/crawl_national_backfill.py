@@ -28,7 +28,7 @@ national = {}  # Varunummer -> product dict
 
 
 def crawl_segment(extra_params, label):
-    page = 0
+    page = 1
     added = 0
     while True:
         params = {"categoryLevel1": "Vin", "page": page, "size": 30, **extra_params}
